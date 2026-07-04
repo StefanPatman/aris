@@ -1,0 +1,3164 @@
+### RUN: --map-by ppr:128:node --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 1, NUMA node 0
+Rank 2: Node m05, CPU core 2, NUMA node 0
+Rank 3: Node m05, CPU core 3, NUMA node 0
+Rank 4: Node m05, CPU core 4, NUMA node 0
+Rank 5: Node m05, CPU core 5, NUMA node 0
+Rank 6: Node m05, CPU core 6, NUMA node 0
+Rank 7: Node m05, CPU core 7, NUMA node 0
+Rank 8: Node m05, CPU core 8, NUMA node 0
+Rank 9: Node m05, CPU core 9, NUMA node 0
+Rank 10: Node m05, CPU core 10, NUMA node 0
+Rank 11: Node m05, CPU core 11, NUMA node 0
+Rank 12: Node m05, CPU core 12, NUMA node 0
+Rank 13: Node m05, CPU core 13, NUMA node 0
+Rank 14: Node m05, CPU core 14, NUMA node 0
+Rank 15: Node m05, CPU core 15, NUMA node 0
+Rank 16: Node m05, CPU core 16, NUMA node 1
+Rank 17: Node m05, CPU core 17, NUMA node 1
+Rank 18: Node m05, CPU core 18, NUMA node 1
+Rank 19: Node m05, CPU core 19, NUMA node 1
+Rank 20: Node m05, CPU core 20, NUMA node 1
+Rank 21: Node m05, CPU core 21, NUMA node 1
+Rank 22: Node m05, CPU core 22, NUMA node 1
+Rank 23: Node m05, CPU core 23, NUMA node 1
+Rank 24: Node m05, CPU core 24, NUMA node 1
+Rank 25: Node m05, CPU core 25, NUMA node 1
+Rank 26: Node m05, CPU core 26, NUMA node 1
+Rank 27: Node m05, CPU core 27, NUMA node 1
+Rank 28: Node m05, CPU core 28, NUMA node 1
+Rank 29: Node m05, CPU core 29, NUMA node 1
+Rank 30: Node m05, CPU core 30, NUMA node 1
+Rank 31: Node m05, CPU core 31, NUMA node 1
+Rank 32: Node m05, CPU core 32, NUMA node 2
+Rank 33: Node m05, CPU core 33, NUMA node 2
+Rank 34: Node m05, CPU core 34, NUMA node 2
+Rank 35: Node m05, CPU core 35, NUMA node 2
+Rank 36: Node m05, CPU core 36, NUMA node 2
+Rank 37: Node m05, CPU core 37, NUMA node 2
+Rank 38: Node m05, CPU core 38, NUMA node 2
+Rank 39: Node m05, CPU core 39, NUMA node 2
+Rank 40: Node m05, CPU core 40, NUMA node 2
+Rank 41: Node m05, CPU core 41, NUMA node 2
+Rank 42: Node m05, CPU core 42, NUMA node 2
+Rank 43: Node m05, CPU core 43, NUMA node 2
+Rank 44: Node m05, CPU core 44, NUMA node 2
+Rank 45: Node m05, CPU core 45, NUMA node 2
+Rank 46: Node m05, CPU core 46, NUMA node 2
+Rank 47: Node m05, CPU core 47, NUMA node 2
+Rank 48: Node m05, CPU core 48, NUMA node 3
+Rank 49: Node m05, CPU core 49, NUMA node 3
+Rank 50: Node m05, CPU core 50, NUMA node 3
+Rank 51: Node m05, CPU core 51, NUMA node 3
+Rank 52: Node m05, CPU core 52, NUMA node 3
+Rank 53: Node m05, CPU core 53, NUMA node 3
+Rank 54: Node m05, CPU core 54, NUMA node 3
+Rank 55: Node m05, CPU core 55, NUMA node 3
+Rank 56: Node m05, CPU core 56, NUMA node 3
+Rank 57: Node m05, CPU core 57, NUMA node 3
+Rank 58: Node m05, CPU core 58, NUMA node 3
+Rank 59: Node m05, CPU core 59, NUMA node 3
+Rank 60: Node m05, CPU core 60, NUMA node 3
+Rank 61: Node m05, CPU core 61, NUMA node 3
+Rank 62: Node m05, CPU core 62, NUMA node 3
+Rank 63: Node m05, CPU core 63, NUMA node 3
+Rank 64: Node m05, CPU core 64, NUMA node 4
+Rank 65: Node m05, CPU core 65, NUMA node 4
+Rank 66: Node m05, CPU core 66, NUMA node 4
+Rank 67: Node m05, CPU core 67, NUMA node 4
+Rank 68: Node m05, CPU core 68, NUMA node 4
+Rank 69: Node m05, CPU core 69, NUMA node 4
+Rank 70: Node m05, CPU core 70, NUMA node 4
+Rank 71: Node m05, CPU core 71, NUMA node 4
+Rank 72: Node m05, CPU core 72, NUMA node 4
+Rank 73: Node m05, CPU core 73, NUMA node 4
+Rank 74: Node m05, CPU core 74, NUMA node 4
+Rank 75: Node m05, CPU core 75, NUMA node 4
+Rank 76: Node m05, CPU core 76, NUMA node 4
+Rank 77: Node m05, CPU core 77, NUMA node 4
+Rank 78: Node m05, CPU core 78, NUMA node 4
+Rank 79: Node m05, CPU core 79, NUMA node 4
+Rank 80: Node m05, CPU core 80, NUMA node 5
+Rank 81: Node m05, CPU core 81, NUMA node 5
+Rank 82: Node m05, CPU core 82, NUMA node 5
+Rank 83: Node m05, CPU core 83, NUMA node 5
+Rank 84: Node m05, CPU core 84, NUMA node 5
+Rank 85: Node m05, CPU core 85, NUMA node 5
+Rank 86: Node m05, CPU core 86, NUMA node 5
+Rank 87: Node m05, CPU core 87, NUMA node 5
+Rank 88: Node m05, CPU core 88, NUMA node 5
+Rank 89: Node m05, CPU core 89, NUMA node 5
+Rank 90: Node m05, CPU core 90, NUMA node 5
+Rank 91: Node m05, CPU core 91, NUMA node 5
+Rank 92: Node m05, CPU core 92, NUMA node 5
+Rank 93: Node m05, CPU core 93, NUMA node 5
+Rank 94: Node m05, CPU core 94, NUMA node 5
+Rank 95: Node m05, CPU core 95, NUMA node 5
+Rank 96: Node m05, CPU core 96, NUMA node 6
+Rank 97: Node m05, CPU core 97, NUMA node 6
+Rank 98: Node m05, CPU core 98, NUMA node 6
+Rank 99: Node m05, CPU core 99, NUMA node 6
+Rank 100: Node m05, CPU core 100, NUMA node 6
+Rank 101: Node m05, CPU core 101, NUMA node 6
+Rank 102: Node m05, CPU core 102, NUMA node 6
+Rank 103: Node m05, CPU core 103, NUMA node 6
+Rank 104: Node m05, CPU core 104, NUMA node 6
+Rank 105: Node m05, CPU core 105, NUMA node 6
+Rank 106: Node m05, CPU core 106, NUMA node 6
+Rank 107: Node m05, CPU core 107, NUMA node 6
+Rank 108: Node m05, CPU core 108, NUMA node 6
+Rank 109: Node m05, CPU core 109, NUMA node 6
+Rank 110: Node m05, CPU core 110, NUMA node 6
+Rank 111: Node m05, CPU core 111, NUMA node 6
+Rank 112: Node m05, CPU core 112, NUMA node 7
+Rank 113: Node m05, CPU core 113, NUMA node 7
+Rank 114: Node m05, CPU core 114, NUMA node 7
+Rank 115: Node m05, CPU core 115, NUMA node 7
+Rank 116: Node m05, CPU core 116, NUMA node 7
+Rank 117: Node m05, CPU core 117, NUMA node 7
+Rank 118: Node m05, CPU core 118, NUMA node 7
+Rank 119: Node m05, CPU core 119, NUMA node 7
+Rank 120: Node m05, CPU core 120, NUMA node 7
+Rank 121: Node m05, CPU core 121, NUMA node 7
+Rank 122: Node m05, CPU core 122, NUMA node 7
+Rank 123: Node m05, CPU core 123, NUMA node 7
+Rank 124: Node m05, CPU core 124, NUMA node 7
+Rank 125: Node m05, CPU core 125, NUMA node 7
+Rank 126: Node m05, CPU core 126, NUMA node 7
+Rank 127: Node m05, CPU core 127, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      3.7171
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                    71.34
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                125643.54
+ Mop/s/process   =                   981.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      3.9059
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                    71.78
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                124872.36
+ Mop/s/process   =                   975.57
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      3.6397
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                    71.78
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                124879.00
+ Mop/s/process   =                   975.62
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:64:node --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 1, NUMA node 0
+Rank 2: Node m05, CPU core 2, NUMA node 0
+Rank 3: Node m05, CPU core 3, NUMA node 0
+Rank 4: Node m05, CPU core 4, NUMA node 0
+Rank 5: Node m05, CPU core 5, NUMA node 0
+Rank 6: Node m05, CPU core 6, NUMA node 0
+Rank 7: Node m05, CPU core 7, NUMA node 0
+Rank 8: Node m05, CPU core 8, NUMA node 0
+Rank 9: Node m05, CPU core 9, NUMA node 0
+Rank 10: Node m05, CPU core 10, NUMA node 0
+Rank 11: Node m05, CPU core 11, NUMA node 0
+Rank 12: Node m05, CPU core 12, NUMA node 0
+Rank 13: Node m05, CPU core 13, NUMA node 0
+Rank 14: Node m05, CPU core 14, NUMA node 0
+Rank 15: Node m05, CPU core 15, NUMA node 0
+Rank 16: Node m05, CPU core 16, NUMA node 1
+Rank 17: Node m05, CPU core 17, NUMA node 1
+Rank 18: Node m05, CPU core 18, NUMA node 1
+Rank 19: Node m05, CPU core 19, NUMA node 1
+Rank 20: Node m05, CPU core 20, NUMA node 1
+Rank 21: Node m05, CPU core 21, NUMA node 1
+Rank 22: Node m05, CPU core 22, NUMA node 1
+Rank 23: Node m05, CPU core 23, NUMA node 1
+Rank 24: Node m05, CPU core 24, NUMA node 1
+Rank 25: Node m05, CPU core 25, NUMA node 1
+Rank 26: Node m05, CPU core 26, NUMA node 1
+Rank 27: Node m05, CPU core 27, NUMA node 1
+Rank 28: Node m05, CPU core 28, NUMA node 1
+Rank 29: Node m05, CPU core 29, NUMA node 1
+Rank 30: Node m05, CPU core 30, NUMA node 1
+Rank 31: Node m05, CPU core 31, NUMA node 1
+Rank 32: Node m05, CPU core 32, NUMA node 2
+Rank 33: Node m05, CPU core 33, NUMA node 2
+Rank 34: Node m05, CPU core 34, NUMA node 2
+Rank 35: Node m05, CPU core 35, NUMA node 2
+Rank 36: Node m05, CPU core 36, NUMA node 2
+Rank 37: Node m05, CPU core 37, NUMA node 2
+Rank 38: Node m05, CPU core 38, NUMA node 2
+Rank 39: Node m05, CPU core 39, NUMA node 2
+Rank 40: Node m05, CPU core 40, NUMA node 2
+Rank 41: Node m05, CPU core 41, NUMA node 2
+Rank 42: Node m05, CPU core 42, NUMA node 2
+Rank 43: Node m05, CPU core 43, NUMA node 2
+Rank 44: Node m05, CPU core 44, NUMA node 2
+Rank 45: Node m05, CPU core 45, NUMA node 2
+Rank 46: Node m05, CPU core 46, NUMA node 2
+Rank 47: Node m05, CPU core 47, NUMA node 2
+Rank 48: Node m05, CPU core 48, NUMA node 3
+Rank 49: Node m05, CPU core 49, NUMA node 3
+Rank 50: Node m05, CPU core 50, NUMA node 3
+Rank 51: Node m05, CPU core 51, NUMA node 3
+Rank 52: Node m05, CPU core 52, NUMA node 3
+Rank 53: Node m05, CPU core 53, NUMA node 3
+Rank 54: Node m05, CPU core 54, NUMA node 3
+Rank 55: Node m05, CPU core 55, NUMA node 3
+Rank 56: Node m05, CPU core 56, NUMA node 3
+Rank 57: Node m05, CPU core 57, NUMA node 3
+Rank 58: Node m05, CPU core 58, NUMA node 3
+Rank 59: Node m05, CPU core 59, NUMA node 3
+Rank 60: Node m05, CPU core 60, NUMA node 3
+Rank 61: Node m05, CPU core 61, NUMA node 3
+Rank 62: Node m05, CPU core 62, NUMA node 3
+Rank 63: Node m05, CPU core 63, NUMA node 3
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 1, NUMA node 0
+Rank 66: Node m06, CPU core 2, NUMA node 0
+Rank 67: Node m06, CPU core 3, NUMA node 0
+Rank 68: Node m06, CPU core 4, NUMA node 0
+Rank 69: Node m06, CPU core 5, NUMA node 0
+Rank 70: Node m06, CPU core 6, NUMA node 0
+Rank 71: Node m06, CPU core 7, NUMA node 0
+Rank 72: Node m06, CPU core 8, NUMA node 0
+Rank 73: Node m06, CPU core 9, NUMA node 0
+Rank 74: Node m06, CPU core 10, NUMA node 0
+Rank 75: Node m06, CPU core 11, NUMA node 0
+Rank 76: Node m06, CPU core 12, NUMA node 0
+Rank 77: Node m06, CPU core 13, NUMA node 0
+Rank 78: Node m06, CPU core 14, NUMA node 0
+Rank 79: Node m06, CPU core 15, NUMA node 0
+Rank 80: Node m06, CPU core 16, NUMA node 1
+Rank 81: Node m06, CPU core 17, NUMA node 1
+Rank 82: Node m06, CPU core 18, NUMA node 1
+Rank 83: Node m06, CPU core 19, NUMA node 1
+Rank 84: Node m06, CPU core 20, NUMA node 1
+Rank 85: Node m06, CPU core 21, NUMA node 1
+Rank 86: Node m06, CPU core 22, NUMA node 1
+Rank 87: Node m06, CPU core 23, NUMA node 1
+Rank 88: Node m06, CPU core 24, NUMA node 1
+Rank 89: Node m06, CPU core 25, NUMA node 1
+Rank 90: Node m06, CPU core 26, NUMA node 1
+Rank 91: Node m06, CPU core 27, NUMA node 1
+Rank 92: Node m06, CPU core 28, NUMA node 1
+Rank 93: Node m06, CPU core 29, NUMA node 1
+Rank 94: Node m06, CPU core 30, NUMA node 1
+Rank 95: Node m06, CPU core 31, NUMA node 1
+Rank 96: Node m06, CPU core 32, NUMA node 2
+Rank 97: Node m06, CPU core 33, NUMA node 2
+Rank 98: Node m06, CPU core 34, NUMA node 2
+Rank 99: Node m06, CPU core 35, NUMA node 2
+Rank 100: Node m06, CPU core 36, NUMA node 2
+Rank 101: Node m06, CPU core 37, NUMA node 2
+Rank 102: Node m06, CPU core 38, NUMA node 2
+Rank 103: Node m06, CPU core 39, NUMA node 2
+Rank 104: Node m06, CPU core 40, NUMA node 2
+Rank 105: Node m06, CPU core 41, NUMA node 2
+Rank 106: Node m06, CPU core 42, NUMA node 2
+Rank 107: Node m06, CPU core 43, NUMA node 2
+Rank 108: Node m06, CPU core 44, NUMA node 2
+Rank 109: Node m06, CPU core 45, NUMA node 2
+Rank 110: Node m06, CPU core 46, NUMA node 2
+Rank 111: Node m06, CPU core 47, NUMA node 2
+Rank 112: Node m06, CPU core 48, NUMA node 3
+Rank 113: Node m06, CPU core 49, NUMA node 3
+Rank 114: Node m06, CPU core 50, NUMA node 3
+Rank 115: Node m06, CPU core 51, NUMA node 3
+Rank 116: Node m06, CPU core 52, NUMA node 3
+Rank 117: Node m06, CPU core 53, NUMA node 3
+Rank 118: Node m06, CPU core 54, NUMA node 3
+Rank 119: Node m06, CPU core 55, NUMA node 3
+Rank 120: Node m06, CPU core 56, NUMA node 3
+Rank 121: Node m06, CPU core 57, NUMA node 3
+Rank 122: Node m06, CPU core 58, NUMA node 3
+Rank 123: Node m06, CPU core 59, NUMA node 3
+Rank 124: Node m06, CPU core 60, NUMA node 3
+Rank 125: Node m06, CPU core 61, NUMA node 3
+Rank 126: Node m06, CPU core 62, NUMA node 3
+Rank 127: Node m06, CPU core 63, NUMA node 3
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+----- NODE: m06 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      8.9786
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   217.26
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 41257.51
+ Mop/s/process   =                   322.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      8.4585
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   233.18
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 38441.37
+ Mop/s/process   =                   300.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      9.0841
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   237.13
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 37801.09
+ Mop/s/process   =                   295.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:32:socket --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 1, NUMA node 0
+Rank 2: Node m05, CPU core 2, NUMA node 0
+Rank 3: Node m05, CPU core 3, NUMA node 0
+Rank 4: Node m05, CPU core 4, NUMA node 0
+Rank 5: Node m05, CPU core 5, NUMA node 0
+Rank 6: Node m05, CPU core 6, NUMA node 0
+Rank 7: Node m05, CPU core 7, NUMA node 0
+Rank 8: Node m05, CPU core 8, NUMA node 0
+Rank 9: Node m05, CPU core 9, NUMA node 0
+Rank 10: Node m05, CPU core 10, NUMA node 0
+Rank 11: Node m05, CPU core 11, NUMA node 0
+Rank 12: Node m05, CPU core 12, NUMA node 0
+Rank 13: Node m05, CPU core 13, NUMA node 0
+Rank 14: Node m05, CPU core 14, NUMA node 0
+Rank 15: Node m05, CPU core 15, NUMA node 0
+Rank 16: Node m05, CPU core 16, NUMA node 1
+Rank 17: Node m05, CPU core 17, NUMA node 1
+Rank 18: Node m05, CPU core 18, NUMA node 1
+Rank 19: Node m05, CPU core 19, NUMA node 1
+Rank 20: Node m05, CPU core 20, NUMA node 1
+Rank 21: Node m05, CPU core 21, NUMA node 1
+Rank 22: Node m05, CPU core 22, NUMA node 1
+Rank 23: Node m05, CPU core 23, NUMA node 1
+Rank 24: Node m05, CPU core 24, NUMA node 1
+Rank 25: Node m05, CPU core 25, NUMA node 1
+Rank 26: Node m05, CPU core 26, NUMA node 1
+Rank 27: Node m05, CPU core 27, NUMA node 1
+Rank 28: Node m05, CPU core 28, NUMA node 1
+Rank 29: Node m05, CPU core 29, NUMA node 1
+Rank 30: Node m05, CPU core 30, NUMA node 1
+Rank 31: Node m05, CPU core 31, NUMA node 1
+Rank 32: Node m05, CPU core 64, NUMA node 4
+Rank 33: Node m05, CPU core 65, NUMA node 4
+Rank 34: Node m05, CPU core 66, NUMA node 4
+Rank 35: Node m05, CPU core 67, NUMA node 4
+Rank 36: Node m05, CPU core 68, NUMA node 4
+Rank 37: Node m05, CPU core 69, NUMA node 4
+Rank 38: Node m05, CPU core 70, NUMA node 4
+Rank 39: Node m05, CPU core 71, NUMA node 4
+Rank 40: Node m05, CPU core 72, NUMA node 4
+Rank 41: Node m05, CPU core 73, NUMA node 4
+Rank 42: Node m05, CPU core 74, NUMA node 4
+Rank 43: Node m05, CPU core 75, NUMA node 4
+Rank 44: Node m05, CPU core 76, NUMA node 4
+Rank 45: Node m05, CPU core 77, NUMA node 4
+Rank 46: Node m05, CPU core 78, NUMA node 4
+Rank 47: Node m05, CPU core 79, NUMA node 4
+Rank 48: Node m05, CPU core 80, NUMA node 5
+Rank 49: Node m05, CPU core 81, NUMA node 5
+Rank 50: Node m05, CPU core 82, NUMA node 5
+Rank 51: Node m05, CPU core 83, NUMA node 5
+Rank 52: Node m05, CPU core 84, NUMA node 5
+Rank 53: Node m05, CPU core 85, NUMA node 5
+Rank 54: Node m05, CPU core 86, NUMA node 5
+Rank 55: Node m05, CPU core 87, NUMA node 5
+Rank 56: Node m05, CPU core 88, NUMA node 5
+Rank 57: Node m05, CPU core 89, NUMA node 5
+Rank 58: Node m05, CPU core 90, NUMA node 5
+Rank 59: Node m05, CPU core 91, NUMA node 5
+Rank 60: Node m05, CPU core 92, NUMA node 5
+Rank 61: Node m05, CPU core 93, NUMA node 5
+Rank 62: Node m05, CPU core 94, NUMA node 5
+Rank 63: Node m05, CPU core 95, NUMA node 5
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 1, NUMA node 0
+Rank 66: Node m06, CPU core 2, NUMA node 0
+Rank 67: Node m06, CPU core 3, NUMA node 0
+Rank 68: Node m06, CPU core 4, NUMA node 0
+Rank 69: Node m06, CPU core 5, NUMA node 0
+Rank 70: Node m06, CPU core 6, NUMA node 0
+Rank 71: Node m06, CPU core 7, NUMA node 0
+Rank 72: Node m06, CPU core 8, NUMA node 0
+Rank 73: Node m06, CPU core 9, NUMA node 0
+Rank 74: Node m06, CPU core 10, NUMA node 0
+Rank 75: Node m06, CPU core 11, NUMA node 0
+Rank 76: Node m06, CPU core 12, NUMA node 0
+Rank 77: Node m06, CPU core 13, NUMA node 0
+Rank 78: Node m06, CPU core 14, NUMA node 0
+Rank 79: Node m06, CPU core 15, NUMA node 0
+Rank 80: Node m06, CPU core 16, NUMA node 1
+Rank 81: Node m06, CPU core 17, NUMA node 1
+Rank 82: Node m06, CPU core 18, NUMA node 1
+Rank 83: Node m06, CPU core 19, NUMA node 1
+Rank 84: Node m06, CPU core 20, NUMA node 1
+Rank 85: Node m06, CPU core 21, NUMA node 1
+Rank 86: Node m06, CPU core 22, NUMA node 1
+Rank 87: Node m06, CPU core 23, NUMA node 1
+Rank 88: Node m06, CPU core 24, NUMA node 1
+Rank 89: Node m06, CPU core 25, NUMA node 1
+Rank 90: Node m06, CPU core 26, NUMA node 1
+Rank 91: Node m06, CPU core 27, NUMA node 1
+Rank 92: Node m06, CPU core 28, NUMA node 1
+Rank 93: Node m06, CPU core 29, NUMA node 1
+Rank 94: Node m06, CPU core 30, NUMA node 1
+Rank 95: Node m06, CPU core 31, NUMA node 1
+Rank 96: Node m06, CPU core 64, NUMA node 4
+Rank 97: Node m06, CPU core 65, NUMA node 4
+Rank 98: Node m06, CPU core 66, NUMA node 4
+Rank 99: Node m06, CPU core 67, NUMA node 4
+Rank 100: Node m06, CPU core 68, NUMA node 4
+Rank 101: Node m06, CPU core 69, NUMA node 4
+Rank 102: Node m06, CPU core 70, NUMA node 4
+Rank 103: Node m06, CPU core 71, NUMA node 4
+Rank 104: Node m06, CPU core 72, NUMA node 4
+Rank 105: Node m06, CPU core 73, NUMA node 4
+Rank 106: Node m06, CPU core 74, NUMA node 4
+Rank 107: Node m06, CPU core 75, NUMA node 4
+Rank 108: Node m06, CPU core 76, NUMA node 4
+Rank 109: Node m06, CPU core 77, NUMA node 4
+Rank 110: Node m06, CPU core 78, NUMA node 4
+Rank 111: Node m06, CPU core 79, NUMA node 4
+Rank 112: Node m06, CPU core 80, NUMA node 5
+Rank 113: Node m06, CPU core 81, NUMA node 5
+Rank 114: Node m06, CPU core 82, NUMA node 5
+Rank 115: Node m06, CPU core 83, NUMA node 5
+Rank 116: Node m06, CPU core 84, NUMA node 5
+Rank 117: Node m06, CPU core 85, NUMA node 5
+Rank 118: Node m06, CPU core 86, NUMA node 5
+Rank 119: Node m06, CPU core 87, NUMA node 5
+Rank 120: Node m06, CPU core 88, NUMA node 5
+Rank 121: Node m06, CPU core 89, NUMA node 5
+Rank 122: Node m06, CPU core 90, NUMA node 5
+Rank 123: Node m06, CPU core 91, NUMA node 5
+Rank 124: Node m06, CPU core 92, NUMA node 5
+Rank 125: Node m06, CPU core 93, NUMA node 5
+Rank 126: Node m06, CPU core 94, NUMA node 5
+Rank 127: Node m06, CPU core 95, NUMA node 5
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+NUMA nodes used: 0 1 4 5 
+
+----- NODE: m06 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+NUMA nodes used: 0 1 4 5 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.9131
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   112.55
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 79642.40
+ Mop/s/process   =                   622.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.8759
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   112.99
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 79335.38
+ Mop/s/process   =                   619.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.9588
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   112.74
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 79508.92
+ Mop/s/process   =                   621.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:8:numa --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 1, NUMA node 0
+Rank 2: Node m05, CPU core 2, NUMA node 0
+Rank 3: Node m05, CPU core 3, NUMA node 0
+Rank 4: Node m05, CPU core 4, NUMA node 0
+Rank 5: Node m05, CPU core 5, NUMA node 0
+Rank 6: Node m05, CPU core 6, NUMA node 0
+Rank 7: Node m05, CPU core 7, NUMA node 0
+Rank 8: Node m05, CPU core 16, NUMA node 1
+Rank 9: Node m05, CPU core 17, NUMA node 1
+Rank 10: Node m05, CPU core 18, NUMA node 1
+Rank 11: Node m05, CPU core 19, NUMA node 1
+Rank 12: Node m05, CPU core 20, NUMA node 1
+Rank 13: Node m05, CPU core 21, NUMA node 1
+Rank 14: Node m05, CPU core 22, NUMA node 1
+Rank 15: Node m05, CPU core 23, NUMA node 1
+Rank 16: Node m05, CPU core 32, NUMA node 2
+Rank 17: Node m05, CPU core 33, NUMA node 2
+Rank 18: Node m05, CPU core 34, NUMA node 2
+Rank 19: Node m05, CPU core 35, NUMA node 2
+Rank 20: Node m05, CPU core 36, NUMA node 2
+Rank 21: Node m05, CPU core 37, NUMA node 2
+Rank 22: Node m05, CPU core 38, NUMA node 2
+Rank 23: Node m05, CPU core 39, NUMA node 2
+Rank 24: Node m05, CPU core 48, NUMA node 3
+Rank 25: Node m05, CPU core 49, NUMA node 3
+Rank 26: Node m05, CPU core 50, NUMA node 3
+Rank 27: Node m05, CPU core 51, NUMA node 3
+Rank 28: Node m05, CPU core 52, NUMA node 3
+Rank 29: Node m05, CPU core 53, NUMA node 3
+Rank 30: Node m05, CPU core 54, NUMA node 3
+Rank 31: Node m05, CPU core 55, NUMA node 3
+Rank 32: Node m05, CPU core 64, NUMA node 4
+Rank 33: Node m05, CPU core 65, NUMA node 4
+Rank 34: Node m05, CPU core 66, NUMA node 4
+Rank 35: Node m05, CPU core 67, NUMA node 4
+Rank 36: Node m05, CPU core 68, NUMA node 4
+Rank 37: Node m05, CPU core 69, NUMA node 4
+Rank 38: Node m05, CPU core 70, NUMA node 4
+Rank 39: Node m05, CPU core 71, NUMA node 4
+Rank 40: Node m05, CPU core 80, NUMA node 5
+Rank 41: Node m05, CPU core 81, NUMA node 5
+Rank 42: Node m05, CPU core 82, NUMA node 5
+Rank 43: Node m05, CPU core 83, NUMA node 5
+Rank 44: Node m05, CPU core 84, NUMA node 5
+Rank 45: Node m05, CPU core 85, NUMA node 5
+Rank 46: Node m05, CPU core 86, NUMA node 5
+Rank 47: Node m05, CPU core 87, NUMA node 5
+Rank 48: Node m05, CPU core 96, NUMA node 6
+Rank 49: Node m05, CPU core 97, NUMA node 6
+Rank 50: Node m05, CPU core 98, NUMA node 6
+Rank 51: Node m05, CPU core 99, NUMA node 6
+Rank 52: Node m05, CPU core 100, NUMA node 6
+Rank 53: Node m05, CPU core 101, NUMA node 6
+Rank 54: Node m05, CPU core 102, NUMA node 6
+Rank 55: Node m05, CPU core 103, NUMA node 6
+Rank 56: Node m05, CPU core 112, NUMA node 7
+Rank 57: Node m05, CPU core 113, NUMA node 7
+Rank 58: Node m05, CPU core 114, NUMA node 7
+Rank 59: Node m05, CPU core 115, NUMA node 7
+Rank 60: Node m05, CPU core 116, NUMA node 7
+Rank 61: Node m05, CPU core 117, NUMA node 7
+Rank 62: Node m05, CPU core 118, NUMA node 7
+Rank 63: Node m05, CPU core 119, NUMA node 7
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 1, NUMA node 0
+Rank 66: Node m06, CPU core 2, NUMA node 0
+Rank 67: Node m06, CPU core 3, NUMA node 0
+Rank 68: Node m06, CPU core 4, NUMA node 0
+Rank 69: Node m06, CPU core 5, NUMA node 0
+Rank 70: Node m06, CPU core 6, NUMA node 0
+Rank 71: Node m06, CPU core 7, NUMA node 0
+Rank 72: Node m06, CPU core 16, NUMA node 1
+Rank 73: Node m06, CPU core 17, NUMA node 1
+Rank 74: Node m06, CPU core 18, NUMA node 1
+Rank 75: Node m06, CPU core 19, NUMA node 1
+Rank 76: Node m06, CPU core 20, NUMA node 1
+Rank 77: Node m06, CPU core 21, NUMA node 1
+Rank 78: Node m06, CPU core 22, NUMA node 1
+Rank 79: Node m06, CPU core 23, NUMA node 1
+Rank 80: Node m06, CPU core 32, NUMA node 2
+Rank 81: Node m06, CPU core 33, NUMA node 2
+Rank 82: Node m06, CPU core 34, NUMA node 2
+Rank 83: Node m06, CPU core 35, NUMA node 2
+Rank 84: Node m06, CPU core 36, NUMA node 2
+Rank 85: Node m06, CPU core 37, NUMA node 2
+Rank 86: Node m06, CPU core 38, NUMA node 2
+Rank 87: Node m06, CPU core 39, NUMA node 2
+Rank 88: Node m06, CPU core 48, NUMA node 3
+Rank 89: Node m06, CPU core 49, NUMA node 3
+Rank 90: Node m06, CPU core 50, NUMA node 3
+Rank 91: Node m06, CPU core 51, NUMA node 3
+Rank 92: Node m06, CPU core 52, NUMA node 3
+Rank 93: Node m06, CPU core 53, NUMA node 3
+Rank 94: Node m06, CPU core 54, NUMA node 3
+Rank 95: Node m06, CPU core 55, NUMA node 3
+Rank 96: Node m06, CPU core 64, NUMA node 4
+Rank 97: Node m06, CPU core 65, NUMA node 4
+Rank 98: Node m06, CPU core 66, NUMA node 4
+Rank 99: Node m06, CPU core 67, NUMA node 4
+Rank 100: Node m06, CPU core 68, NUMA node 4
+Rank 101: Node m06, CPU core 69, NUMA node 4
+Rank 102: Node m06, CPU core 70, NUMA node 4
+Rank 103: Node m06, CPU core 71, NUMA node 4
+Rank 104: Node m06, CPU core 80, NUMA node 5
+Rank 105: Node m06, CPU core 81, NUMA node 5
+Rank 106: Node m06, CPU core 82, NUMA node 5
+Rank 107: Node m06, CPU core 83, NUMA node 5
+Rank 108: Node m06, CPU core 84, NUMA node 5
+Rank 109: Node m06, CPU core 85, NUMA node 5
+Rank 110: Node m06, CPU core 86, NUMA node 5
+Rank 111: Node m06, CPU core 87, NUMA node 5
+Rank 112: Node m06, CPU core 96, NUMA node 6
+Rank 113: Node m06, CPU core 97, NUMA node 6
+Rank 114: Node m06, CPU core 98, NUMA node 6
+Rank 115: Node m06, CPU core 99, NUMA node 6
+Rank 116: Node m06, CPU core 100, NUMA node 6
+Rank 117: Node m06, CPU core 101, NUMA node 6
+Rank 118: Node m06, CPU core 102, NUMA node 6
+Rank 119: Node m06, CPU core 103, NUMA node 6
+Rank 120: Node m06, CPU core 112, NUMA node 7
+Rank 121: Node m06, CPU core 113, NUMA node 7
+Rank 122: Node m06, CPU core 114, NUMA node 7
+Rank 123: Node m06, CPU core 115, NUMA node 7
+Rank 124: Node m06, CPU core 116, NUMA node 7
+Rank 125: Node m06, CPU core 117, NUMA node 7
+Rank 126: Node m06, CPU core 118, NUMA node 7
+Rank 127: Node m06, CPU core 119, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 64 65 66 67 68 69 70 71 80 81 82 83 84 85 86 87 96 97 98 99 100 101 102 103 112 113 114 115 116 117 118 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m06 -----
+CPU cores used: 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 64 65 66 67 68 69 70 71 80 81 82 83 84 85 86 87 96 97 98 99 100 101 102 103 112 113 114 115 116 117 118 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      5.6571
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   105.40
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 85041.43
+ Mop/s/process   =                   664.39
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.2226
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   106.14
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 84455.25
+ Mop/s/process   =                   659.81
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.1043
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   105.76
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 84756.55
+ Mop/s/process   =                   662.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:4:L3cache --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 1, NUMA node 0
+Rank 2: Node m05, CPU core 2, NUMA node 0
+Rank 3: Node m05, CPU core 3, NUMA node 0
+Rank 4: Node m05, CPU core 8, NUMA node 0
+Rank 5: Node m05, CPU core 9, NUMA node 0
+Rank 6: Node m05, CPU core 10, NUMA node 0
+Rank 7: Node m05, CPU core 11, NUMA node 0
+Rank 8: Node m05, CPU core 16, NUMA node 1
+Rank 9: Node m05, CPU core 17, NUMA node 1
+Rank 10: Node m05, CPU core 18, NUMA node 1
+Rank 11: Node m05, CPU core 19, NUMA node 1
+Rank 12: Node m05, CPU core 24, NUMA node 1
+Rank 13: Node m05, CPU core 25, NUMA node 1
+Rank 14: Node m05, CPU core 26, NUMA node 1
+Rank 15: Node m05, CPU core 27, NUMA node 1
+Rank 16: Node m05, CPU core 32, NUMA node 2
+Rank 17: Node m05, CPU core 33, NUMA node 2
+Rank 18: Node m05, CPU core 34, NUMA node 2
+Rank 19: Node m05, CPU core 35, NUMA node 2
+Rank 20: Node m05, CPU core 40, NUMA node 2
+Rank 21: Node m05, CPU core 41, NUMA node 2
+Rank 22: Node m05, CPU core 42, NUMA node 2
+Rank 23: Node m05, CPU core 43, NUMA node 2
+Rank 24: Node m05, CPU core 48, NUMA node 3
+Rank 25: Node m05, CPU core 49, NUMA node 3
+Rank 26: Node m05, CPU core 50, NUMA node 3
+Rank 27: Node m05, CPU core 51, NUMA node 3
+Rank 28: Node m05, CPU core 56, NUMA node 3
+Rank 29: Node m05, CPU core 57, NUMA node 3
+Rank 30: Node m05, CPU core 58, NUMA node 3
+Rank 31: Node m05, CPU core 59, NUMA node 3
+Rank 32: Node m05, CPU core 64, NUMA node 4
+Rank 33: Node m05, CPU core 65, NUMA node 4
+Rank 34: Node m05, CPU core 66, NUMA node 4
+Rank 35: Node m05, CPU core 67, NUMA node 4
+Rank 36: Node m05, CPU core 72, NUMA node 4
+Rank 37: Node m05, CPU core 73, NUMA node 4
+Rank 38: Node m05, CPU core 74, NUMA node 4
+Rank 39: Node m05, CPU core 75, NUMA node 4
+Rank 40: Node m05, CPU core 80, NUMA node 5
+Rank 41: Node m05, CPU core 81, NUMA node 5
+Rank 42: Node m05, CPU core 82, NUMA node 5
+Rank 43: Node m05, CPU core 83, NUMA node 5
+Rank 44: Node m05, CPU core 88, NUMA node 5
+Rank 45: Node m05, CPU core 89, NUMA node 5
+Rank 46: Node m05, CPU core 90, NUMA node 5
+Rank 47: Node m05, CPU core 91, NUMA node 5
+Rank 48: Node m05, CPU core 96, NUMA node 6
+Rank 49: Node m05, CPU core 97, NUMA node 6
+Rank 50: Node m05, CPU core 98, NUMA node 6
+Rank 51: Node m05, CPU core 99, NUMA node 6
+Rank 52: Node m05, CPU core 104, NUMA node 6
+Rank 53: Node m05, CPU core 105, NUMA node 6
+Rank 54: Node m05, CPU core 106, NUMA node 6
+Rank 55: Node m05, CPU core 107, NUMA node 6
+Rank 56: Node m05, CPU core 112, NUMA node 7
+Rank 57: Node m05, CPU core 113, NUMA node 7
+Rank 58: Node m05, CPU core 114, NUMA node 7
+Rank 59: Node m05, CPU core 115, NUMA node 7
+Rank 60: Node m05, CPU core 120, NUMA node 7
+Rank 61: Node m05, CPU core 121, NUMA node 7
+Rank 62: Node m05, CPU core 122, NUMA node 7
+Rank 63: Node m05, CPU core 123, NUMA node 7
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 1, NUMA node 0
+Rank 67: Node m06, CPU core 3, NUMA node 0
+Rank 68: Node m06, CPU core 8, NUMA node 0
+Rank 69: Node m06, CPU core 9, NUMA node 0
+Rank 66: Node m06, CPU core 2, NUMA node 0
+Rank 70: Node m06, CPU core 10, NUMA node 0
+Rank 71: Node m06, CPU core 11, NUMA node 0
+Rank 72: Node m06, CPU core 16, NUMA node 1
+Rank 73: Node m06, CPU core 17, NUMA node 1
+Rank 74: Node m06, CPU core 18, NUMA node 1
+Rank 75: Node m06, CPU core 19, NUMA node 1
+Rank 76: Node m06, CPU core 24, NUMA node 1
+Rank 77: Node m06, CPU core 25, NUMA node 1
+Rank 78: Node m06, CPU core 26, NUMA node 1
+Rank 79: Node m06, CPU core 27, NUMA node 1
+Rank 80: Node m06, CPU core 32, NUMA node 2
+Rank 81: Node m06, CPU core 33, NUMA node 2
+Rank 82: Node m06, CPU core 34, NUMA node 2
+Rank 83: Node m06, CPU core 35, NUMA node 2
+Rank 84: Node m06, CPU core 40, NUMA node 2
+Rank 85: Node m06, CPU core 41, NUMA node 2
+Rank 86: Node m06, CPU core 42, NUMA node 2
+Rank 87: Node m06, CPU core 43, NUMA node 2
+Rank 88: Node m06, CPU core 48, NUMA node 3
+Rank 89: Node m06, CPU core 49, NUMA node 3
+Rank 90: Node m06, CPU core 50, NUMA node 3
+Rank 91: Node m06, CPU core 51, NUMA node 3
+Rank 92: Node m06, CPU core 56, NUMA node 3
+Rank 93: Node m06, CPU core 57, NUMA node 3
+Rank 94: Node m06, CPU core 58, NUMA node 3
+Rank 95: Node m06, CPU core 59, NUMA node 3
+Rank 96: Node m06, CPU core 64, NUMA node 4
+Rank 97: Node m06, CPU core 65, NUMA node 4
+Rank 98: Node m06, CPU core 66, NUMA node 4
+Rank 99: Node m06, CPU core 67, NUMA node 4
+Rank 100: Node m06, CPU core 72, NUMA node 4
+Rank 101: Node m06, CPU core 73, NUMA node 4
+Rank 102: Node m06, CPU core 74, NUMA node 4
+Rank 103: Node m06, CPU core 75, NUMA node 4
+Rank 104: Node m06, CPU core 80, NUMA node 5
+Rank 105: Node m06, CPU core 81, NUMA node 5
+Rank 106: Node m06, CPU core 82, NUMA node 5
+Rank 107: Node m06, CPU core 83, NUMA node 5
+Rank 108: Node m06, CPU core 88, NUMA node 5
+Rank 109: Node m06, CPU core 89, NUMA node 5
+Rank 110: Node m06, CPU core 90, NUMA node 5
+Rank 111: Node m06, CPU core 91, NUMA node 5
+Rank 112: Node m06, CPU core 96, NUMA node 6
+Rank 113: Node m06, CPU core 97, NUMA node 6
+Rank 114: Node m06, CPU core 98, NUMA node 6
+Rank 115: Node m06, CPU core 99, NUMA node 6
+Rank 116: Node m06, CPU core 104, NUMA node 6
+Rank 117: Node m06, CPU core 105, NUMA node 6
+Rank 118: Node m06, CPU core 106, NUMA node 6
+Rank 119: Node m06, CPU core 107, NUMA node 6
+Rank 120: Node m06, CPU core 112, NUMA node 7
+Rank 121: Node m06, CPU core 113, NUMA node 7
+Rank 122: Node m06, CPU core 114, NUMA node 7
+Rank 123: Node m06, CPU core 115, NUMA node 7
+Rank 124: Node m06, CPU core 120, NUMA node 7
+Rank 125: Node m06, CPU core 121, NUMA node 7
+Rank 126: Node m06, CPU core 122, NUMA node 7
+Rank 127: Node m06, CPU core 123, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 1 2 3 8 9 10 11 16 17 18 19 24 25 26 27 32 33 34 35 40 41 42 43 48 49 50 51 56 57 58 59 64 65 66 67 72 73 74 75 80 81 82 83 88 89 90 91 96 97 98 99 104 105 106 107 112 113 114 115 120 121 122 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m06 -----
+CPU cores used: 0 1 2 3 8 9 10 11 16 17 18 19 24 25 26 27 32 33 34 35 40 41 42 43 48 49 50 51 56 57 58 59 64 65 66 67 72 73 74 75 80 81 82 83 88 89 90 91 96 97 98 99 104 105 106 107 112 113 114 115 120 121 122 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.0681
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   105.87
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 84665.14
+ Mop/s/process   =                   661.45
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.0944
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   106.56
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 84120.43
+ Mop/s/process   =                   657.19
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.1781
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   107.21
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 83609.04
+ Mop/s/process   =                   653.20
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by node -N 64 --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 2: Node m05, CPU core 1, NUMA node 0
+Rank 1: Node m06, CPU core 0, NUMA node 0
+Rank 4: Node m05, CPU core 2, NUMA node 0
+Rank 3: Node m06, CPU core 1, NUMA node 0
+Rank 6: Node m05, CPU core 3, NUMA node 0
+Rank 8: Node m05, CPU core 4, NUMA node 0
+Rank 5: Node m06, CPU core 2, NUMA node 0
+Rank 10: Node m05, CPU core 5, NUMA node 0
+Rank 7: Node m06, CPU core 3, NUMA node 0
+Rank 9: Node m06, CPU core 4, NUMA node 0
+Rank 12: Node m05, CPU core 6, NUMA node 0
+Rank 11: Node m06, CPU core 5, NUMA node 0
+Rank 14: Node m05, CPU core 7, NUMA node 0
+Rank 13: Node m06, CPU core 6, NUMA node 0
+Rank 15: Node m06, CPU core 7, NUMA node 0
+Rank 16: Node m05, CPU core 8, NUMA node 0
+Rank 18: Node m05, CPU core 9, NUMA node 0
+Rank 20: Node m05, CPU core 10, NUMA node 0
+Rank 17: Node m06, CPU core 8, NUMA node 0
+Rank 22: Node m05, CPU core 11, NUMA node 0
+Rank 19: Node m06, CPU core 9, NUMA node 0
+Rank 21: Node m06, CPU core 10, NUMA node 0
+Rank 24: Node m05, CPU core 12, NUMA node 0
+Rank 23: Node m06, CPU core 11, NUMA node 0
+Rank 26: Node m05, CPU core 13, NUMA node 0
+Rank 25: Node m06, CPU core 12, NUMA node 0
+Rank 28: Node m05, CPU core 14, NUMA node 0
+Rank 30: Node m05, CPU core 15, NUMA node 0
+Rank 27: Node m06, CPU core 13, NUMA node 0
+Rank 29: Node m06, CPU core 14, NUMA node 0
+Rank 32: Node m05, CPU core 16, NUMA node 1
+Rank 31: Node m06, CPU core 15, NUMA node 0
+Rank 34: Node m05, CPU core 17, NUMA node 1
+Rank 36: Node m05, CPU core 18, NUMA node 1
+Rank 33: Node m06, CPU core 16, NUMA node 1
+Rank 38: Node m05, CPU core 19, NUMA node 1
+Rank 40: Node m05, CPU core 20, NUMA node 1
+Rank 35: Node m06, CPU core 17, NUMA node 1
+Rank 42: Node m05, CPU core 21, NUMA node 1
+Rank 37: Node m06, CPU core 18, NUMA node 1
+Rank 44: Node m05, CPU core 22, NUMA node 1
+Rank 39: Node m06, CPU core 19, NUMA node 1
+Rank 41: Node m06, CPU core 20, NUMA node 1
+Rank 46: Node m05, CPU core 23, NUMA node 1
+Rank 43: Node m06, CPU core 21, NUMA node 1
+Rank 45: Node m06, CPU core 22, NUMA node 1
+Rank 48: Node m05, CPU core 24, NUMA node 1
+Rank 47: Node m06, CPU core 23, NUMA node 1
+Rank 50: Node m05, CPU core 25, NUMA node 1
+Rank 52: Node m05, CPU core 26, NUMA node 1
+Rank 49: Node m06, CPU core 24, NUMA node 1
+Rank 54: Node m05, CPU core 27, NUMA node 1
+Rank 51: Node m06, CPU core 25, NUMA node 1
+Rank 56: Node m05, CPU core 28, NUMA node 1
+Rank 53: Node m06, CPU core 26, NUMA node 1
+Rank 58: Node m05, CPU core 29, NUMA node 1
+Rank 55: Node m06, CPU core 27, NUMA node 1
+Rank 60: Node m05, CPU core 30, NUMA node 1
+Rank 57: Node m06, CPU core 28, NUMA node 1
+Rank 62: Node m05, CPU core 31, NUMA node 1
+Rank 59: Node m06, CPU core 29, NUMA node 1
+Rank 64: Node m05, CPU core 32, NUMA node 2
+Rank 61: Node m06, CPU core 30, NUMA node 1
+Rank 66: Node m05, CPU core 33, NUMA node 2
+Rank 63: Node m06, CPU core 31, NUMA node 1
+Rank 68: Node m05, CPU core 34, NUMA node 2
+Rank 70: Node m05, CPU core 35, NUMA node 2
+Rank 65: Node m06, CPU core 32, NUMA node 2
+Rank 72: Node m05, CPU core 36, NUMA node 2
+Rank 67: Node m06, CPU core 33, NUMA node 2
+Rank 74: Node m05, CPU core 37, NUMA node 2
+Rank 69: Node m06, CPU core 34, NUMA node 2
+Rank 76: Node m05, CPU core 38, NUMA node 2
+Rank 71: Node m06, CPU core 35, NUMA node 2
+Rank 73: Node m06, CPU core 36, NUMA node 2
+Rank 78: Node m05, CPU core 39, NUMA node 2
+Rank 80: Node m05, CPU core 40, NUMA node 2
+Rank 75: Node m06, CPU core 37, NUMA node 2
+Rank 77: Node m06, CPU core 38, NUMA node 2
+Rank 82: Node m05, CPU core 41, NUMA node 2
+Rank 79: Node m06, CPU core 39, NUMA node 2
+Rank 84: Node m05, CPU core 42, NUMA node 2
+Rank 81: Node m06, CPU core 40, NUMA node 2
+Rank 86: Node m05, CPU core 43, NUMA node 2
+Rank 83: Node m06, CPU core 41, NUMA node 2
+Rank 88: Node m05, CPU core 44, NUMA node 2
+Rank 85: Node m06, CPU core 42, NUMA node 2
+Rank 90: Node m05, CPU core 45, NUMA node 2
+Rank 87: Node m06, CPU core 43, NUMA node 2
+Rank 89: Node m06, CPU core 44, NUMA node 2
+Rank 91: Node m06, CPU core 45, NUMA node 2
+Rank 92: Node m05, CPU core 46, NUMA node 2
+Rank 94: Node m05, CPU core 47, NUMA node 2
+Rank 93: Node m06, CPU core 46, NUMA node 2
+Rank 96: Node m05, CPU core 48, NUMA node 3
+Rank 95: Node m06, CPU core 47, NUMA node 2
+Rank 98: Node m05, CPU core 49, NUMA node 3
+Rank 97: Node m06, CPU core 48, NUMA node 3
+Rank 100: Node m05, CPU core 50, NUMA node 3
+Rank 102: Node m05, CPU core 51, NUMA node 3
+Rank 99: Node m06, CPU core 49, NUMA node 3
+Rank 104: Node m05, CPU core 52, NUMA node 3
+Rank 101: Node m06, CPU core 50, NUMA node 3
+Rank 106: Node m05, CPU core 53, NUMA node 3
+Rank 103: Node m06, CPU core 51, NUMA node 3
+Rank 108: Node m05, CPU core 54, NUMA node 3
+Rank 105: Node m06, CPU core 52, NUMA node 3
+Rank 110: Node m05, CPU core 55, NUMA node 3
+Rank 107: Node m06, CPU core 53, NUMA node 3
+Rank 112: Node m05, CPU core 56, NUMA node 3
+Rank 109: Node m06, CPU core 54, NUMA node 3
+Rank 114: Node m05, CPU core 57, NUMA node 3
+Rank 111: Node m06, CPU core 55, NUMA node 3
+Rank 113: Node m06, CPU core 56, NUMA node 3
+Rank 116: Node m05, CPU core 58, NUMA node 3
+Rank 118: Node m05, CPU core 59, NUMA node 3
+Rank 115: Node m06, CPU core 57, NUMA node 3
+Rank 120: Node m05, CPU core 60, NUMA node 3
+Rank 117: Node m06, CPU core 58, NUMA node 3
+Rank 122: Node m05, CPU core 61, NUMA node 3
+Rank 119: Node m06, CPU core 59, NUMA node 3
+Rank 121: Node m06, CPU core 60, NUMA node 3
+Rank 124: Node m05, CPU core 62, NUMA node 3
+Rank 126: Node m05, CPU core 63, NUMA node 3
+Rank 123: Node m06, CPU core 61, NUMA node 3
+Rank 125: Node m06, CPU core 62, NUMA node 3
+Rank 127: Node m06, CPU core 63, NUMA node 3
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+----- NODE: m06 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =     12.2959
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   311.97
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 28732.87
+ Mop/s/process   =                   224.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =     12.3134
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   316.31
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 28338.59
+ Mop/s/process   =                   221.40
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =     13.0368
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   312.75
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 28660.83
+ Mop/s/process   =                   223.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by socket -N 64 --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 64, NUMA node 4
+Rank 2: Node m05, CPU core 1, NUMA node 0
+Rank 3: Node m05, CPU core 65, NUMA node 4
+Rank 4: Node m05, CPU core 2, NUMA node 0
+Rank 5: Node m05, CPU core 66, NUMA node 4
+Rank 6: Node m05, CPU core 3, NUMA node 0
+Rank 7: Node m05, CPU core 67, NUMA node 4
+Rank 8: Node m05, CPU core 4, NUMA node 0
+Rank 9: Node m05, CPU core 68, NUMA node 4
+Rank 10: Node m05, CPU core 5, NUMA node 0
+Rank 11: Node m05, CPU core 69, NUMA node 4
+Rank 12: Node m05, CPU core 6, NUMA node 0
+Rank 13: Node m05, CPU core 70, NUMA node 4
+Rank 14: Node m05, CPU core 7, NUMA node 0
+Rank 15: Node m05, CPU core 71, NUMA node 4
+Rank 16: Node m05, CPU core 8, NUMA node 0
+Rank 17: Node m05, CPU core 72, NUMA node 4
+Rank 18: Node m05, CPU core 9, NUMA node 0
+Rank 19: Node m05, CPU core 73, NUMA node 4
+Rank 20: Node m05, CPU core 10, NUMA node 0
+Rank 21: Node m05, CPU core 74, NUMA node 4
+Rank 22: Node m05, CPU core 11, NUMA node 0
+Rank 23: Node m05, CPU core 75, NUMA node 4
+Rank 24: Node m05, CPU core 12, NUMA node 0
+Rank 25: Node m05, CPU core 76, NUMA node 4
+Rank 26: Node m05, CPU core 13, NUMA node 0
+Rank 27: Node m05, CPU core 77, NUMA node 4
+Rank 28: Node m05, CPU core 14, NUMA node 0
+Rank 29: Node m05, CPU core 78, NUMA node 4
+Rank 30: Node m05, CPU core 15, NUMA node 0
+Rank 31: Node m05, CPU core 79, NUMA node 4
+Rank 32: Node m05, CPU core 16, NUMA node 1
+Rank 33: Node m05, CPU core 80, NUMA node 5
+Rank 34: Node m05, CPU core 17, NUMA node 1
+Rank 35: Node m05, CPU core 81, NUMA node 5
+Rank 36: Node m05, CPU core 18, NUMA node 1
+Rank 37: Node m05, CPU core 82, NUMA node 5
+Rank 38: Node m05, CPU core 19, NUMA node 1
+Rank 39: Node m05, CPU core 83, NUMA node 5
+Rank 40: Node m05, CPU core 20, NUMA node 1
+Rank 41: Node m05, CPU core 84, NUMA node 5
+Rank 42: Node m05, CPU core 21, NUMA node 1
+Rank 43: Node m05, CPU core 85, NUMA node 5
+Rank 44: Node m05, CPU core 22, NUMA node 1
+Rank 45: Node m05, CPU core 86, NUMA node 5
+Rank 46: Node m05, CPU core 23, NUMA node 1
+Rank 47: Node m05, CPU core 87, NUMA node 5
+Rank 48: Node m05, CPU core 24, NUMA node 1
+Rank 49: Node m05, CPU core 88, NUMA node 5
+Rank 50: Node m05, CPU core 25, NUMA node 1
+Rank 51: Node m05, CPU core 89, NUMA node 5
+Rank 52: Node m05, CPU core 26, NUMA node 1
+Rank 53: Node m05, CPU core 90, NUMA node 5
+Rank 54: Node m05, CPU core 27, NUMA node 1
+Rank 55: Node m05, CPU core 91, NUMA node 5
+Rank 56: Node m05, CPU core 28, NUMA node 1
+Rank 57: Node m05, CPU core 92, NUMA node 5
+Rank 58: Node m05, CPU core 29, NUMA node 1
+Rank 59: Node m05, CPU core 93, NUMA node 5
+Rank 60: Node m05, CPU core 30, NUMA node 1
+Rank 61: Node m05, CPU core 94, NUMA node 5
+Rank 62: Node m05, CPU core 31, NUMA node 1
+Rank 63: Node m05, CPU core 95, NUMA node 5
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 64, NUMA node 4
+Rank 66: Node m06, CPU core 1, NUMA node 0
+Rank 67: Node m06, CPU core 65, NUMA node 4
+Rank 68: Node m06, CPU core 2, NUMA node 0
+Rank 69: Node m06, CPU core 66, NUMA node 4
+Rank 70: Node m06, CPU core 3, NUMA node 0
+Rank 71: Node m06, CPU core 67, NUMA node 4
+Rank 72: Node m06, CPU core 4, NUMA node 0
+Rank 73: Node m06, CPU core 68, NUMA node 4
+Rank 74: Node m06, CPU core 5, NUMA node 0
+Rank 75: Node m06, CPU core 69, NUMA node 4
+Rank 76: Node m06, CPU core 6, NUMA node 0
+Rank 77: Node m06, CPU core 70, NUMA node 4
+Rank 78: Node m06, CPU core 7, NUMA node 0
+Rank 79: Node m06, CPU core 71, NUMA node 4
+Rank 80: Node m06, CPU core 8, NUMA node 0
+Rank 81: Node m06, CPU core 72, NUMA node 4
+Rank 82: Node m06, CPU core 9, NUMA node 0
+Rank 83: Node m06, CPU core 73, NUMA node 4
+Rank 84: Node m06, CPU core 10, NUMA node 0
+Rank 85: Node m06, CPU core 74, NUMA node 4
+Rank 86: Node m06, CPU core 11, NUMA node 0
+Rank 87: Node m06, CPU core 75, NUMA node 4
+Rank 88: Node m06, CPU core 12, NUMA node 0
+Rank 89: Node m06, CPU core 76, NUMA node 4
+Rank 90: Node m06, CPU core 13, NUMA node 0
+Rank 91: Node m06, CPU core 77, NUMA node 4
+Rank 92: Node m06, CPU core 14, NUMA node 0
+Rank 93: Node m06, CPU core 78, NUMA node 4
+Rank 94: Node m06, CPU core 15, NUMA node 0
+Rank 95: Node m06, CPU core 79, NUMA node 4
+Rank 96: Node m06, CPU core 16, NUMA node 1
+Rank 97: Node m06, CPU core 80, NUMA node 5
+Rank 98: Node m06, CPU core 17, NUMA node 1
+Rank 99: Node m06, CPU core 81, NUMA node 5
+Rank 100: Node m06, CPU core 18, NUMA node 1
+Rank 101: Node m06, CPU core 82, NUMA node 5
+Rank 102: Node m06, CPU core 19, NUMA node 1
+Rank 103: Node m06, CPU core 83, NUMA node 5
+Rank 104: Node m06, CPU core 20, NUMA node 1
+Rank 105: Node m06, CPU core 84, NUMA node 5
+Rank 106: Node m06, CPU core 21, NUMA node 1
+Rank 107: Node m06, CPU core 85, NUMA node 5
+Rank 108: Node m06, CPU core 22, NUMA node 1
+Rank 109: Node m06, CPU core 86, NUMA node 5
+Rank 110: Node m06, CPU core 23, NUMA node 1
+Rank 111: Node m06, CPU core 87, NUMA node 5
+Rank 112: Node m06, CPU core 24, NUMA node 1
+Rank 113: Node m06, CPU core 88, NUMA node 5
+Rank 114: Node m06, CPU core 25, NUMA node 1
+Rank 115: Node m06, CPU core 89, NUMA node 5
+Rank 116: Node m06, CPU core 26, NUMA node 1
+Rank 117: Node m06, CPU core 90, NUMA node 5
+Rank 118: Node m06, CPU core 27, NUMA node 1
+Rank 119: Node m06, CPU core 91, NUMA node 5
+Rank 120: Node m06, CPU core 28, NUMA node 1
+Rank 121: Node m06, CPU core 92, NUMA node 5
+Rank 122: Node m06, CPU core 29, NUMA node 1
+Rank 123: Node m06, CPU core 93, NUMA node 5
+Rank 124: Node m06, CPU core 30, NUMA node 1
+Rank 125: Node m06, CPU core 94, NUMA node 5
+Rank 126: Node m06, CPU core 31, NUMA node 1
+Rank 127: Node m06, CPU core 95, NUMA node 5
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 64 1 65 2 66 3 67 4 68 5 69 6 70 7 71 8 72 9 73 10 74 11 75 12 76 13 77 14 78 15 79 16 80 17 81 18 82 19 83 20 84 21 85 22 86 23 87 24 88 25 89 26 90 27 91 28 92 29 93 30 94 31 95 
+NUMA nodes used: 0 1 4 5 
+
+----- NODE: m06 -----
+CPU cores used: 0 64 1 65 2 66 3 67 4 68 5 69 6 70 7 71 8 72 9 73 10 74 11 75 12 76 13 77 14 78 15 79 16 80 17 81 18 82 19 83 20 84 21 85 22 86 23 87 24 88 25 89 26 90 27 91 28 92 29 93 30 94 31 95 
+NUMA nodes used: 0 1 4 5 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      7.9537
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   110.18
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 81355.02
+ Mop/s/process   =                   635.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      7.7980
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   111.18
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 80624.17
+ Mop/s/process   =                   629.88
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      7.6782
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   111.78
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 80187.77
+ Mop/s/process   =                   626.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by numa -N 64 --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 16, NUMA node 1
+Rank 2: Node m05, CPU core 32, NUMA node 2
+Rank 3: Node m05, CPU core 48, NUMA node 3
+Rank 4: Node m05, CPU core 64, NUMA node 4
+Rank 5: Node m05, CPU core 80, NUMA node 5
+Rank 6: Node m05, CPU core 96, NUMA node 6
+Rank 7: Node m05, CPU core 112, NUMA node 7
+Rank 8: Node m05, CPU core 1, NUMA node 0
+Rank 9: Node m05, CPU core 17, NUMA node 1
+Rank 10: Node m05, CPU core 33, NUMA node 2
+Rank 11: Node m05, CPU core 49, NUMA node 3
+Rank 12: Node m05, CPU core 65, NUMA node 4
+Rank 13: Node m05, CPU core 81, NUMA node 5
+Rank 14: Node m05, CPU core 97, NUMA node 6
+Rank 15: Node m05, CPU core 113, NUMA node 7
+Rank 16: Node m05, CPU core 2, NUMA node 0
+Rank 17: Node m05, CPU core 18, NUMA node 1
+Rank 18: Node m05, CPU core 34, NUMA node 2
+Rank 19: Node m05, CPU core 50, NUMA node 3
+Rank 20: Node m05, CPU core 66, NUMA node 4
+Rank 21: Node m05, CPU core 82, NUMA node 5
+Rank 22: Node m05, CPU core 98, NUMA node 6
+Rank 23: Node m05, CPU core 114, NUMA node 7
+Rank 24: Node m05, CPU core 3, NUMA node 0
+Rank 25: Node m05, CPU core 19, NUMA node 1
+Rank 26: Node m05, CPU core 35, NUMA node 2
+Rank 27: Node m05, CPU core 51, NUMA node 3
+Rank 28: Node m05, CPU core 67, NUMA node 4
+Rank 29: Node m05, CPU core 83, NUMA node 5
+Rank 30: Node m05, CPU core 99, NUMA node 6
+Rank 31: Node m05, CPU core 115, NUMA node 7
+Rank 32: Node m05, CPU core 4, NUMA node 0
+Rank 33: Node m05, CPU core 20, NUMA node 1
+Rank 34: Node m05, CPU core 36, NUMA node 2
+Rank 35: Node m05, CPU core 52, NUMA node 3
+Rank 36: Node m05, CPU core 68, NUMA node 4
+Rank 37: Node m05, CPU core 84, NUMA node 5
+Rank 38: Node m05, CPU core 100, NUMA node 6
+Rank 39: Node m05, CPU core 116, NUMA node 7
+Rank 40: Node m05, CPU core 5, NUMA node 0
+Rank 41: Node m05, CPU core 21, NUMA node 1
+Rank 42: Node m05, CPU core 37, NUMA node 2
+Rank 43: Node m05, CPU core 53, NUMA node 3
+Rank 44: Node m05, CPU core 69, NUMA node 4
+Rank 45: Node m05, CPU core 85, NUMA node 5
+Rank 46: Node m05, CPU core 101, NUMA node 6
+Rank 47: Node m05, CPU core 117, NUMA node 7
+Rank 48: Node m05, CPU core 6, NUMA node 0
+Rank 49: Node m05, CPU core 22, NUMA node 1
+Rank 50: Node m05, CPU core 38, NUMA node 2
+Rank 51: Node m05, CPU core 54, NUMA node 3
+Rank 52: Node m05, CPU core 70, NUMA node 4
+Rank 53: Node m05, CPU core 86, NUMA node 5
+Rank 54: Node m05, CPU core 102, NUMA node 6
+Rank 55: Node m05, CPU core 118, NUMA node 7
+Rank 56: Node m05, CPU core 7, NUMA node 0
+Rank 57: Node m05, CPU core 23, NUMA node 1
+Rank 58: Node m05, CPU core 39, NUMA node 2
+Rank 59: Node m05, CPU core 55, NUMA node 3
+Rank 60: Node m05, CPU core 71, NUMA node 4
+Rank 61: Node m05, CPU core 87, NUMA node 5
+Rank 62: Node m05, CPU core 103, NUMA node 6
+Rank 63: Node m05, CPU core 119, NUMA node 7
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 16, NUMA node 1
+Rank 66: Node m06, CPU core 32, NUMA node 2
+Rank 67: Node m06, CPU core 48, NUMA node 3
+Rank 68: Node m06, CPU core 64, NUMA node 4
+Rank 69: Node m06, CPU core 80, NUMA node 5
+Rank 70: Node m06, CPU core 96, NUMA node 6
+Rank 71: Node m06, CPU core 112, NUMA node 7
+Rank 72: Node m06, CPU core 1, NUMA node 0
+Rank 73: Node m06, CPU core 17, NUMA node 1
+Rank 74: Node m06, CPU core 33, NUMA node 2
+Rank 75: Node m06, CPU core 49, NUMA node 3
+Rank 76: Node m06, CPU core 65, NUMA node 4
+Rank 77: Node m06, CPU core 81, NUMA node 5
+Rank 78: Node m06, CPU core 97, NUMA node 6
+Rank 79: Node m06, CPU core 113, NUMA node 7
+Rank 80: Node m06, CPU core 2, NUMA node 0
+Rank 81: Node m06, CPU core 18, NUMA node 1
+Rank 82: Node m06, CPU core 34, NUMA node 2
+Rank 83: Node m06, CPU core 50, NUMA node 3
+Rank 84: Node m06, CPU core 66, NUMA node 4
+Rank 85: Node m06, CPU core 82, NUMA node 5
+Rank 86: Node m06, CPU core 98, NUMA node 6
+Rank 87: Node m06, CPU core 114, NUMA node 7
+Rank 88: Node m06, CPU core 3, NUMA node 0
+Rank 89: Node m06, CPU core 19, NUMA node 1
+Rank 90: Node m06, CPU core 35, NUMA node 2
+Rank 91: Node m06, CPU core 51, NUMA node 3
+Rank 92: Node m06, CPU core 67, NUMA node 4
+Rank 93: Node m06, CPU core 83, NUMA node 5
+Rank 94: Node m06, CPU core 99, NUMA node 6
+Rank 95: Node m06, CPU core 115, NUMA node 7
+Rank 96: Node m06, CPU core 4, NUMA node 0
+Rank 97: Node m06, CPU core 20, NUMA node 1
+Rank 98: Node m06, CPU core 36, NUMA node 2
+Rank 99: Node m06, CPU core 52, NUMA node 3
+Rank 100: Node m06, CPU core 68, NUMA node 4
+Rank 101: Node m06, CPU core 84, NUMA node 5
+Rank 102: Node m06, CPU core 100, NUMA node 6
+Rank 103: Node m06, CPU core 116, NUMA node 7
+Rank 104: Node m06, CPU core 5, NUMA node 0
+Rank 105: Node m06, CPU core 21, NUMA node 1
+Rank 106: Node m06, CPU core 37, NUMA node 2
+Rank 107: Node m06, CPU core 53, NUMA node 3
+Rank 108: Node m06, CPU core 69, NUMA node 4
+Rank 109: Node m06, CPU core 85, NUMA node 5
+Rank 110: Node m06, CPU core 101, NUMA node 6
+Rank 111: Node m06, CPU core 117, NUMA node 7
+Rank 112: Node m06, CPU core 6, NUMA node 0
+Rank 113: Node m06, CPU core 22, NUMA node 1
+Rank 114: Node m06, CPU core 38, NUMA node 2
+Rank 115: Node m06, CPU core 54, NUMA node 3
+Rank 116: Node m06, CPU core 70, NUMA node 4
+Rank 117: Node m06, CPU core 86, NUMA node 5
+Rank 118: Node m06, CPU core 102, NUMA node 6
+Rank 119: Node m06, CPU core 118, NUMA node 7
+Rank 120: Node m06, CPU core 7, NUMA node 0
+Rank 121: Node m06, CPU core 23, NUMA node 1
+Rank 122: Node m06, CPU core 39, NUMA node 2
+Rank 123: Node m06, CPU core 55, NUMA node 3
+Rank 124: Node m06, CPU core 71, NUMA node 4
+Rank 125: Node m06, CPU core 87, NUMA node 5
+Rank 126: Node m06, CPU core 103, NUMA node 6
+Rank 127: Node m06, CPU core 119, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 16 32 48 64 80 96 112 1 17 33 49 65 81 97 113 2 18 34 50 66 82 98 114 3 19 35 51 67 83 99 115 4 20 36 52 68 84 100 116 5 21 37 53 69 85 101 117 6 22 38 54 70 86 102 118 7 23 39 55 71 87 103 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m06 -----
+CPU cores used: 0 16 32 48 64 80 96 112 1 17 33 49 65 81 97 113 2 18 34 50 66 82 98 114 3 19 35 51 67 83 99 115 4 20 36 52 68 84 100 116 5 21 37 53 69 85 101 117 6 22 38 54 70 86 102 118 7 23 39 55 71 87 103 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.5621
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   125.02
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 71701.12
+ Mop/s/process   =                   560.17
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.7330
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   126.52
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 70847.49
+ Mop/s/process   =                   553.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.7844
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   124.28
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 72123.58
+ Mop/s/process   =                   563.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by L3cache -N 64 --bind-to core ft.D.x
+Rank 0: Node m05, CPU core 0, NUMA node 0
+Rank 1: Node m05, CPU core 8, NUMA node 0
+Rank 2: Node m05, CPU core 16, NUMA node 1
+Rank 3: Node m05, CPU core 24, NUMA node 1
+Rank 4: Node m05, CPU core 32, NUMA node 2
+Rank 5: Node m05, CPU core 40, NUMA node 2
+Rank 6: Node m05, CPU core 48, NUMA node 3
+Rank 7: Node m05, CPU core 56, NUMA node 3
+Rank 8: Node m05, CPU core 64, NUMA node 4
+Rank 9: Node m05, CPU core 72, NUMA node 4
+Rank 10: Node m05, CPU core 80, NUMA node 5
+Rank 11: Node m05, CPU core 88, NUMA node 5
+Rank 12: Node m05, CPU core 96, NUMA node 6
+Rank 13: Node m05, CPU core 104, NUMA node 6
+Rank 14: Node m05, CPU core 112, NUMA node 7
+Rank 15: Node m05, CPU core 120, NUMA node 7
+Rank 16: Node m05, CPU core 1, NUMA node 0
+Rank 17: Node m05, CPU core 9, NUMA node 0
+Rank 18: Node m05, CPU core 17, NUMA node 1
+Rank 19: Node m05, CPU core 25, NUMA node 1
+Rank 20: Node m05, CPU core 33, NUMA node 2
+Rank 21: Node m05, CPU core 41, NUMA node 2
+Rank 22: Node m05, CPU core 49, NUMA node 3
+Rank 23: Node m05, CPU core 57, NUMA node 3
+Rank 24: Node m05, CPU core 65, NUMA node 4
+Rank 25: Node m05, CPU core 73, NUMA node 4
+Rank 26: Node m05, CPU core 81, NUMA node 5
+Rank 27: Node m05, CPU core 89, NUMA node 5
+Rank 28: Node m05, CPU core 97, NUMA node 6
+Rank 29: Node m05, CPU core 105, NUMA node 6
+Rank 30: Node m05, CPU core 113, NUMA node 7
+Rank 31: Node m05, CPU core 121, NUMA node 7
+Rank 32: Node m05, CPU core 2, NUMA node 0
+Rank 33: Node m05, CPU core 10, NUMA node 0
+Rank 34: Node m05, CPU core 18, NUMA node 1
+Rank 35: Node m05, CPU core 26, NUMA node 1
+Rank 36: Node m05, CPU core 34, NUMA node 2
+Rank 37: Node m05, CPU core 42, NUMA node 2
+Rank 38: Node m05, CPU core 50, NUMA node 3
+Rank 39: Node m05, CPU core 58, NUMA node 3
+Rank 40: Node m05, CPU core 66, NUMA node 4
+Rank 41: Node m05, CPU core 74, NUMA node 4
+Rank 42: Node m05, CPU core 82, NUMA node 5
+Rank 43: Node m05, CPU core 90, NUMA node 5
+Rank 44: Node m05, CPU core 98, NUMA node 6
+Rank 45: Node m05, CPU core 106, NUMA node 6
+Rank 46: Node m05, CPU core 114, NUMA node 7
+Rank 47: Node m05, CPU core 122, NUMA node 7
+Rank 48: Node m05, CPU core 3, NUMA node 0
+Rank 49: Node m05, CPU core 11, NUMA node 0
+Rank 50: Node m05, CPU core 19, NUMA node 1
+Rank 51: Node m05, CPU core 27, NUMA node 1
+Rank 52: Node m05, CPU core 35, NUMA node 2
+Rank 53: Node m05, CPU core 43, NUMA node 2
+Rank 54: Node m05, CPU core 51, NUMA node 3
+Rank 55: Node m05, CPU core 59, NUMA node 3
+Rank 56: Node m05, CPU core 67, NUMA node 4
+Rank 57: Node m05, CPU core 75, NUMA node 4
+Rank 58: Node m05, CPU core 83, NUMA node 5
+Rank 59: Node m05, CPU core 91, NUMA node 5
+Rank 60: Node m05, CPU core 99, NUMA node 6
+Rank 61: Node m05, CPU core 107, NUMA node 6
+Rank 62: Node m05, CPU core 115, NUMA node 7
+Rank 63: Node m05, CPU core 123, NUMA node 7
+Rank 64: Node m06, CPU core 0, NUMA node 0
+Rank 65: Node m06, CPU core 8, NUMA node 0
+Rank 66: Node m06, CPU core 16, NUMA node 1
+Rank 67: Node m06, CPU core 24, NUMA node 1
+Rank 68: Node m06, CPU core 32, NUMA node 2
+Rank 69: Node m06, CPU core 40, NUMA node 2
+Rank 70: Node m06, CPU core 48, NUMA node 3
+Rank 71: Node m06, CPU core 56, NUMA node 3
+Rank 72: Node m06, CPU core 64, NUMA node 4
+Rank 73: Node m06, CPU core 72, NUMA node 4
+Rank 74: Node m06, CPU core 80, NUMA node 5
+Rank 75: Node m06, CPU core 88, NUMA node 5
+Rank 76: Node m06, CPU core 96, NUMA node 6
+Rank 77: Node m06, CPU core 104, NUMA node 6
+Rank 78: Node m06, CPU core 112, NUMA node 7
+Rank 79: Node m06, CPU core 120, NUMA node 7
+Rank 80: Node m06, CPU core 1, NUMA node 0
+Rank 81: Node m06, CPU core 9, NUMA node 0
+Rank 82: Node m06, CPU core 17, NUMA node 1
+Rank 83: Node m06, CPU core 25, NUMA node 1
+Rank 84: Node m06, CPU core 33, NUMA node 2
+Rank 85: Node m06, CPU core 41, NUMA node 2
+Rank 86: Node m06, CPU core 49, NUMA node 3
+Rank 87: Node m06, CPU core 57, NUMA node 3
+Rank 88: Node m06, CPU core 65, NUMA node 4
+Rank 89: Node m06, CPU core 73, NUMA node 4
+Rank 90: Node m06, CPU core 81, NUMA node 5
+Rank 91: Node m06, CPU core 89, NUMA node 5
+Rank 92: Node m06, CPU core 97, NUMA node 6
+Rank 93: Node m06, CPU core 105, NUMA node 6
+Rank 94: Node m06, CPU core 113, NUMA node 7
+Rank 95: Node m06, CPU core 121, NUMA node 7
+Rank 96: Node m06, CPU core 2, NUMA node 0
+Rank 97: Node m06, CPU core 10, NUMA node 0
+Rank 98: Node m06, CPU core 18, NUMA node 1
+Rank 99: Node m06, CPU core 26, NUMA node 1
+Rank 100: Node m06, CPU core 34, NUMA node 2
+Rank 101: Node m06, CPU core 42, NUMA node 2
+Rank 102: Node m06, CPU core 50, NUMA node 3
+Rank 103: Node m06, CPU core 58, NUMA node 3
+Rank 104: Node m06, CPU core 66, NUMA node 4
+Rank 105: Node m06, CPU core 74, NUMA node 4
+Rank 106: Node m06, CPU core 82, NUMA node 5
+Rank 107: Node m06, CPU core 90, NUMA node 5
+Rank 108: Node m06, CPU core 98, NUMA node 6
+Rank 109: Node m06, CPU core 106, NUMA node 6
+Rank 110: Node m06, CPU core 114, NUMA node 7
+Rank 111: Node m06, CPU core 122, NUMA node 7
+Rank 112: Node m06, CPU core 3, NUMA node 0
+Rank 113: Node m06, CPU core 11, NUMA node 0
+Rank 114: Node m06, CPU core 19, NUMA node 1
+Rank 115: Node m06, CPU core 27, NUMA node 1
+Rank 116: Node m06, CPU core 35, NUMA node 2
+Rank 117: Node m06, CPU core 43, NUMA node 2
+Rank 118: Node m06, CPU core 51, NUMA node 3
+Rank 119: Node m06, CPU core 59, NUMA node 3
+Rank 120: Node m06, CPU core 67, NUMA node 4
+Rank 121: Node m06, CPU core 75, NUMA node 4
+Rank 122: Node m06, CPU core 83, NUMA node 5
+Rank 123: Node m06, CPU core 91, NUMA node 5
+Rank 124: Node m06, CPU core 99, NUMA node 6
+Rank 125: Node m06, CPU core 107, NUMA node 6
+Rank 126: Node m06, CPU core 115, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m05 -----
+CPU cores used: 0 8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 1 9 17 25 33 41 49 57 65 73 81 89 97 105 113 121 2 10 18 26 34 42 50 58 66 74 82 90 98 106 114 122 3 11 19 27 35 43 51 59 67 75 83 91 99 107 115 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m06 -----
+CPU cores used: 0 8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 1 9 17 25 33 41 49 57 65 73 81 89 97 105 113 121 2 10 18 26 34 42 50 58 66 74 82 90 98 106 114 122 3 11 19 27 35 43 51 59 67 75 83 91 99 107 115 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+Rank 127: Node m06, CPU core 123, NUMA node 7
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.6930
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   121.94
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 73509.67
+ Mop/s/process   =                   574.29
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.3410
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   122.40
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 73233.69
+ Mop/s/process   =                   572.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024  (class D)
+ Iterations          :             25
+ Number of processes :            128
+ Processor array     :         1x 128
+ Layout type         :             1D
+
+ Initialization time =      6.9537
+
+ T =    1     Checksum =    5.122230065252D+02    5.118534037109D+02
+ T =    2     Checksum =    5.120463975765D+02    5.117061181082D+02
+ T =    3     Checksum =    5.119865766760D+02    5.117096364601D+02
+ T =    4     Checksum =    5.119518799488D+02    5.117373863950D+02
+ T =    5     Checksum =    5.119269088223D+02    5.117680347632D+02
+ T =    6     Checksum =    5.119082416858D+02    5.117967875532D+02
+ T =    7     Checksum =    5.118943814638D+02    5.118225281841D+02
+ T =    8     Checksum =    5.118842385057D+02    5.118451629348D+02
+ T =    9     Checksum =    5.118769435632D+02    5.118649119387D+02
+ T =   10     Checksum =    5.118718203448D+02    5.118820803844D+02
+ T =   11     Checksum =    5.118683569061D+02    5.118969781011D+02
+ T =   12     Checksum =    5.118661708593D+02    5.119098918835D+02
+ T =   13     Checksum =    5.118649768950D+02    5.119210777066D+02
+ T =   14     Checksum =    5.118645605626D+02    5.119307604484D+02
+ T =   15     Checksum =    5.118647586618D+02    5.119391362671D+02
+ T =   16     Checksum =    5.118654451572D+02    5.119463757241D+02
+ T =   17     Checksum =    5.118665212451D+02    5.119526269238D+02
+ T =   18     Checksum =    5.118679083821D+02    5.119580184108D+02
+ T =   19     Checksum =    5.118695433664D+02    5.119626617538D+02
+ T =   20     Checksum =    5.118713748264D+02    5.119666538138D+02
+ T =   21     Checksum =    5.118733606701D+02    5.119700787219D+02
+ T =   22     Checksum =    5.118754661974D+02    5.119730095953D+02
+ T =   23     Checksum =    5.118776626738D+02    5.119755100241D+02
+ T =   24     Checksum =    5.118799262314D+02    5.119776353561D+02
+ T =   25     Checksum =    5.118822370068D+02    5.119794338060D+02
+ Result verification successful
+
+
+ FT Benchmark Completed.
+ Class           =                        D
+ Size            =           2048x1024x1024
+ Iterations      =                       25
+ Time in seconds =                   120.11
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 74627.75
+ Mop/s/process   =                   583.03
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

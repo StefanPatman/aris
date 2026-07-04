@@ -1,0 +1,1960 @@
+### RUN: --map-by ppr:64:socket --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 1, NUMA node 0
+Rank 2: CPU core 2, NUMA node 0
+Rank 3: CPU core 3, NUMA node 0
+Rank 4: CPU core 4, NUMA node 0
+Rank 5: CPU core 5, NUMA node 0
+Rank 6: CPU core 6, NUMA node 0
+Rank 7: CPU core 7, NUMA node 0
+Rank 8: CPU core 8, NUMA node 0
+Rank 9: CPU core 9, NUMA node 0
+Rank 10: CPU core 10, NUMA node 0
+Rank 11: CPU core 11, NUMA node 0
+Rank 12: CPU core 12, NUMA node 0
+Rank 13: CPU core 13, NUMA node 0
+Rank 14: CPU core 14, NUMA node 0
+Rank 15: CPU core 15, NUMA node 0
+Rank 16: CPU core 16, NUMA node 1
+Rank 17: CPU core 17, NUMA node 1
+Rank 18: CPU core 18, NUMA node 1
+Rank 19: CPU core 19, NUMA node 1
+Rank 20: CPU core 20, NUMA node 1
+Rank 21: CPU core 21, NUMA node 1
+Rank 22: CPU core 22, NUMA node 1
+Rank 23: CPU core 23, NUMA node 1
+Rank 24: CPU core 24, NUMA node 1
+Rank 25: CPU core 25, NUMA node 1
+Rank 26: CPU core 26, NUMA node 1
+Rank 27: CPU core 27, NUMA node 1
+Rank 28: CPU core 28, NUMA node 1
+Rank 29: CPU core 29, NUMA node 1
+Rank 30: CPU core 30, NUMA node 1
+Rank 31: CPU core 31, NUMA node 1
+Rank 32: CPU core 32, NUMA node 2
+Rank 33: CPU core 33, NUMA node 2
+Rank 34: CPU core 34, NUMA node 2
+Rank 35: CPU core 35, NUMA node 2
+Rank 36: CPU core 36, NUMA node 2
+Rank 37: CPU core 37, NUMA node 2
+Rank 38: CPU core 38, NUMA node 2
+Rank 39: CPU core 39, NUMA node 2
+Rank 40: CPU core 40, NUMA node 2
+Rank 41: CPU core 41, NUMA node 2
+Rank 42: CPU core 42, NUMA node 2
+Rank 43: CPU core 43, NUMA node 2
+Rank 44: CPU core 44, NUMA node 2
+Rank 45: CPU core 45, NUMA node 2
+Rank 46: CPU core 46, NUMA node 2
+Rank 47: CPU core 47, NUMA node 2
+Rank 48: CPU core 48, NUMA node 3
+Rank 49: CPU core 49, NUMA node 3
+Rank 50: CPU core 50, NUMA node 3
+Rank 51: CPU core 51, NUMA node 3
+Rank 52: CPU core 52, NUMA node 3
+Rank 53: CPU core 53, NUMA node 3
+Rank 54: CPU core 54, NUMA node 3
+Rank 55: CPU core 55, NUMA node 3
+Rank 56: CPU core 56, NUMA node 3
+Rank 57: CPU core 57, NUMA node 3
+Rank 58: CPU core 58, NUMA node 3
+Rank 59: CPU core 59, NUMA node 3
+Rank 60: CPU core 60, NUMA node 3
+Rank 61: CPU core 61, NUMA node 3
+Rank 62: CPU core 62, NUMA node 3
+Rank 63: CPU core 63, NUMA node 3
+
+===== SUMMARY =====
+
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   481.69
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                121106.04
+ Mop/s/process   =                  1892.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   481.81
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                121075.11
+ Mop/s/process   =                  1891.80
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   482.40
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                120929.22
+ Mop/s/process   =                  1889.52
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by socket --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 64, NUMA node 4
+Rank 2: CPU core 1, NUMA node 0
+Rank 3: CPU core 65, NUMA node 4
+Rank 4: CPU core 2, NUMA node 0
+Rank 5: CPU core 66, NUMA node 4
+Rank 6: CPU core 3, NUMA node 0
+Rank 7: CPU core 67, NUMA node 4
+Rank 8: CPU core 4, NUMA node 0
+Rank 9: CPU core 68, NUMA node 4
+Rank 10: CPU core 5, NUMA node 0
+Rank 11: CPU core 69, NUMA node 4
+Rank 12: CPU core 6, NUMA node 0
+Rank 13: CPU core 70, NUMA node 4
+Rank 14: CPU core 7, NUMA node 0
+Rank 15: CPU core 71, NUMA node 4
+Rank 16: CPU core 8, NUMA node 0
+Rank 17: CPU core 72, NUMA node 4
+Rank 18: CPU core 9, NUMA node 0
+Rank 19: CPU core 73, NUMA node 4
+Rank 20: CPU core 10, NUMA node 0
+Rank 21: CPU core 74, NUMA node 4
+Rank 22: CPU core 11, NUMA node 0
+Rank 23: CPU core 75, NUMA node 4
+Rank 24: CPU core 12, NUMA node 0
+Rank 25: CPU core 76, NUMA node 4
+Rank 26: CPU core 13, NUMA node 0
+Rank 27: CPU core 77, NUMA node 4
+Rank 28: CPU core 14, NUMA node 0
+Rank 29: CPU core 78, NUMA node 4
+Rank 30: CPU core 15, NUMA node 0
+Rank 31: CPU core 79, NUMA node 4
+Rank 32: CPU core 16, NUMA node 1
+Rank 33: CPU core 80, NUMA node 5
+Rank 34: CPU core 17, NUMA node 1
+Rank 35: CPU core 81, NUMA node 5
+Rank 36: CPU core 18, NUMA node 1
+Rank 37: CPU core 82, NUMA node 5
+Rank 38: CPU core 19, NUMA node 1
+Rank 39: CPU core 83, NUMA node 5
+Rank 40: CPU core 20, NUMA node 1
+Rank 41: CPU core 84, NUMA node 5
+Rank 42: CPU core 21, NUMA node 1
+Rank 43: CPU core 85, NUMA node 5
+Rank 44: CPU core 22, NUMA node 1
+Rank 45: CPU core 86, NUMA node 5
+Rank 46: CPU core 23, NUMA node 1
+Rank 47: CPU core 87, NUMA node 5
+Rank 48: CPU core 24, NUMA node 1
+Rank 49: CPU core 88, NUMA node 5
+Rank 50: CPU core 25, NUMA node 1
+Rank 51: CPU core 89, NUMA node 5
+Rank 52: CPU core 26, NUMA node 1
+Rank 53: CPU core 90, NUMA node 5
+Rank 54: CPU core 27, NUMA node 1
+Rank 55: CPU core 91, NUMA node 5
+Rank 56: CPU core 28, NUMA node 1
+Rank 57: CPU core 92, NUMA node 5
+Rank 58: CPU core 29, NUMA node 1
+Rank 59: CPU core 93, NUMA node 5
+Rank 60: CPU core 30, NUMA node 1
+Rank 61: CPU core 94, NUMA node 5
+Rank 62: CPU core 31, NUMA node 1
+Rank 63: CPU core 95, NUMA node 5
+
+===== SUMMARY =====
+
+CPU cores used: 0 64 1 65 2 66 3 67 4 68 5 69 6 70 7 71 8 72 9 73 10 74 11 75 12 76 13 77 14 78 15 79 16 80 17 81 18 82 19 83 20 84 21 85 22 86 23 87 24 88 25 89 26 90 27 91 28 92 29 93 30 94 31 95 
+NUMA nodes used: 0 1 4 5 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   714.81
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                 81609.79
+ Mop/s/process   =                  1275.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   778.60
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                 74924.36
+ Mop/s/process   =                  1170.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   729.27
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                 79992.55
+ Mop/s/process   =                  1249.88
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:32:socket --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 1, NUMA node 0
+Rank 2: CPU core 2, NUMA node 0
+Rank 3: CPU core 3, NUMA node 0
+Rank 4: CPU core 4, NUMA node 0
+Rank 5: CPU core 5, NUMA node 0
+Rank 6: CPU core 6, NUMA node 0
+Rank 7: CPU core 7, NUMA node 0
+Rank 8: CPU core 8, NUMA node 0
+Rank 9: CPU core 9, NUMA node 0
+Rank 10: CPU core 10, NUMA node 0
+Rank 11: CPU core 11, NUMA node 0
+Rank 12: CPU core 12, NUMA node 0
+Rank 13: CPU core 13, NUMA node 0
+Rank 14: CPU core 14, NUMA node 0
+Rank 15: CPU core 15, NUMA node 0
+Rank 16: CPU core 16, NUMA node 1
+Rank 17: CPU core 17, NUMA node 1
+Rank 18: CPU core 18, NUMA node 1
+Rank 19: CPU core 19, NUMA node 1
+Rank 20: CPU core 20, NUMA node 1
+Rank 21: CPU core 21, NUMA node 1
+Rank 22: CPU core 22, NUMA node 1
+Rank 23: CPU core 23, NUMA node 1
+Rank 24: CPU core 24, NUMA node 1
+Rank 25: CPU core 25, NUMA node 1
+Rank 26: CPU core 26, NUMA node 1
+Rank 27: CPU core 27, NUMA node 1
+Rank 28: CPU core 28, NUMA node 1
+Rank 29: CPU core 29, NUMA node 1
+Rank 30: CPU core 30, NUMA node 1
+Rank 31: CPU core 31, NUMA node 1
+Rank 32: CPU core 64, NUMA node 4
+Rank 33: CPU core 65, NUMA node 4
+Rank 34: CPU core 66, NUMA node 4
+Rank 35: CPU core 67, NUMA node 4
+Rank 36: CPU core 68, NUMA node 4
+Rank 37: CPU core 69, NUMA node 4
+Rank 38: CPU core 70, NUMA node 4
+Rank 39: CPU core 71, NUMA node 4
+Rank 40: CPU core 72, NUMA node 4
+Rank 41: CPU core 73, NUMA node 4
+Rank 42: CPU core 74, NUMA node 4
+Rank 43: CPU core 75, NUMA node 4
+Rank 44: CPU core 76, NUMA node 4
+Rank 45: CPU core 77, NUMA node 4
+Rank 46: CPU core 78, NUMA node 4
+Rank 47: CPU core 79, NUMA node 4
+Rank 48: CPU core 80, NUMA node 5
+Rank 49: CPU core 81, NUMA node 5
+Rank 50: CPU core 82, NUMA node 5
+Rank 51: CPU core 83, NUMA node 5
+Rank 52: CPU core 84, NUMA node 5
+Rank 53: CPU core 85, NUMA node 5
+Rank 54: CPU core 86, NUMA node 5
+Rank 55: CPU core 87, NUMA node 5
+Rank 56: CPU core 88, NUMA node 5
+Rank 57: CPU core 89, NUMA node 5
+Rank 58: CPU core 90, NUMA node 5
+Rank 59: CPU core 91, NUMA node 5
+Rank 60: CPU core 92, NUMA node 5
+Rank 61: CPU core 93, NUMA node 5
+Rank 62: CPU core 94, NUMA node 5
+Rank 63: CPU core 95, NUMA node 5
+
+===== SUMMARY =====
+
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+NUMA nodes used: 0 1 4 5 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   484.34
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                120444.47
+ Mop/s/process   =                  1881.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   483.51
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                120649.46
+ Mop/s/process   =                  1885.15
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   483.63
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                120619.53
+ Mop/s/process   =                  1884.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by numa --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 16, NUMA node 1
+Rank 2: CPU core 32, NUMA node 2
+Rank 3: CPU core 48, NUMA node 3
+Rank 4: CPU core 64, NUMA node 4
+Rank 5: CPU core 80, NUMA node 5
+Rank 6: CPU core 96, NUMA node 6
+Rank 7: CPU core 112, NUMA node 7
+Rank 8: CPU core 1, NUMA node 0
+Rank 9: CPU core 17, NUMA node 1
+Rank 10: CPU core 33, NUMA node 2
+Rank 11: CPU core 49, NUMA node 3
+Rank 12: CPU core 65, NUMA node 4
+Rank 13: CPU core 81, NUMA node 5
+Rank 14: CPU core 97, NUMA node 6
+Rank 15: CPU core 113, NUMA node 7
+Rank 16: CPU core 2, NUMA node 0
+Rank 17: CPU core 18, NUMA node 1
+Rank 18: CPU core 34, NUMA node 2
+Rank 19: CPU core 50, NUMA node 3
+Rank 20: CPU core 66, NUMA node 4
+Rank 21: CPU core 82, NUMA node 5
+Rank 22: CPU core 98, NUMA node 6
+Rank 23: CPU core 114, NUMA node 7
+Rank 24: CPU core 3, NUMA node 0
+Rank 25: CPU core 19, NUMA node 1
+Rank 26: CPU core 35, NUMA node 2
+Rank 27: CPU core 51, NUMA node 3
+Rank 28: CPU core 67, NUMA node 4
+Rank 29: CPU core 83, NUMA node 5
+Rank 30: CPU core 99, NUMA node 6
+Rank 31: CPU core 115, NUMA node 7
+Rank 32: CPU core 4, NUMA node 0
+Rank 33: CPU core 20, NUMA node 1
+Rank 34: CPU core 36, NUMA node 2
+Rank 35: CPU core 52, NUMA node 3
+Rank 36: CPU core 68, NUMA node 4
+Rank 37: CPU core 84, NUMA node 5
+Rank 38: CPU core 100, NUMA node 6
+Rank 39: CPU core 116, NUMA node 7
+Rank 40: CPU core 5, NUMA node 0
+Rank 41: CPU core 21, NUMA node 1
+Rank 42: CPU core 37, NUMA node 2
+Rank 43: CPU core 53, NUMA node 3
+Rank 44: CPU core 69, NUMA node 4
+Rank 45: CPU core 85, NUMA node 5
+Rank 46: CPU core 101, NUMA node 6
+Rank 47: CPU core 117, NUMA node 7
+Rank 48: CPU core 6, NUMA node 0
+Rank 49: CPU core 22, NUMA node 1
+Rank 50: CPU core 38, NUMA node 2
+Rank 51: CPU core 54, NUMA node 3
+Rank 52: CPU core 70, NUMA node 4
+Rank 53: CPU core 86, NUMA node 5
+Rank 54: CPU core 102, NUMA node 6
+Rank 55: CPU core 118, NUMA node 7
+Rank 56: CPU core 7, NUMA node 0
+Rank 57: CPU core 23, NUMA node 1
+Rank 58: CPU core 39, NUMA node 2
+Rank 59: CPU core 55, NUMA node 3
+Rank 60: CPU core 71, NUMA node 4
+Rank 61: CPU core 87, NUMA node 5
+Rank 62: CPU core 103, NUMA node 6
+Rank 63: CPU core 119, NUMA node 7
+
+===== SUMMARY =====
+
+CPU cores used: 0 16 32 48 64 80 96 112 1 17 33 49 65 81 97 113 2 18 34 50 66 82 98 114 3 19 35 51 67 83 99 115 4 20 36 52 68 84 100 116 5 21 37 53 69 85 101 117 6 22 38 54 70 86 102 118 7 23 39 55 71 87 103 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   334.47
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                174413.60
+ Mop/s/process   =                  2725.21
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   335.16
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                174055.06
+ Mop/s/process   =                  2719.61
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   334.11
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                174602.81
+ Mop/s/process   =                  2728.17
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:8:numa --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 1, NUMA node 0
+Rank 2: CPU core 2, NUMA node 0
+Rank 3: CPU core 3, NUMA node 0
+Rank 4: CPU core 4, NUMA node 0
+Rank 5: CPU core 5, NUMA node 0
+Rank 6: CPU core 6, NUMA node 0
+Rank 7: CPU core 7, NUMA node 0
+Rank 8: CPU core 16, NUMA node 1
+Rank 9: CPU core 17, NUMA node 1
+Rank 10: CPU core 18, NUMA node 1
+Rank 11: CPU core 19, NUMA node 1
+Rank 12: CPU core 20, NUMA node 1
+Rank 13: CPU core 21, NUMA node 1
+Rank 14: CPU core 22, NUMA node 1
+Rank 15: CPU core 23, NUMA node 1
+Rank 16: CPU core 32, NUMA node 2
+Rank 17: CPU core 33, NUMA node 2
+Rank 18: CPU core 34, NUMA node 2
+Rank 19: CPU core 35, NUMA node 2
+Rank 20: CPU core 36, NUMA node 2
+Rank 21: CPU core 37, NUMA node 2
+Rank 22: CPU core 38, NUMA node 2
+Rank 23: CPU core 39, NUMA node 2
+Rank 24: CPU core 48, NUMA node 3
+Rank 25: CPU core 49, NUMA node 3
+Rank 26: CPU core 50, NUMA node 3
+Rank 27: CPU core 51, NUMA node 3
+Rank 28: CPU core 52, NUMA node 3
+Rank 29: CPU core 53, NUMA node 3
+Rank 30: CPU core 54, NUMA node 3
+Rank 31: CPU core 55, NUMA node 3
+Rank 32: CPU core 64, NUMA node 4
+Rank 33: CPU core 65, NUMA node 4
+Rank 34: CPU core 66, NUMA node 4
+Rank 35: CPU core 67, NUMA node 4
+Rank 36: CPU core 68, NUMA node 4
+Rank 37: CPU core 69, NUMA node 4
+Rank 38: CPU core 70, NUMA node 4
+Rank 39: CPU core 71, NUMA node 4
+Rank 40: CPU core 80, NUMA node 5
+Rank 41: CPU core 81, NUMA node 5
+Rank 42: CPU core 82, NUMA node 5
+Rank 43: CPU core 83, NUMA node 5
+Rank 44: CPU core 84, NUMA node 5
+Rank 45: CPU core 85, NUMA node 5
+Rank 46: CPU core 86, NUMA node 5
+Rank 47: CPU core 87, NUMA node 5
+Rank 48: CPU core 96, NUMA node 6
+Rank 49: CPU core 97, NUMA node 6
+Rank 50: CPU core 98, NUMA node 6
+Rank 51: CPU core 99, NUMA node 6
+Rank 52: CPU core 100, NUMA node 6
+Rank 53: CPU core 101, NUMA node 6
+Rank 54: CPU core 102, NUMA node 6
+Rank 55: CPU core 103, NUMA node 6
+Rank 56: CPU core 112, NUMA node 7
+Rank 57: CPU core 113, NUMA node 7
+Rank 58: CPU core 114, NUMA node 7
+Rank 59: CPU core 115, NUMA node 7
+Rank 60: CPU core 116, NUMA node 7
+Rank 61: CPU core 117, NUMA node 7
+Rank 62: CPU core 118, NUMA node 7
+Rank 63: CPU core 119, NUMA node 7
+
+===== SUMMARY =====
+
+CPU cores used: 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 64 65 66 67 68 69 70 71 80 81 82 83 84 85 86 87 96 97 98 99 100 101 102 103 112 113 114 115 116 117 118 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   336.33
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                173447.01
+ Mop/s/process   =                  2710.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   337.30
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                172950.76
+ Mop/s/process   =                  2702.36
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   336.43
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                173397.76
+ Mop/s/process   =                  2709.34
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by L3cache --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 8, NUMA node 0
+Rank 2: CPU core 16, NUMA node 1
+Rank 3: CPU core 24, NUMA node 1
+Rank 4: CPU core 32, NUMA node 2
+Rank 5: CPU core 40, NUMA node 2
+Rank 6: CPU core 48, NUMA node 3
+Rank 7: CPU core 56, NUMA node 3
+Rank 8: CPU core 64, NUMA node 4
+Rank 9: CPU core 72, NUMA node 4
+Rank 10: CPU core 80, NUMA node 5
+Rank 11: CPU core 88, NUMA node 5
+Rank 12: CPU core 96, NUMA node 6
+Rank 13: CPU core 104, NUMA node 6
+Rank 14: CPU core 112, NUMA node 7
+Rank 15: CPU core 120, NUMA node 7
+Rank 16: CPU core 1, NUMA node 0
+Rank 17: CPU core 9, NUMA node 0
+Rank 18: CPU core 17, NUMA node 1
+Rank 19: CPU core 25, NUMA node 1
+Rank 20: CPU core 33, NUMA node 2
+Rank 21: CPU core 41, NUMA node 2
+Rank 22: CPU core 49, NUMA node 3
+Rank 23: CPU core 57, NUMA node 3
+Rank 24: CPU core 65, NUMA node 4
+Rank 25: CPU core 73, NUMA node 4
+Rank 26: CPU core 81, NUMA node 5
+Rank 27: CPU core 89, NUMA node 5
+Rank 28: CPU core 97, NUMA node 6
+Rank 29: CPU core 105, NUMA node 6
+Rank 30: CPU core 113, NUMA node 7
+Rank 31: CPU core 121, NUMA node 7
+Rank 32: CPU core 2, NUMA node 0
+Rank 33: CPU core 10, NUMA node 0
+Rank 34: CPU core 18, NUMA node 1
+Rank 35: CPU core 26, NUMA node 1
+Rank 36: CPU core 34, NUMA node 2
+Rank 37: CPU core 42, NUMA node 2
+Rank 38: CPU core 50, NUMA node 3
+Rank 39: CPU core 58, NUMA node 3
+Rank 40: CPU core 66, NUMA node 4
+Rank 41: CPU core 74, NUMA node 4
+Rank 42: CPU core 82, NUMA node 5
+Rank 43: CPU core 90, NUMA node 5
+Rank 44: CPU core 98, NUMA node 6
+Rank 45: CPU core 106, NUMA node 6
+Rank 46: CPU core 114, NUMA node 7
+Rank 47: CPU core 122, NUMA node 7
+Rank 48: CPU core 3, NUMA node 0
+Rank 49: CPU core 11, NUMA node 0
+Rank 50: CPU core 19, NUMA node 1
+Rank 51: CPU core 27, NUMA node 1
+Rank 52: CPU core 35, NUMA node 2
+Rank 53: CPU core 43, NUMA node 2
+Rank 54: CPU core 51, NUMA node 3
+Rank 55: CPU core 59, NUMA node 3
+Rank 56: CPU core 67, NUMA node 4
+Rank 57: CPU core 75, NUMA node 4
+Rank 58: CPU core 83, NUMA node 5
+Rank 59: CPU core 91, NUMA node 5
+Rank 60: CPU core 99, NUMA node 6
+Rank 61: CPU core 107, NUMA node 6
+Rank 62: CPU core 115, NUMA node 7
+Rank 63: CPU core 123, NUMA node 7
+
+===== SUMMARY =====
+
+CPU cores used: 0 8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 1 9 17 25 33 41 49 57 65 73 81 89 97 105 113 121 2 10 18 26 34 42 50 58 66 74 82 90 98 106 114 122 3 11 19 27 35 43 51 59 67 75 83 91 99 107 115 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   316.80
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                184142.39
+ Mop/s/process   =                  2877.22
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   311.61
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                187206.95
+ Mop/s/process   =                  2925.11
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   322.26
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                181022.97
+ Mop/s/process   =                  2828.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:4:L3cache --bind-to core bt.D.x
+Rank 0: CPU core 0, NUMA node 0
+Rank 1: CPU core 1, NUMA node 0
+Rank 2: CPU core 2, NUMA node 0
+Rank 3: CPU core 3, NUMA node 0
+Rank 4: CPU core 8, NUMA node 0
+Rank 5: CPU core 9, NUMA node 0
+Rank 6: CPU core 10, NUMA node 0
+Rank 7: CPU core 11, NUMA node 0
+Rank 8: CPU core 16, NUMA node 1
+Rank 9: CPU core 17, NUMA node 1
+Rank 10: CPU core 18, NUMA node 1
+Rank 11: CPU core 19, NUMA node 1
+Rank 12: CPU core 24, NUMA node 1
+Rank 13: CPU core 25, NUMA node 1
+Rank 14: CPU core 26, NUMA node 1
+Rank 15: CPU core 27, NUMA node 1
+Rank 16: CPU core 32, NUMA node 2
+Rank 17: CPU core 33, NUMA node 2
+Rank 18: CPU core 34, NUMA node 2
+Rank 19: CPU core 35, NUMA node 2
+Rank 20: CPU core 40, NUMA node 2
+Rank 21: CPU core 41, NUMA node 2
+Rank 22: CPU core 42, NUMA node 2
+Rank 23: CPU core 43, NUMA node 2
+Rank 24: CPU core 48, NUMA node 3
+Rank 25: CPU core 49, NUMA node 3
+Rank 26: CPU core 50, NUMA node 3
+Rank 27: CPU core 51, NUMA node 3
+Rank 28: CPU core 56, NUMA node 3
+Rank 29: CPU core 57, NUMA node 3
+Rank 30: CPU core 58, NUMA node 3
+Rank 31: CPU core 59, NUMA node 3
+Rank 32: CPU core 64, NUMA node 4
+Rank 33: CPU core 65, NUMA node 4
+Rank 34: CPU core 66, NUMA node 4
+Rank 35: CPU core 67, NUMA node 4
+Rank 36: CPU core 72, NUMA node 4
+Rank 37: CPU core 73, NUMA node 4
+Rank 38: CPU core 74, NUMA node 4
+Rank 39: CPU core 75, NUMA node 4
+Rank 40: CPU core 80, NUMA node 5
+Rank 41: CPU core 81, NUMA node 5
+Rank 42: CPU core 82, NUMA node 5
+Rank 43: CPU core 83, NUMA node 5
+Rank 44: CPU core 88, NUMA node 5
+Rank 45: CPU core 89, NUMA node 5
+Rank 46: CPU core 90, NUMA node 5
+Rank 47: CPU core 91, NUMA node 5
+Rank 48: CPU core 96, NUMA node 6
+Rank 49: CPU core 97, NUMA node 6
+Rank 50: CPU core 98, NUMA node 6
+Rank 51: CPU core 99, NUMA node 6
+Rank 52: CPU core 104, NUMA node 6
+Rank 53: CPU core 105, NUMA node 6
+Rank 54: CPU core 106, NUMA node 6
+Rank 55: CPU core 107, NUMA node 6
+Rank 56: CPU core 112, NUMA node 7
+Rank 57: CPU core 113, NUMA node 7
+Rank 58: CPU core 114, NUMA node 7
+Rank 59: CPU core 115, NUMA node 7
+Rank 60: CPU core 120, NUMA node 7
+Rank 61: CPU core 121, NUMA node 7
+Rank 62: CPU core 122, NUMA node 7
+Rank 63: CPU core 123, NUMA node 7
+
+===== SUMMARY =====
+
+CPU cores used: 0 1 2 3 8 9 10 11 16 17 18 19 24 25 26 27 32 33 34 35 40 41 42 43 48 49 50 51 56 57 58 59 64 65 66 67 72 73 74 75 80 81 82 83 88 89 90 91 96 97 98 99 104 105 106 107 112 113 114 115 120 121 122 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   307.77
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                189545.15
+ Mop/s/process   =                  2961.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   307.84
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                189500.81
+ Mop/s/process   =                  2960.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  408x 408x 408  (class D)
+ Iterations:  250    dt:   0.0000200
+ Total number of processes:     64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+ Verification being performed for class D
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2533188551738E+05 0.2533188551738E+05 0.1474901752702E-12
+           2 0.2346393716980E+04 0.2346393716980E+04 0.8643788850424E-13
+           3 0.6294554366904E+04 0.6294554366904E+04 0.4334673983697E-14
+           4 0.5352565376030E+04 0.5352565376030E+04 0.8580835396278E-13
+           5 0.3905864038618E+05 0.3905864038618E+05 0.6538530520591E-13
+ Comparison of RMS-norms of solution error
+           1 0.3100009377557E+03 0.3100009377557E+03 0.1373406191445E-12
+           2 0.2424086324913E+02 0.2424086324913E+02 0.1581370275484E-12
+           3 0.7782212022645E+02 0.7782212022645E+02 0.4053872777553E-13
+           4 0.6835623860116E+02 0.6835623860116E+02 0.3762882153975E-13
+           5 0.6065737200368E+03 0.6065737200368E+03 0.2474004739002E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        D
+ Size            =            408x 408x 408
+ Iterations      =                      250
+ Time in seconds =                   307.87
+ Total processes =                       64
+ Active processes=                       64
+ Mop/s total     =                189481.79
+ Mop/s/process   =                  2960.65
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

@@ -1,0 +1,3083 @@
+### RUN: --map-by ppr:128:node --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 1, NUMA node 0
+Rank 2: Node m07, CPU core 2, NUMA node 0
+Rank 3: Node m07, CPU core 3, NUMA node 0
+Rank 4: Node m07, CPU core 4, NUMA node 0
+Rank 5: Node m07, CPU core 5, NUMA node 0
+Rank 6: Node m07, CPU core 6, NUMA node 0
+Rank 7: Node m07, CPU core 7, NUMA node 0
+Rank 8: Node m07, CPU core 8, NUMA node 0
+Rank 9: Node m07, CPU core 9, NUMA node 0
+Rank 10: Node m07, CPU core 10, NUMA node 0
+Rank 11: Node m07, CPU core 11, NUMA node 0
+Rank 12: Node m07, CPU core 12, NUMA node 0
+Rank 13: Node m07, CPU core 13, NUMA node 0
+Rank 14: Node m07, CPU core 14, NUMA node 0
+Rank 15: Node m07, CPU core 15, NUMA node 0
+Rank 16: Node m07, CPU core 16, NUMA node 1
+Rank 17: Node m07, CPU core 17, NUMA node 1
+Rank 18: Node m07, CPU core 18, NUMA node 1
+Rank 19: Node m07, CPU core 19, NUMA node 1
+Rank 20: Node m07, CPU core 20, NUMA node 1
+Rank 21: Node m07, CPU core 21, NUMA node 1
+Rank 22: Node m07, CPU core 22, NUMA node 1
+Rank 23: Node m07, CPU core 23, NUMA node 1
+Rank 24: Node m07, CPU core 24, NUMA node 1
+Rank 25: Node m07, CPU core 25, NUMA node 1
+Rank 26: Node m07, CPU core 26, NUMA node 1
+Rank 27: Node m07, CPU core 27, NUMA node 1
+Rank 28: Node m07, CPU core 28, NUMA node 1
+Rank 29: Node m07, CPU core 29, NUMA node 1
+Rank 30: Node m07, CPU core 30, NUMA node 1
+Rank 31: Node m07, CPU core 31, NUMA node 1
+Rank 32: Node m07, CPU core 32, NUMA node 2
+Rank 33: Node m07, CPU core 33, NUMA node 2
+Rank 34: Node m07, CPU core 34, NUMA node 2
+Rank 35: Node m07, CPU core 35, NUMA node 2
+Rank 36: Node m07, CPU core 36, NUMA node 2
+Rank 37: Node m07, CPU core 37, NUMA node 2
+Rank 38: Node m07, CPU core 38, NUMA node 2
+Rank 39: Node m07, CPU core 39, NUMA node 2
+Rank 40: Node m07, CPU core 40, NUMA node 2
+Rank 41: Node m07, CPU core 41, NUMA node 2
+Rank 42: Node m07, CPU core 42, NUMA node 2
+Rank 43: Node m07, CPU core 43, NUMA node 2
+Rank 44: Node m07, CPU core 44, NUMA node 2
+Rank 45: Node m07, CPU core 45, NUMA node 2
+Rank 46: Node m07, CPU core 46, NUMA node 2
+Rank 47: Node m07, CPU core 47, NUMA node 2
+Rank 48: Node m07, CPU core 48, NUMA node 3
+Rank 49: Node m07, CPU core 49, NUMA node 3
+Rank 50: Node m07, CPU core 50, NUMA node 3
+Rank 51: Node m07, CPU core 51, NUMA node 3
+Rank 52: Node m07, CPU core 52, NUMA node 3
+Rank 53: Node m07, CPU core 53, NUMA node 3
+Rank 54: Node m07, CPU core 54, NUMA node 3
+Rank 55: Node m07, CPU core 55, NUMA node 3
+Rank 56: Node m07, CPU core 56, NUMA node 3
+Rank 57: Node m07, CPU core 57, NUMA node 3
+Rank 58: Node m07, CPU core 58, NUMA node 3
+Rank 59: Node m07, CPU core 59, NUMA node 3
+Rank 60: Node m07, CPU core 60, NUMA node 3
+Rank 61: Node m07, CPU core 61, NUMA node 3
+Rank 62: Node m07, CPU core 62, NUMA node 3
+Rank 63: Node m07, CPU core 63, NUMA node 3
+Rank 64: Node m07, CPU core 64, NUMA node 4
+Rank 65: Node m07, CPU core 65, NUMA node 4
+Rank 66: Node m07, CPU core 66, NUMA node 4
+Rank 67: Node m07, CPU core 67, NUMA node 4
+Rank 68: Node m07, CPU core 68, NUMA node 4
+Rank 69: Node m07, CPU core 69, NUMA node 4
+Rank 70: Node m07, CPU core 70, NUMA node 4
+Rank 71: Node m07, CPU core 71, NUMA node 4
+Rank 72: Node m07, CPU core 72, NUMA node 4
+Rank 73: Node m07, CPU core 73, NUMA node 4
+Rank 74: Node m07, CPU core 74, NUMA node 4
+Rank 75: Node m07, CPU core 75, NUMA node 4
+Rank 76: Node m07, CPU core 76, NUMA node 4
+Rank 77: Node m07, CPU core 77, NUMA node 4
+Rank 78: Node m07, CPU core 78, NUMA node 4
+Rank 79: Node m07, CPU core 79, NUMA node 4
+Rank 80: Node m07, CPU core 80, NUMA node 5
+Rank 81: Node m07, CPU core 81, NUMA node 5
+Rank 82: Node m07, CPU core 82, NUMA node 5
+Rank 83: Node m07, CPU core 83, NUMA node 5
+Rank 84: Node m07, CPU core 84, NUMA node 5
+Rank 85: Node m07, CPU core 85, NUMA node 5
+Rank 86: Node m07, CPU core 86, NUMA node 5
+Rank 87: Node m07, CPU core 87, NUMA node 5
+Rank 88: Node m07, CPU core 88, NUMA node 5
+Rank 89: Node m07, CPU core 89, NUMA node 5
+Rank 90: Node m07, CPU core 90, NUMA node 5
+Rank 91: Node m07, CPU core 91, NUMA node 5
+Rank 92: Node m07, CPU core 92, NUMA node 5
+Rank 93: Node m07, CPU core 93, NUMA node 5
+Rank 94: Node m07, CPU core 94, NUMA node 5
+Rank 95: Node m07, CPU core 95, NUMA node 5
+Rank 96: Node m07, CPU core 96, NUMA node 6
+Rank 97: Node m07, CPU core 97, NUMA node 6
+Rank 98: Node m07, CPU core 98, NUMA node 6
+Rank 99: Node m07, CPU core 99, NUMA node 6
+Rank 100: Node m07, CPU core 100, NUMA node 6
+Rank 101: Node m07, CPU core 101, NUMA node 6
+Rank 102: Node m07, CPU core 102, NUMA node 6
+Rank 103: Node m07, CPU core 103, NUMA node 6
+Rank 104: Node m07, CPU core 104, NUMA node 6
+Rank 105: Node m07, CPU core 105, NUMA node 6
+Rank 106: Node m07, CPU core 106, NUMA node 6
+Rank 107: Node m07, CPU core 107, NUMA node 6
+Rank 108: Node m07, CPU core 108, NUMA node 6
+Rank 109: Node m07, CPU core 109, NUMA node 6
+Rank 110: Node m07, CPU core 110, NUMA node 6
+Rank 111: Node m07, CPU core 111, NUMA node 6
+Rank 112: Node m07, CPU core 112, NUMA node 7
+Rank 113: Node m07, CPU core 113, NUMA node 7
+Rank 114: Node m07, CPU core 114, NUMA node 7
+Rank 115: Node m07, CPU core 115, NUMA node 7
+Rank 116: Node m07, CPU core 116, NUMA node 7
+Rank 117: Node m07, CPU core 117, NUMA node 7
+Rank 118: Node m07, CPU core 118, NUMA node 7
+Rank 119: Node m07, CPU core 119, NUMA node 7
+Rank 120: Node m07, CPU core 120, NUMA node 7
+Rank 121: Node m07, CPU core 121, NUMA node 7
+Rank 122: Node m07, CPU core 122, NUMA node 7
+Rank 123: Node m07, CPU core 123, NUMA node 7
+Rank 124: Node m07, CPU core 124, NUMA node 7
+Rank 125: Node m07, CPU core 125, NUMA node 7
+Rank 126: Node m07, CPU core 126, NUMA node 7
+Rank 127: Node m07, CPU core 127, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    92.40
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 39426.27
+ Mop/s/process   =                   308.02
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    92.55
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 39363.19
+ Mop/s/process   =                   307.52
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    92.69
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 39303.81
+ Mop/s/process   =                   307.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:64:node --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 1, NUMA node 0
+Rank 2: Node m07, CPU core 2, NUMA node 0
+Rank 3: Node m07, CPU core 3, NUMA node 0
+Rank 4: Node m07, CPU core 4, NUMA node 0
+Rank 5: Node m07, CPU core 5, NUMA node 0
+Rank 6: Node m07, CPU core 6, NUMA node 0
+Rank 8: Node m07, CPU core 8, NUMA node 0
+Rank 7: Node m07, CPU core 7, NUMA node 0
+Rank 9: Node m07, CPU core 9, NUMA node 0
+Rank 10: Node m07, CPU core 10, NUMA node 0
+Rank 11: Node m07, CPU core 11, NUMA node 0
+Rank 12: Node m07, CPU core 12, NUMA node 0
+Rank 13: Node m07, CPU core 13, NUMA node 0
+Rank 14: Node m07, CPU core 14, NUMA node 0
+Rank 15: Node m07, CPU core 15, NUMA node 0
+Rank 16: Node m07, CPU core 16, NUMA node 1
+Rank 17: Node m07, CPU core 17, NUMA node 1
+Rank 18: Node m07, CPU core 18, NUMA node 1
+Rank 19: Node m07, CPU core 19, NUMA node 1
+Rank 20: Node m07, CPU core 20, NUMA node 1
+Rank 21: Node m07, CPU core 21, NUMA node 1
+Rank 22: Node m07, CPU core 22, NUMA node 1
+Rank 23: Node m07, CPU core 23, NUMA node 1
+Rank 24: Node m07, CPU core 24, NUMA node 1
+Rank 25: Node m07, CPU core 25, NUMA node 1
+Rank 26: Node m07, CPU core 26, NUMA node 1
+Rank 27: Node m07, CPU core 27, NUMA node 1
+Rank 28: Node m07, CPU core 28, NUMA node 1
+Rank 29: Node m07, CPU core 29, NUMA node 1
+Rank 30: Node m07, CPU core 30, NUMA node 1
+Rank 31: Node m07, CPU core 31, NUMA node 1
+Rank 32: Node m07, CPU core 32, NUMA node 2
+Rank 33: Node m07, CPU core 33, NUMA node 2
+Rank 34: Node m07, CPU core 34, NUMA node 2
+Rank 35: Node m07, CPU core 35, NUMA node 2
+Rank 36: Node m07, CPU core 36, NUMA node 2
+Rank 37: Node m07, CPU core 37, NUMA node 2
+Rank 38: Node m07, CPU core 38, NUMA node 2
+Rank 39: Node m07, CPU core 39, NUMA node 2
+Rank 40: Node m07, CPU core 40, NUMA node 2
+Rank 41: Node m07, CPU core 41, NUMA node 2
+Rank 42: Node m07, CPU core 42, NUMA node 2
+Rank 43: Node m07, CPU core 43, NUMA node 2
+Rank 44: Node m07, CPU core 44, NUMA node 2
+Rank 45: Node m07, CPU core 45, NUMA node 2
+Rank 46: Node m07, CPU core 46, NUMA node 2
+Rank 47: Node m07, CPU core 47, NUMA node 2
+Rank 48: Node m07, CPU core 48, NUMA node 3
+Rank 49: Node m07, CPU core 49, NUMA node 3
+Rank 50: Node m07, CPU core 50, NUMA node 3
+Rank 51: Node m07, CPU core 51, NUMA node 3
+Rank 52: Node m07, CPU core 52, NUMA node 3
+Rank 53: Node m07, CPU core 53, NUMA node 3
+Rank 54: Node m07, CPU core 54, NUMA node 3
+Rank 55: Node m07, CPU core 55, NUMA node 3
+Rank 56: Node m07, CPU core 56, NUMA node 3
+Rank 57: Node m07, CPU core 57, NUMA node 3
+Rank 58: Node m07, CPU core 58, NUMA node 3
+Rank 59: Node m07, CPU core 59, NUMA node 3
+Rank 60: Node m07, CPU core 60, NUMA node 3
+Rank 61: Node m07, CPU core 61, NUMA node 3
+Rank 62: Node m07, CPU core 62, NUMA node 3
+Rank 63: Node m07, CPU core 63, NUMA node 3
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 65: Node m08, CPU core 1, NUMA node 0
+Rank 66: Node m08, CPU core 2, NUMA node 0
+Rank 67: Node m08, CPU core 3, NUMA node 0
+Rank 68: Node m08, CPU core 4, NUMA node 0
+Rank 69: Node m08, CPU core 5, NUMA node 0
+Rank 70: Node m08, CPU core 6, NUMA node 0
+Rank 71: Node m08, CPU core 7, NUMA node 0
+Rank 72: Node m08, CPU core 8, NUMA node 0
+Rank 73: Node m08, CPU core 9, NUMA node 0
+Rank 74: Node m08, CPU core 10, NUMA node 0
+Rank 75: Node m08, CPU core 11, NUMA node 0
+Rank 76: Node m08, CPU core 12, NUMA node 0
+Rank 77: Node m08, CPU core 13, NUMA node 0
+Rank 78: Node m08, CPU core 14, NUMA node 0
+Rank 79: Node m08, CPU core 15, NUMA node 0
+Rank 80: Node m08, CPU core 16, NUMA node 1
+Rank 81: Node m08, CPU core 17, NUMA node 1
+Rank 82: Node m08, CPU core 18, NUMA node 1
+Rank 83: Node m08, CPU core 19, NUMA node 1
+Rank 84: Node m08, CPU core 20, NUMA node 1
+Rank 85: Node m08, CPU core 21, NUMA node 1
+Rank 86: Node m08, CPU core 22, NUMA node 1
+Rank 87: Node m08, CPU core 23, NUMA node 1
+Rank 88: Node m08, CPU core 24, NUMA node 1
+Rank 89: Node m08, CPU core 25, NUMA node 1
+Rank 90: Node m08, CPU core 26, NUMA node 1
+Rank 91: Node m08, CPU core 27, NUMA node 1
+Rank 92: Node m08, CPU core 28, NUMA node 1
+Rank 93: Node m08, CPU core 29, NUMA node 1
+Rank 94: Node m08, CPU core 30, NUMA node 1
+Rank 95: Node m08, CPU core 31, NUMA node 1
+Rank 96: Node m08, CPU core 32, NUMA node 2
+Rank 97: Node m08, CPU core 33, NUMA node 2
+Rank 98: Node m08, CPU core 34, NUMA node 2
+Rank 99: Node m08, CPU core 35, NUMA node 2
+Rank 100: Node m08, CPU core 36, NUMA node 2
+Rank 101: Node m08, CPU core 37, NUMA node 2
+Rank 102: Node m08, CPU core 38, NUMA node 2
+Rank 103: Node m08, CPU core 39, NUMA node 2
+Rank 104: Node m08, CPU core 40, NUMA node 2
+Rank 105: Node m08, CPU core 41, NUMA node 2
+Rank 106: Node m08, CPU core 42, NUMA node 2
+Rank 107: Node m08, CPU core 43, NUMA node 2
+Rank 108: Node m08, CPU core 44, NUMA node 2
+Rank 109: Node m08, CPU core 45, NUMA node 2
+Rank 110: Node m08, CPU core 46, NUMA node 2
+Rank 111: Node m08, CPU core 47, NUMA node 2
+Rank 112: Node m08, CPU core 48, NUMA node 3
+Rank 113: Node m08, CPU core 49, NUMA node 3
+Rank 114: Node m08, CPU core 50, NUMA node 3
+Rank 115: Node m08, CPU core 51, NUMA node 3
+Rank 116: Node m08, CPU core 52, NUMA node 3
+Rank 117: Node m08, CPU core 53, NUMA node 3
+Rank 118: Node m08, CPU core 54, NUMA node 3
+Rank 119: Node m08, CPU core 55, NUMA node 3
+Rank 120: Node m08, CPU core 56, NUMA node 3
+Rank 121: Node m08, CPU core 57, NUMA node 3
+Rank 122: Node m08, CPU core 58, NUMA node 3
+Rank 123: Node m08, CPU core 59, NUMA node 3
+Rank 124: Node m08, CPU core 60, NUMA node 3
+Rank 125: Node m08, CPU core 61, NUMA node 3
+Rank 126: Node m08, CPU core 62, NUMA node 3
+Rank 127: Node m08, CPU core 63, NUMA node 3
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+----- NODE: m08 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   129.09
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 28219.05
+ Mop/s/process   =                   220.46
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   127.09
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 28665.05
+ Mop/s/process   =                   223.95
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   127.59
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 28550.58
+ Mop/s/process   =                   223.05
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:32:socket --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 1, NUMA node 0
+Rank 2: Node m07, CPU core 2, NUMA node 0
+Rank 3: Node m07, CPU core 3, NUMA node 0
+Rank 4: Node m07, CPU core 4, NUMA node 0
+Rank 5: Node m07, CPU core 5, NUMA node 0
+Rank 6: Node m07, CPU core 6, NUMA node 0
+Rank 7: Node m07, CPU core 7, NUMA node 0
+Rank 8: Node m07, CPU core 8, NUMA node 0
+Rank 9: Node m07, CPU core 9, NUMA node 0
+Rank 10: Node m07, CPU core 10, NUMA node 0
+Rank 11: Node m07, CPU core 11, NUMA node 0
+Rank 12: Node m07, CPU core 12, NUMA node 0
+Rank 13: Node m07, CPU core 13, NUMA node 0
+Rank 14: Node m07, CPU core 14, NUMA node 0
+Rank 15: Node m07, CPU core 15, NUMA node 0
+Rank 16: Node m07, CPU core 16, NUMA node 1
+Rank 17: Node m07, CPU core 17, NUMA node 1
+Rank 18: Node m07, CPU core 18, NUMA node 1
+Rank 19: Node m07, CPU core 19, NUMA node 1
+Rank 20: Node m07, CPU core 20, NUMA node 1
+Rank 21: Node m07, CPU core 21, NUMA node 1
+Rank 22: Node m07, CPU core 22, NUMA node 1
+Rank 23: Node m07, CPU core 23, NUMA node 1
+Rank 24: Node m07, CPU core 24, NUMA node 1
+Rank 25: Node m07, CPU core 25, NUMA node 1
+Rank 26: Node m07, CPU core 26, NUMA node 1
+Rank 27: Node m07, CPU core 27, NUMA node 1
+Rank 28: Node m07, CPU core 28, NUMA node 1
+Rank 29: Node m07, CPU core 29, NUMA node 1
+Rank 30: Node m07, CPU core 30, NUMA node 1
+Rank 31: Node m07, CPU core 31, NUMA node 1
+Rank 32: Node m07, CPU core 64, NUMA node 4
+Rank 33: Node m07, CPU core 65, NUMA node 4
+Rank 34: Node m07, CPU core 66, NUMA node 4
+Rank 35: Node m07, CPU core 67, NUMA node 4
+Rank 36: Node m07, CPU core 68, NUMA node 4
+Rank 37: Node m07, CPU core 69, NUMA node 4
+Rank 38: Node m07, CPU core 70, NUMA node 4
+Rank 39: Node m07, CPU core 71, NUMA node 4
+Rank 40: Node m07, CPU core 72, NUMA node 4
+Rank 41: Node m07, CPU core 73, NUMA node 4
+Rank 42: Node m07, CPU core 74, NUMA node 4
+Rank 43: Node m07, CPU core 75, NUMA node 4
+Rank 44: Node m07, CPU core 76, NUMA node 4
+Rank 45: Node m07, CPU core 77, NUMA node 4
+Rank 46: Node m07, CPU core 78, NUMA node 4
+Rank 47: Node m07, CPU core 79, NUMA node 4
+Rank 48: Node m07, CPU core 80, NUMA node 5
+Rank 49: Node m07, CPU core 81, NUMA node 5
+Rank 50: Node m07, CPU core 82, NUMA node 5
+Rank 51: Node m07, CPU core 83, NUMA node 5
+Rank 52: Node m07, CPU core 84, NUMA node 5
+Rank 53: Node m07, CPU core 85, NUMA node 5
+Rank 54: Node m07, CPU core 86, NUMA node 5
+Rank 55: Node m07, CPU core 87, NUMA node 5
+Rank 56: Node m07, CPU core 88, NUMA node 5
+Rank 57: Node m07, CPU core 89, NUMA node 5
+Rank 58: Node m07, CPU core 90, NUMA node 5
+Rank 59: Node m07, CPU core 91, NUMA node 5
+Rank 60: Node m07, CPU core 92, NUMA node 5
+Rank 61: Node m07, CPU core 93, NUMA node 5
+Rank 62: Node m07, CPU core 94, NUMA node 5
+Rank 63: Node m07, CPU core 95, NUMA node 5
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 65: Node m08, CPU core 1, NUMA node 0
+Rank 66: Node m08, CPU core 2, NUMA node 0
+Rank 67: Node m08, CPU core 3, NUMA node 0
+Rank 68: Node m08, CPU core 4, NUMA node 0
+Rank 69: Node m08, CPU core 5, NUMA node 0
+Rank 70: Node m08, CPU core 6, NUMA node 0
+Rank 71: Node m08, CPU core 7, NUMA node 0
+Rank 72: Node m08, CPU core 8, NUMA node 0
+Rank 73: Node m08, CPU core 9, NUMA node 0
+Rank 74: Node m08, CPU core 10, NUMA node 0
+Rank 75: Node m08, CPU core 11, NUMA node 0
+Rank 76: Node m08, CPU core 12, NUMA node 0
+Rank 77: Node m08, CPU core 13, NUMA node 0
+Rank 78: Node m08, CPU core 14, NUMA node 0
+Rank 79: Node m08, CPU core 15, NUMA node 0
+Rank 80: Node m08, CPU core 16, NUMA node 1
+Rank 81: Node m08, CPU core 17, NUMA node 1
+Rank 82: Node m08, CPU core 18, NUMA node 1
+Rank 83: Node m08, CPU core 19, NUMA node 1
+Rank 84: Node m08, CPU core 20, NUMA node 1
+Rank 85: Node m08, CPU core 21, NUMA node 1
+Rank 86: Node m08, CPU core 22, NUMA node 1
+Rank 87: Node m08, CPU core 23, NUMA node 1
+Rank 88: Node m08, CPU core 24, NUMA node 1
+Rank 89: Node m08, CPU core 25, NUMA node 1
+Rank 90: Node m08, CPU core 26, NUMA node 1
+Rank 91: Node m08, CPU core 27, NUMA node 1
+Rank 92: Node m08, CPU core 28, NUMA node 1
+Rank 93: Node m08, CPU core 29, NUMA node 1
+Rank 94: Node m08, CPU core 30, NUMA node 1
+Rank 95: Node m08, CPU core 31, NUMA node 1
+Rank 96: Node m08, CPU core 64, NUMA node 4
+Rank 97: Node m08, CPU core 65, NUMA node 4
+Rank 98: Node m08, CPU core 66, NUMA node 4
+Rank 99: Node m08, CPU core 67, NUMA node 4
+Rank 100: Node m08, CPU core 68, NUMA node 4
+Rank 101: Node m08, CPU core 69, NUMA node 4
+Rank 102: Node m08, CPU core 70, NUMA node 4
+Rank 103: Node m08, CPU core 71, NUMA node 4
+Rank 104: Node m08, CPU core 72, NUMA node 4
+Rank 105: Node m08, CPU core 73, NUMA node 4
+Rank 106: Node m08, CPU core 74, NUMA node 4
+Rank 107: Node m08, CPU core 75, NUMA node 4
+Rank 108: Node m08, CPU core 76, NUMA node 4
+Rank 109: Node m08, CPU core 77, NUMA node 4
+Rank 110: Node m08, CPU core 78, NUMA node 4
+Rank 111: Node m08, CPU core 79, NUMA node 4
+Rank 112: Node m08, CPU core 80, NUMA node 5
+Rank 113: Node m08, CPU core 81, NUMA node 5
+Rank 114: Node m08, CPU core 82, NUMA node 5
+Rank 115: Node m08, CPU core 83, NUMA node 5
+Rank 116: Node m08, CPU core 84, NUMA node 5
+Rank 117: Node m08, CPU core 85, NUMA node 5
+Rank 118: Node m08, CPU core 86, NUMA node 5
+Rank 119: Node m08, CPU core 87, NUMA node 5
+Rank 120: Node m08, CPU core 88, NUMA node 5
+Rank 122: Node m08, CPU core 90, NUMA node 5
+Rank 121: Node m08, CPU core 89, NUMA node 5
+Rank 123: Node m08, CPU core 91, NUMA node 5
+Rank 124: Node m08, CPU core 92, NUMA node 5
+Rank 125: Node m08, CPU core 93, NUMA node 5
+Rank 126: Node m08, CPU core 94, NUMA node 5
+Rank 127: Node m08, CPU core 95, NUMA node 5
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+NUMA nodes used: 0 1 4 5 
+
+----- NODE: m08 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 
+NUMA nodes used: 0 1 4 5 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   123.28
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 29550.68
+ Mop/s/process   =                   230.86
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   123.30
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 29546.00
+ Mop/s/process   =                   230.83
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   124.13
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 29347.29
+ Mop/s/process   =                   229.28
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:8:numa --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 1, NUMA node 0
+Rank 2: Node m07, CPU core 2, NUMA node 0
+Rank 3: Node m07, CPU core 3, NUMA node 0
+Rank 4: Node m07, CPU core 4, NUMA node 0
+Rank 5: Node m07, CPU core 5, NUMA node 0
+Rank 6: Node m07, CPU core 6, NUMA node 0
+Rank 7: Node m07, CPU core 7, NUMA node 0
+Rank 8: Node m07, CPU core 16, NUMA node 1
+Rank 9: Node m07, CPU core 17, NUMA node 1
+Rank 10: Node m07, CPU core 18, NUMA node 1
+Rank 11: Node m07, CPU core 19, NUMA node 1
+Rank 12: Node m07, CPU core 20, NUMA node 1
+Rank 13: Node m07, CPU core 21, NUMA node 1
+Rank 14: Node m07, CPU core 22, NUMA node 1
+Rank 15: Node m07, CPU core 23, NUMA node 1
+Rank 16: Node m07, CPU core 32, NUMA node 2
+Rank 17: Node m07, CPU core 33, NUMA node 2
+Rank 18: Node m07, CPU core 34, NUMA node 2
+Rank 19: Node m07, CPU core 35, NUMA node 2
+Rank 20: Node m07, CPU core 36, NUMA node 2
+Rank 21: Node m07, CPU core 37, NUMA node 2
+Rank 22: Node m07, CPU core 38, NUMA node 2
+Rank 23: Node m07, CPU core 39, NUMA node 2
+Rank 24: Node m07, CPU core 48, NUMA node 3
+Rank 25: Node m07, CPU core 49, NUMA node 3
+Rank 26: Node m07, CPU core 50, NUMA node 3
+Rank 27: Node m07, CPU core 51, NUMA node 3
+Rank 28: Node m07, CPU core 52, NUMA node 3
+Rank 29: Node m07, CPU core 53, NUMA node 3
+Rank 30: Node m07, CPU core 54, NUMA node 3
+Rank 31: Node m07, CPU core 55, NUMA node 3
+Rank 32: Node m07, CPU core 64, NUMA node 4
+Rank 33: Node m07, CPU core 65, NUMA node 4
+Rank 34: Node m07, CPU core 66, NUMA node 4
+Rank 35: Node m07, CPU core 67, NUMA node 4
+Rank 36: Node m07, CPU core 68, NUMA node 4
+Rank 37: Node m07, CPU core 69, NUMA node 4
+Rank 38: Node m07, CPU core 70, NUMA node 4
+Rank 39: Node m07, CPU core 71, NUMA node 4
+Rank 40: Node m07, CPU core 80, NUMA node 5
+Rank 41: Node m07, CPU core 81, NUMA node 5
+Rank 42: Node m07, CPU core 82, NUMA node 5
+Rank 43: Node m07, CPU core 83, NUMA node 5
+Rank 44: Node m07, CPU core 84, NUMA node 5
+Rank 45: Node m07, CPU core 85, NUMA node 5
+Rank 46: Node m07, CPU core 86, NUMA node 5
+Rank 47: Node m07, CPU core 87, NUMA node 5
+Rank 48: Node m07, CPU core 96, NUMA node 6
+Rank 49: Node m07, CPU core 97, NUMA node 6
+Rank 50: Node m07, CPU core 98, NUMA node 6
+Rank 51: Node m07, CPU core 99, NUMA node 6
+Rank 52: Node m07, CPU core 100, NUMA node 6
+Rank 53: Node m07, CPU core 101, NUMA node 6
+Rank 54: Node m07, CPU core 102, NUMA node 6
+Rank 55: Node m07, CPU core 103, NUMA node 6
+Rank 56: Node m07, CPU core 112, NUMA node 7
+Rank 57: Node m07, CPU core 113, NUMA node 7
+Rank 58: Node m07, CPU core 114, NUMA node 7
+Rank 59: Node m07, CPU core 115, NUMA node 7
+Rank 60: Node m07, CPU core 116, NUMA node 7
+Rank 61: Node m07, CPU core 117, NUMA node 7
+Rank 62: Node m07, CPU core 118, NUMA node 7
+Rank 63: Node m07, CPU core 119, NUMA node 7
+Rank 65: Node m08, CPU core 1, NUMA node 0
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 66: Node m08, CPU core 2, NUMA node 0
+Rank 67: Node m08, CPU core 3, NUMA node 0
+Rank 68: Node m08, CPU core 4, NUMA node 0
+Rank 69: Node m08, CPU core 5, NUMA node 0
+Rank 70: Node m08, CPU core 6, NUMA node 0
+Rank 71: Node m08, CPU core 7, NUMA node 0
+Rank 72: Node m08, CPU core 16, NUMA node 1
+Rank 73: Node m08, CPU core 17, NUMA node 1
+Rank 74: Node m08, CPU core 18, NUMA node 1
+Rank 75: Node m08, CPU core 19, NUMA node 1
+Rank 76: Node m08, CPU core 20, NUMA node 1
+Rank 77: Node m08, CPU core 21, NUMA node 1
+Rank 78: Node m08, CPU core 22, NUMA node 1
+Rank 79: Node m08, CPU core 23, NUMA node 1
+Rank 80: Node m08, CPU core 32, NUMA node 2
+Rank 81: Node m08, CPU core 33, NUMA node 2
+Rank 82: Node m08, CPU core 34, NUMA node 2
+Rank 83: Node m08, CPU core 35, NUMA node 2
+Rank 84: Node m08, CPU core 36, NUMA node 2
+Rank 85: Node m08, CPU core 37, NUMA node 2
+Rank 86: Node m08, CPU core 38, NUMA node 2
+Rank 87: Node m08, CPU core 39, NUMA node 2
+Rank 88: Node m08, CPU core 48, NUMA node 3
+Rank 89: Node m08, CPU core 49, NUMA node 3
+Rank 90: Node m08, CPU core 50, NUMA node 3
+Rank 91: Node m08, CPU core 51, NUMA node 3
+Rank 92: Node m08, CPU core 52, NUMA node 3
+Rank 93: Node m08, CPU core 53, NUMA node 3
+Rank 94: Node m08, CPU core 54, NUMA node 3
+Rank 95: Node m08, CPU core 55, NUMA node 3
+Rank 96: Node m08, CPU core 64, NUMA node 4
+Rank 97: Node m08, CPU core 65, NUMA node 4
+Rank 98: Node m08, CPU core 66, NUMA node 4
+Rank 99: Node m08, CPU core 67, NUMA node 4
+Rank 100: Node m08, CPU core 68, NUMA node 4
+Rank 101: Node m08, CPU core 69, NUMA node 4
+Rank 102: Node m08, CPU core 70, NUMA node 4
+Rank 103: Node m08, CPU core 71, NUMA node 4
+Rank 104: Node m08, CPU core 80, NUMA node 5
+Rank 105: Node m08, CPU core 81, NUMA node 5
+Rank 106: Node m08, CPU core 82, NUMA node 5
+Rank 107: Node m08, CPU core 83, NUMA node 5
+Rank 108: Node m08, CPU core 84, NUMA node 5
+Rank 109: Node m08, CPU core 85, NUMA node 5
+Rank 110: Node m08, CPU core 86, NUMA node 5
+Rank 111: Node m08, CPU core 87, NUMA node 5
+Rank 112: Node m08, CPU core 96, NUMA node 6
+Rank 113: Node m08, CPU core 97, NUMA node 6
+Rank 114: Node m08, CPU core 98, NUMA node 6
+Rank 115: Node m08, CPU core 99, NUMA node 6
+Rank 116: Node m08, CPU core 100, NUMA node 6
+Rank 117: Node m08, CPU core 101, NUMA node 6
+Rank 118: Node m08, CPU core 102, NUMA node 6
+Rank 119: Node m08, CPU core 103, NUMA node 6
+Rank 120: Node m08, CPU core 112, NUMA node 7
+Rank 121: Node m08, CPU core 113, NUMA node 7
+Rank 122: Node m08, CPU core 114, NUMA node 7
+Rank 123: Node m08, CPU core 115, NUMA node 7
+Rank 124: Node m08, CPU core 116, NUMA node 7
+Rank 125: Node m08, CPU core 117, NUMA node 7
+Rank 126: Node m08, CPU core 118, NUMA node 7
+Rank 127: Node m08, CPU core 119, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 64 65 66 67 68 69 70 71 80 81 82 83 84 85 86 87 96 97 98 99 100 101 102 103 112 113 114 115 116 117 118 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m08 -----
+CPU cores used: 0 1 2 3 4 5 6 7 16 17 18 19 20 21 22 23 32 33 34 35 36 37 38 39 48 49 50 51 52 53 54 55 64 65 66 67 68 69 70 71 80 81 82 83 84 85 86 87 96 97 98 99 100 101 102 103 112 113 114 115 116 117 118 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    72.93
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 49950.84
+ Mop/s/process   =                   390.24
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    73.04
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 49873.79
+ Mop/s/process   =                   389.64
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    72.92
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 49959.67
+ Mop/s/process   =                   390.31
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by ppr:4:L3cache --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 1, NUMA node 0
+Rank 2: Node m07, CPU core 2, NUMA node 0
+Rank 3: Node m07, CPU core 3, NUMA node 0
+Rank 4: Node m07, CPU core 8, NUMA node 0
+Rank 5: Node m07, CPU core 9, NUMA node 0
+Rank 6: Node m07, CPU core 10, NUMA node 0
+Rank 7: Node m07, CPU core 11, NUMA node 0
+Rank 8: Node m07, CPU core 16, NUMA node 1
+Rank 9: Node m07, CPU core 17, NUMA node 1
+Rank 10: Node m07, CPU core 18, NUMA node 1
+Rank 11: Node m07, CPU core 19, NUMA node 1
+Rank 12: Node m07, CPU core 24, NUMA node 1
+Rank 13: Node m07, CPU core 25, NUMA node 1
+Rank 14: Node m07, CPU core 26, NUMA node 1
+Rank 15: Node m07, CPU core 27, NUMA node 1
+Rank 16: Node m07, CPU core 32, NUMA node 2
+Rank 17: Node m07, CPU core 33, NUMA node 2
+Rank 18: Node m07, CPU core 34, NUMA node 2
+Rank 19: Node m07, CPU core 35, NUMA node 2
+Rank 20: Node m07, CPU core 40, NUMA node 2
+Rank 21: Node m07, CPU core 41, NUMA node 2
+Rank 22: Node m07, CPU core 42, NUMA node 2
+Rank 23: Node m07, CPU core 43, NUMA node 2
+Rank 24: Node m07, CPU core 48, NUMA node 3
+Rank 25: Node m07, CPU core 49, NUMA node 3
+Rank 26: Node m07, CPU core 50, NUMA node 3
+Rank 27: Node m07, CPU core 51, NUMA node 3
+Rank 28: Node m07, CPU core 56, NUMA node 3
+Rank 29: Node m07, CPU core 57, NUMA node 3
+Rank 30: Node m07, CPU core 58, NUMA node 3
+Rank 31: Node m07, CPU core 59, NUMA node 3
+Rank 32: Node m07, CPU core 64, NUMA node 4
+Rank 33: Node m07, CPU core 65, NUMA node 4
+Rank 34: Node m07, CPU core 66, NUMA node 4
+Rank 35: Node m07, CPU core 67, NUMA node 4
+Rank 36: Node m07, CPU core 72, NUMA node 4
+Rank 37: Node m07, CPU core 73, NUMA node 4
+Rank 38: Node m07, CPU core 74, NUMA node 4
+Rank 39: Node m07, CPU core 75, NUMA node 4
+Rank 40: Node m07, CPU core 80, NUMA node 5
+Rank 41: Node m07, CPU core 81, NUMA node 5
+Rank 42: Node m07, CPU core 82, NUMA node 5
+Rank 43: Node m07, CPU core 83, NUMA node 5
+Rank 44: Node m07, CPU core 88, NUMA node 5
+Rank 45: Node m07, CPU core 89, NUMA node 5
+Rank 46: Node m07, CPU core 90, NUMA node 5
+Rank 47: Node m07, CPU core 91, NUMA node 5
+Rank 48: Node m07, CPU core 96, NUMA node 6
+Rank 49: Node m07, CPU core 97, NUMA node 6
+Rank 50: Node m07, CPU core 98, NUMA node 6
+Rank 51: Node m07, CPU core 99, NUMA node 6
+Rank 52: Node m07, CPU core 104, NUMA node 6
+Rank 53: Node m07, CPU core 105, NUMA node 6
+Rank 54: Node m07, CPU core 106, NUMA node 6
+Rank 55: Node m07, CPU core 107, NUMA node 6
+Rank 56: Node m07, CPU core 112, NUMA node 7
+Rank 57: Node m07, CPU core 113, NUMA node 7
+Rank 58: Node m07, CPU core 114, NUMA node 7
+Rank 59: Node m07, CPU core 115, NUMA node 7
+Rank 60: Node m07, CPU core 120, NUMA node 7
+Rank 61: Node m07, CPU core 121, NUMA node 7
+Rank 62: Node m07, CPU core 122, NUMA node 7
+Rank 63: Node m07, CPU core 123, NUMA node 7
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 65: Node m08, CPU core 1, NUMA node 0
+Rank 66: Node m08, CPU core 2, NUMA node 0
+Rank 67: Node m08, CPU core 3, NUMA node 0
+Rank 68: Node m08, CPU core 8, NUMA node 0
+Rank 69: Node m08, CPU core 9, NUMA node 0
+Rank 70: Node m08, CPU core 10, NUMA node 0
+Rank 71: Node m08, CPU core 11, NUMA node 0
+Rank 72: Node m08, CPU core 16, NUMA node 1
+Rank 73: Node m08, CPU core 17, NUMA node 1
+Rank 74: Node m08, CPU core 18, NUMA node 1
+Rank 75: Node m08, CPU core 19, NUMA node 1
+Rank 76: Node m08, CPU core 24, NUMA node 1
+Rank 77: Node m08, CPU core 25, NUMA node 1
+Rank 78: Node m08, CPU core 26, NUMA node 1
+Rank 79: Node m08, CPU core 27, NUMA node 1
+Rank 80: Node m08, CPU core 32, NUMA node 2
+Rank 81: Node m08, CPU core 33, NUMA node 2
+Rank 82: Node m08, CPU core 34, NUMA node 2
+Rank 83: Node m08, CPU core 35, NUMA node 2
+Rank 84: Node m08, CPU core 40, NUMA node 2
+Rank 85: Node m08, CPU core 41, NUMA node 2
+Rank 86: Node m08, CPU core 42, NUMA node 2
+Rank 87: Node m08, CPU core 43, NUMA node 2
+Rank 88: Node m08, CPU core 48, NUMA node 3
+Rank 89: Node m08, CPU core 49, NUMA node 3
+Rank 90: Node m08, CPU core 50, NUMA node 3
+Rank 91: Node m08, CPU core 51, NUMA node 3
+Rank 92: Node m08, CPU core 56, NUMA node 3
+Rank 93: Node m08, CPU core 57, NUMA node 3
+Rank 94: Node m08, CPU core 58, NUMA node 3
+Rank 95: Node m08, CPU core 59, NUMA node 3
+Rank 96: Node m08, CPU core 64, NUMA node 4
+Rank 97: Node m08, CPU core 65, NUMA node 4
+Rank 98: Node m08, CPU core 66, NUMA node 4
+Rank 99: Node m08, CPU core 67, NUMA node 4
+Rank 100: Node m08, CPU core 72, NUMA node 4
+Rank 101: Node m08, CPU core 73, NUMA node 4
+Rank 102: Node m08, CPU core 74, NUMA node 4
+Rank 103: Node m08, CPU core 75, NUMA node 4
+Rank 104: Node m08, CPU core 80, NUMA node 5
+Rank 105: Node m08, CPU core 81, NUMA node 5
+Rank 106: Node m08, CPU core 82, NUMA node 5
+Rank 107: Node m08, CPU core 83, NUMA node 5
+Rank 108: Node m08, CPU core 88, NUMA node 5
+Rank 109: Node m08, CPU core 89, NUMA node 5
+Rank 110: Node m08, CPU core 90, NUMA node 5
+Rank 111: Node m08, CPU core 91, NUMA node 5
+Rank 112: Node m08, CPU core 96, NUMA node 6
+Rank 113: Node m08, CPU core 97, NUMA node 6
+Rank 114: Node m08, CPU core 98, NUMA node 6
+Rank 115: Node m08, CPU core 99, NUMA node 6
+Rank 116: Node m08, CPU core 104, NUMA node 6
+Rank 117: Node m08, CPU core 105, NUMA node 6
+Rank 118: Node m08, CPU core 106, NUMA node 6
+Rank 119: Node m08, CPU core 107, NUMA node 6
+Rank 120: Node m08, CPU core 112, NUMA node 7
+Rank 121: Node m08, CPU core 113, NUMA node 7
+Rank 122: Node m08, CPU core 114, NUMA node 7
+Rank 123: Node m08, CPU core 115, NUMA node 7
+Rank 124: Node m08, CPU core 120, NUMA node 7
+Rank 125: Node m08, CPU core 121, NUMA node 7
+Rank 126: Node m08, CPU core 122, NUMA node 7
+Rank 127: Node m08, CPU core 123, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 1 2 3 8 9 10 11 16 17 18 19 24 25 26 27 32 33 34 35 40 41 42 43 48 49 50 51 56 57 58 59 64 65 66 67 72 73 74 75 80 81 82 83 88 89 90 91 96 97 98 99 104 105 106 107 112 113 114 115 120 121 122 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m08 -----
+CPU cores used: 0 1 2 3 8 9 10 11 16 17 18 19 24 25 26 27 32 33 34 35 40 41 42 43 48 49 50 51 56 57 58 59 64 65 66 67 72 73 74 75 80 81 82 83 88 89 90 91 96 97 98 99 104 105 106 107 112 113 114 115 120 121 122 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    64.28
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 56671.75
+ Mop/s/process   =                   442.75
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    64.36
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 56598.76
+ Mop/s/process   =                   442.18
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    64.28
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 56670.52
+ Mop/s/process   =                   442.74
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by node -N 64 --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 2: Node m07, CPU core 1, NUMA node 0
+Rank 1: Node m08, CPU core 0, NUMA node 0
+Rank 4: Node m07, CPU core 2, NUMA node 0
+Rank 3: Node m08, CPU core 1, NUMA node 0
+Rank 6: Node m07, CPU core 3, NUMA node 0
+Rank 5: Node m08, CPU core 2, NUMA node 0
+Rank 8: Node m07, CPU core 4, NUMA node 0
+Rank 7: Node m08, CPU core 3, NUMA node 0
+Rank 10: Node m07, CPU core 5, NUMA node 0
+Rank 9: Node m08, CPU core 4, NUMA node 0
+Rank 12: Node m07, CPU core 6, NUMA node 0
+Rank 11: Node m08, CPU core 5, NUMA node 0
+Rank 14: Node m07, CPU core 7, NUMA node 0
+Rank 13: Node m08, CPU core 6, NUMA node 0
+Rank 15: Node m08, CPU core 7, NUMA node 0
+Rank 16: Node m07, CPU core 8, NUMA node 0
+Rank 18: Node m07, CPU core 9, NUMA node 0
+Rank 20: Node m07, CPU core 10, NUMA node 0
+Rank 17: Node m08, CPU core 8, NUMA node 0
+Rank 19: Node m08, CPU core 9, NUMA node 0
+Rank 22: Node m07, CPU core 11, NUMA node 0
+Rank 21: Node m08, CPU core 10, NUMA node 0
+Rank 24: Node m07, CPU core 12, NUMA node 0
+Rank 26: Node m07, CPU core 13, NUMA node 0
+Rank 23: Node m08, CPU core 11, NUMA node 0
+Rank 28: Node m07, CPU core 14, NUMA node 0
+Rank 30: Node m07, CPU core 15, NUMA node 0
+Rank 25: Node m08, CPU core 12, NUMA node 0
+Rank 32: Node m07, CPU core 16, NUMA node 1
+Rank 27: Node m08, CPU core 13, NUMA node 0
+Rank 34: Node m07, CPU core 17, NUMA node 1
+Rank 29: Node m08, CPU core 14, NUMA node 0
+Rank 31: Node m08, CPU core 15, NUMA node 0
+Rank 36: Node m07, CPU core 18, NUMA node 1
+Rank 33: Node m08, CPU core 16, NUMA node 1
+Rank 38: Node m07, CPU core 19, NUMA node 1
+Rank 35: Node m08, CPU core 17, NUMA node 1
+Rank 40: Node m07, CPU core 20, NUMA node 1
+Rank 37: Node m08, CPU core 18, NUMA node 1
+Rank 39: Node m08, CPU core 19, NUMA node 1
+Rank 42: Node m07, CPU core 21, NUMA node 1
+Rank 41: Node m08, CPU core 20, NUMA node 1
+Rank 44: Node m07, CPU core 22, NUMA node 1
+Rank 46: Node m07, CPU core 23, NUMA node 1
+Rank 43: Node m08, CPU core 21, NUMA node 1
+Rank 48: Node m07, CPU core 24, NUMA node 1
+Rank 45: Node m08, CPU core 22, NUMA node 1
+Rank 50: Node m07, CPU core 25, NUMA node 1
+Rank 47: Node m08, CPU core 23, NUMA node 1
+Rank 52: Node m07, CPU core 26, NUMA node 1
+Rank 49: Node m08, CPU core 24, NUMA node 1
+Rank 54: Node m07, CPU core 27, NUMA node 1
+Rank 51: Node m08, CPU core 25, NUMA node 1
+Rank 56: Node m07, CPU core 28, NUMA node 1
+Rank 53: Node m08, CPU core 26, NUMA node 1
+Rank 58: Node m07, CPU core 29, NUMA node 1
+Rank 55: Node m08, CPU core 27, NUMA node 1
+Rank 60: Node m07, CPU core 30, NUMA node 1
+Rank 57: Node m08, CPU core 28, NUMA node 1
+Rank 62: Node m07, CPU core 31, NUMA node 1
+Rank 59: Node m08, CPU core 29, NUMA node 1
+Rank 64: Node m07, CPU core 32, NUMA node 2
+Rank 61: Node m08, CPU core 30, NUMA node 1
+Rank 66: Node m07, CPU core 33, NUMA node 2
+Rank 63: Node m08, CPU core 31, NUMA node 1
+Rank 68: Node m07, CPU core 34, NUMA node 2
+Rank 65: Node m08, CPU core 32, NUMA node 2
+Rank 70: Node m07, CPU core 35, NUMA node 2
+Rank 67: Node m08, CPU core 33, NUMA node 2
+Rank 72: Node m07, CPU core 36, NUMA node 2
+Rank 69: Node m08, CPU core 34, NUMA node 2
+Rank 74: Node m07, CPU core 37, NUMA node 2
+Rank 71: Node m08, CPU core 35, NUMA node 2
+Rank 76: Node m07, CPU core 38, NUMA node 2
+Rank 73: Node m08, CPU core 36, NUMA node 2
+Rank 75: Node m08, CPU core 37, NUMA node 2
+Rank 78: Node m07, CPU core 39, NUMA node 2
+Rank 80: Node m07, CPU core 40, NUMA node 2
+Rank 77: Node m08, CPU core 38, NUMA node 2
+Rank 82: Node m07, CPU core 41, NUMA node 2
+Rank 79: Node m08, CPU core 39, NUMA node 2
+Rank 84: Node m07, CPU core 42, NUMA node 2
+Rank 81: Node m08, CPU core 40, NUMA node 2
+Rank 86: Node m07, CPU core 43, NUMA node 2
+Rank 83: Node m08, CPU core 41, NUMA node 2
+Rank 88: Node m07, CPU core 44, NUMA node 2
+Rank 85: Node m08, CPU core 42, NUMA node 2
+Rank 90: Node m07, CPU core 45, NUMA node 2
+Rank 87: Node m08, CPU core 43, NUMA node 2
+Rank 89: Node m08, CPU core 44, NUMA node 2
+Rank 91: Node m08, CPU core 45, NUMA node 2
+Rank 92: Node m07, CPU core 46, NUMA node 2
+Rank 94: Node m07, CPU core 47, NUMA node 2
+Rank 96: Node m07, CPU core 48, NUMA node 3
+Rank 93: Node m08, CPU core 46, NUMA node 2
+Rank 95: Node m08, CPU core 47, NUMA node 2
+Rank 98: Node m07, CPU core 49, NUMA node 3
+Rank 97: Node m08, CPU core 48, NUMA node 3
+Rank 100: Node m07, CPU core 50, NUMA node 3
+Rank 99: Node m08, CPU core 49, NUMA node 3
+Rank 102: Node m07, CPU core 51, NUMA node 3
+Rank 104: Node m07, CPU core 52, NUMA node 3
+Rank 101: Node m08, CPU core 50, NUMA node 3
+Rank 103: Node m08, CPU core 51, NUMA node 3
+Rank 106: Node m07, CPU core 53, NUMA node 3
+Rank 105: Node m08, CPU core 52, NUMA node 3
+Rank 108: Node m07, CPU core 54, NUMA node 3
+Rank 110: Node m07, CPU core 55, NUMA node 3
+Rank 107: Node m08, CPU core 53, NUMA node 3
+Rank 112: Node m07, CPU core 56, NUMA node 3
+Rank 114: Node m07, CPU core 57, NUMA node 3
+Rank 109: Node m08, CPU core 54, NUMA node 3
+Rank 111: Node m08, CPU core 55, NUMA node 3
+Rank 113: Node m08, CPU core 56, NUMA node 3
+Rank 116: Node m07, CPU core 58, NUMA node 3
+Rank 115: Node m08, CPU core 57, NUMA node 3
+Rank 118: Node m07, CPU core 59, NUMA node 3
+Rank 120: Node m07, CPU core 60, NUMA node 3
+Rank 117: Node m08, CPU core 58, NUMA node 3
+Rank 122: Node m07, CPU core 61, NUMA node 3
+Rank 124: Node m07, CPU core 62, NUMA node 3
+Rank 119: Node m08, CPU core 59, NUMA node 3
+Rank 126: Node m07, CPU core 63, NUMA node 3
+Rank 121: Node m08, CPU core 60, NUMA node 3
+Rank 123: Node m08, CPU core 61, NUMA node 3
+Rank 125: Node m08, CPU core 62, NUMA node 3
+Rank 127: Node m08, CPU core 63, NUMA node 3
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+----- NODE: m08 -----
+CPU cores used: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 
+NUMA nodes used: 0 1 2 3 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   189.00
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 19274.95
+ Mop/s/process   =                   150.59
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   187.49
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 19429.33
+ Mop/s/process   =                   151.79
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   190.54
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 19119.17
+ Mop/s/process   =                   149.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by socket -N 64 --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 64, NUMA node 4
+Rank 2: Node m07, CPU core 1, NUMA node 0
+Rank 3: Node m07, CPU core 65, NUMA node 4
+Rank 4: Node m07, CPU core 2, NUMA node 0
+Rank 5: Node m07, CPU core 66, NUMA node 4
+Rank 6: Node m07, CPU core 3, NUMA node 0
+Rank 7: Node m07, CPU core 67, NUMA node 4
+Rank 8: Node m07, CPU core 4, NUMA node 0
+Rank 9: Node m07, CPU core 68, NUMA node 4
+Rank 10: Node m07, CPU core 5, NUMA node 0
+Rank 11: Node m07, CPU core 69, NUMA node 4
+Rank 12: Node m07, CPU core 6, NUMA node 0
+Rank 13: Node m07, CPU core 70, NUMA node 4
+Rank 14: Node m07, CPU core 7, NUMA node 0
+Rank 15: Node m07, CPU core 71, NUMA node 4
+Rank 16: Node m07, CPU core 8, NUMA node 0
+Rank 17: Node m07, CPU core 72, NUMA node 4
+Rank 18: Node m07, CPU core 9, NUMA node 0
+Rank 19: Node m07, CPU core 73, NUMA node 4
+Rank 20: Node m07, CPU core 10, NUMA node 0
+Rank 21: Node m07, CPU core 74, NUMA node 4
+Rank 22: Node m07, CPU core 11, NUMA node 0
+Rank 23: Node m07, CPU core 75, NUMA node 4
+Rank 24: Node m07, CPU core 12, NUMA node 0
+Rank 25: Node m07, CPU core 76, NUMA node 4
+Rank 26: Node m07, CPU core 13, NUMA node 0
+Rank 27: Node m07, CPU core 77, NUMA node 4
+Rank 28: Node m07, CPU core 14, NUMA node 0
+Rank 29: Node m07, CPU core 78, NUMA node 4
+Rank 30: Node m07, CPU core 15, NUMA node 0
+Rank 31: Node m07, CPU core 79, NUMA node 4
+Rank 32: Node m07, CPU core 16, NUMA node 1
+Rank 33: Node m07, CPU core 80, NUMA node 5
+Rank 34: Node m07, CPU core 17, NUMA node 1
+Rank 35: Node m07, CPU core 81, NUMA node 5
+Rank 36: Node m07, CPU core 18, NUMA node 1
+Rank 37: Node m07, CPU core 82, NUMA node 5
+Rank 38: Node m07, CPU core 19, NUMA node 1
+Rank 39: Node m07, CPU core 83, NUMA node 5
+Rank 40: Node m07, CPU core 20, NUMA node 1
+Rank 41: Node m07, CPU core 84, NUMA node 5
+Rank 42: Node m07, CPU core 21, NUMA node 1
+Rank 43: Node m07, CPU core 85, NUMA node 5
+Rank 44: Node m07, CPU core 22, NUMA node 1
+Rank 45: Node m07, CPU core 86, NUMA node 5
+Rank 46: Node m07, CPU core 23, NUMA node 1
+Rank 47: Node m07, CPU core 87, NUMA node 5
+Rank 48: Node m07, CPU core 24, NUMA node 1
+Rank 49: Node m07, CPU core 88, NUMA node 5
+Rank 50: Node m07, CPU core 25, NUMA node 1
+Rank 51: Node m07, CPU core 89, NUMA node 5
+Rank 52: Node m07, CPU core 26, NUMA node 1
+Rank 53: Node m07, CPU core 90, NUMA node 5
+Rank 54: Node m07, CPU core 27, NUMA node 1
+Rank 55: Node m07, CPU core 91, NUMA node 5
+Rank 56: Node m07, CPU core 28, NUMA node 1
+Rank 57: Node m07, CPU core 92, NUMA node 5
+Rank 58: Node m07, CPU core 29, NUMA node 1
+Rank 59: Node m07, CPU core 93, NUMA node 5
+Rank 60: Node m07, CPU core 30, NUMA node 1
+Rank 61: Node m07, CPU core 94, NUMA node 5
+Rank 62: Node m07, CPU core 31, NUMA node 1
+Rank 63: Node m07, CPU core 95, NUMA node 5
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 65: Node m08, CPU core 64, NUMA node 4
+Rank 66: Node m08, CPU core 1, NUMA node 0
+Rank 67: Node m08, CPU core 65, NUMA node 4
+Rank 68: Node m08, CPU core 2, NUMA node 0
+Rank 69: Node m08, CPU core 66, NUMA node 4
+Rank 70: Node m08, CPU core 3, NUMA node 0
+Rank 71: Node m08, CPU core 67, NUMA node 4
+Rank 72: Node m08, CPU core 4, NUMA node 0
+Rank 73: Node m08, CPU core 68, NUMA node 4
+Rank 74: Node m08, CPU core 5, NUMA node 0
+Rank 75: Node m08, CPU core 69, NUMA node 4
+Rank 76: Node m08, CPU core 6, NUMA node 0
+Rank 77: Node m08, CPU core 70, NUMA node 4
+Rank 78: Node m08, CPU core 7, NUMA node 0
+Rank 79: Node m08, CPU core 71, NUMA node 4
+Rank 80: Node m08, CPU core 8, NUMA node 0
+Rank 81: Node m08, CPU core 72, NUMA node 4
+Rank 82: Node m08, CPU core 9, NUMA node 0
+Rank 83: Node m08, CPU core 73, NUMA node 4
+Rank 84: Node m08, CPU core 10, NUMA node 0
+Rank 85: Node m08, CPU core 74, NUMA node 4
+Rank 86: Node m08, CPU core 11, NUMA node 0
+Rank 87: Node m08, CPU core 75, NUMA node 4
+Rank 88: Node m08, CPU core 12, NUMA node 0
+Rank 89: Node m08, CPU core 76, NUMA node 4
+Rank 90: Node m08, CPU core 13, NUMA node 0
+Rank 91: Node m08, CPU core 77, NUMA node 4
+Rank 92: Node m08, CPU core 14, NUMA node 0
+Rank 93: Node m08, CPU core 78, NUMA node 4
+Rank 94: Node m08, CPU core 15, NUMA node 0
+Rank 95: Node m08, CPU core 79, NUMA node 4
+Rank 96: Node m08, CPU core 16, NUMA node 1
+Rank 97: Node m08, CPU core 80, NUMA node 5
+Rank 98: Node m08, CPU core 17, NUMA node 1
+Rank 99: Node m08, CPU core 81, NUMA node 5
+Rank 100: Node m08, CPU core 18, NUMA node 1
+Rank 101: Node m08, CPU core 82, NUMA node 5
+Rank 102: Node m08, CPU core 19, NUMA node 1
+Rank 103: Node m08, CPU core 83, NUMA node 5
+Rank 104: Node m08, CPU core 20, NUMA node 1
+Rank 105: Node m08, CPU core 84, NUMA node 5
+Rank 106: Node m08, CPU core 21, NUMA node 1
+Rank 107: Node m08, CPU core 85, NUMA node 5
+Rank 108: Node m08, CPU core 22, NUMA node 1
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 64 1 65 2 66 3 67 4 68 5 69 6 70 7 71 8 72 9 73 10 74 11 75 12 76 13 77 14 78 15 79 16 80 17 81 18 82 19 83 20 84 21 85 22 86 23 87 24 88 25 89 26 90 27 91 28 92 29 93 30 94 31 95 
+NUMA nodes used: 0 1 4 5 
+
+----- NODE: m08 -----
+CPU cores used: 0 64 1 65 2 66 3 67 4 68 5 69 6 70 7 71 8 72 9 73 10 74 11 75 12 76 13 77 14 78 15 79 16 80 17 81 18 82 19 83 20 84 21 85 22 86 23 87 24 88 25 89 26 90 27 91 28 92 29 93 30 94 31 95 
+NUMA nodes used: 0 1 4 5 
+Rank 109: Node m08, CPU core 86, NUMA node 5
+Rank 110: Node m08, CPU core 23, NUMA node 1
+Rank 111: Node m08, CPU core 87, NUMA node 5
+Rank 112: Node m08, CPU core 24, NUMA node 1
+Rank 113: Node m08, CPU core 88, NUMA node 5
+Rank 114: Node m08, CPU core 25, NUMA node 1
+Rank 115: Node m08, CPU core 89, NUMA node 5
+Rank 116: Node m08, CPU core 26, NUMA node 1
+Rank 117: Node m08, CPU core 90, NUMA node 5
+Rank 118: Node m08, CPU core 27, NUMA node 1
+Rank 119: Node m08, CPU core 91, NUMA node 5
+Rank 120: Node m08, CPU core 28, NUMA node 1
+Rank 121: Node m08, CPU core 92, NUMA node 5
+Rank 122: Node m08, CPU core 29, NUMA node 1
+Rank 123: Node m08, CPU core 93, NUMA node 5
+Rank 124: Node m08, CPU core 30, NUMA node 1
+Rank 125: Node m08, CPU core 94, NUMA node 5
+Rank 126: Node m08, CPU core 31, NUMA node 1
+Rank 127: Node m08, CPU core 95, NUMA node 5
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   107.35
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 33935.61
+ Mop/s/process   =                   265.12
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   106.82
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 34104.61
+ Mop/s/process   =                   266.44
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                   107.43
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 33909.90
+ Mop/s/process   =                   264.92
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by numa -N 64 --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 16, NUMA node 1
+Rank 2: Node m07, CPU core 32, NUMA node 2
+Rank 3: Node m07, CPU core 48, NUMA node 3
+Rank 4: Node m07, CPU core 64, NUMA node 4
+Rank 5: Node m07, CPU core 80, NUMA node 5
+Rank 6: Node m07, CPU core 96, NUMA node 6
+Rank 7: Node m07, CPU core 112, NUMA node 7
+Rank 8: Node m07, CPU core 1, NUMA node 0
+Rank 9: Node m07, CPU core 17, NUMA node 1
+Rank 10: Node m07, CPU core 33, NUMA node 2
+Rank 11: Node m07, CPU core 49, NUMA node 3
+Rank 12: Node m07, CPU core 65, NUMA node 4
+Rank 13: Node m07, CPU core 81, NUMA node 5
+Rank 14: Node m07, CPU core 97, NUMA node 6
+Rank 15: Node m07, CPU core 113, NUMA node 7
+Rank 16: Node m07, CPU core 2, NUMA node 0
+Rank 17: Node m07, CPU core 18, NUMA node 1
+Rank 18: Node m07, CPU core 34, NUMA node 2
+Rank 19: Node m07, CPU core 50, NUMA node 3
+Rank 20: Node m07, CPU core 66, NUMA node 4
+Rank 21: Node m07, CPU core 82, NUMA node 5
+Rank 22: Node m07, CPU core 98, NUMA node 6
+Rank 23: Node m07, CPU core 114, NUMA node 7
+Rank 24: Node m07, CPU core 3, NUMA node 0
+Rank 25: Node m07, CPU core 19, NUMA node 1
+Rank 26: Node m07, CPU core 35, NUMA node 2
+Rank 27: Node m07, CPU core 51, NUMA node 3
+Rank 28: Node m07, CPU core 67, NUMA node 4
+Rank 29: Node m07, CPU core 83, NUMA node 5
+Rank 30: Node m07, CPU core 99, NUMA node 6
+Rank 31: Node m07, CPU core 115, NUMA node 7
+Rank 32: Node m07, CPU core 4, NUMA node 0
+Rank 33: Node m07, CPU core 20, NUMA node 1
+Rank 34: Node m07, CPU core 36, NUMA node 2
+Rank 35: Node m07, CPU core 52, NUMA node 3
+Rank 36: Node m07, CPU core 68, NUMA node 4
+Rank 37: Node m07, CPU core 84, NUMA node 5
+Rank 38: Node m07, CPU core 100, NUMA node 6
+Rank 39: Node m07, CPU core 116, NUMA node 7
+Rank 40: Node m07, CPU core 5, NUMA node 0
+Rank 41: Node m07, CPU core 21, NUMA node 1
+Rank 42: Node m07, CPU core 37, NUMA node 2
+Rank 43: Node m07, CPU core 53, NUMA node 3
+Rank 44: Node m07, CPU core 69, NUMA node 4
+Rank 45: Node m07, CPU core 85, NUMA node 5
+Rank 46: Node m07, CPU core 101, NUMA node 6
+Rank 47: Node m07, CPU core 117, NUMA node 7
+Rank 48: Node m07, CPU core 6, NUMA node 0
+Rank 49: Node m07, CPU core 22, NUMA node 1
+Rank 50: Node m07, CPU core 38, NUMA node 2
+Rank 51: Node m07, CPU core 54, NUMA node 3
+Rank 52: Node m07, CPU core 70, NUMA node 4
+Rank 53: Node m07, CPU core 86, NUMA node 5
+Rank 54: Node m07, CPU core 102, NUMA node 6
+Rank 55: Node m07, CPU core 118, NUMA node 7
+Rank 56: Node m07, CPU core 7, NUMA node 0
+Rank 57: Node m07, CPU core 23, NUMA node 1
+Rank 58: Node m07, CPU core 39, NUMA node 2
+Rank 59: Node m07, CPU core 55, NUMA node 3
+Rank 60: Node m07, CPU core 71, NUMA node 4
+Rank 61: Node m07, CPU core 87, NUMA node 5
+Rank 62: Node m07, CPU core 103, NUMA node 6
+Rank 63: Node m07, CPU core 119, NUMA node 7
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 65: Node m08, CPU core 16, NUMA node 1
+Rank 66: Node m08, CPU core 32, NUMA node 2
+Rank 67: Node m08, CPU core 48, NUMA node 3
+Rank 68: Node m08, CPU core 64, NUMA node 4
+Rank 69: Node m08, CPU core 80, NUMA node 5
+Rank 70: Node m08, CPU core 96, NUMA node 6
+Rank 71: Node m08, CPU core 112, NUMA node 7
+Rank 72: Node m08, CPU core 1, NUMA node 0
+Rank 73: Node m08, CPU core 17, NUMA node 1
+Rank 74: Node m08, CPU core 33, NUMA node 2
+Rank 75: Node m08, CPU core 49, NUMA node 3
+Rank 76: Node m08, CPU core 65, NUMA node 4
+Rank 77: Node m08, CPU core 81, NUMA node 5
+Rank 78: Node m08, CPU core 97, NUMA node 6
+Rank 79: Node m08, CPU core 113, NUMA node 7
+Rank 80: Node m08, CPU core 2, NUMA node 0
+Rank 81: Node m08, CPU core 18, NUMA node 1
+Rank 82: Node m08, CPU core 34, NUMA node 2
+Rank 83: Node m08, CPU core 50, NUMA node 3
+Rank 84: Node m08, CPU core 66, NUMA node 4
+Rank 85: Node m08, CPU core 82, NUMA node 5
+Rank 86: Node m08, CPU core 98, NUMA node 6
+Rank 87: Node m08, CPU core 114, NUMA node 7
+Rank 88: Node m08, CPU core 3, NUMA node 0
+Rank 89: Node m08, CPU core 19, NUMA node 1
+Rank 90: Node m08, CPU core 35, NUMA node 2
+Rank 91: Node m08, CPU core 51, NUMA node 3
+Rank 92: Node m08, CPU core 67, NUMA node 4
+Rank 93: Node m08, CPU core 83, NUMA node 5
+Rank 94: Node m08, CPU core 99, NUMA node 6
+Rank 95: Node m08, CPU core 115, NUMA node 7
+Rank 96: Node m08, CPU core 4, NUMA node 0
+Rank 97: Node m08, CPU core 20, NUMA node 1
+Rank 98: Node m08, CPU core 36, NUMA node 2
+Rank 99: Node m08, CPU core 52, NUMA node 3
+Rank 100: Node m08, CPU core 68, NUMA node 4
+Rank 101: Node m08, CPU core 84, NUMA node 5
+Rank 102: Node m08, CPU core 100, NUMA node 6
+Rank 103: Node m08, CPU core 116, NUMA node 7
+Rank 104: Node m08, CPU core 5, NUMA node 0
+Rank 105: Node m08, CPU core 21, NUMA node 1
+Rank 106: Node m08, CPU core 37, NUMA node 2
+Rank 107: Node m08, CPU core 53, NUMA node 3
+Rank 108: Node m08, CPU core 69, NUMA node 4
+Rank 109: Node m08, CPU core 85, NUMA node 5
+Rank 110: Node m08, CPU core 101, NUMA node 6
+Rank 111: Node m08, CPU core 117, NUMA node 7
+Rank 112: Node m08, CPU core 6, NUMA node 0
+Rank 113: Node m08, CPU core 22, NUMA node 1
+Rank 114: Node m08, CPU core 38, NUMA node 2
+Rank 115: Node m08, CPU core 54, NUMA node 3
+Rank 116: Node m08, CPU core 70, NUMA node 4
+Rank 117: Node m08, CPU core 86, NUMA node 5
+Rank 118: Node m08, CPU core 102, NUMA node 6
+Rank 119: Node m08, CPU core 118, NUMA node 7
+Rank 120: Node m08, CPU core 7, NUMA node 0
+Rank 121: Node m08, CPU core 23, NUMA node 1
+Rank 122: Node m08, CPU core 39, NUMA node 2
+Rank 123: Node m08, CPU core 55, NUMA node 3
+Rank 124: Node m08, CPU core 71, NUMA node 4
+Rank 125: Node m08, CPU core 87, NUMA node 5
+Rank 126: Node m08, CPU core 103, NUMA node 6
+Rank 127: Node m08, CPU core 119, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 16 32 48 64 80 96 112 1 17 33 49 65 81 97 113 2 18 34 50 66 82 98 114 3 19 35 51 67 83 99 115 4 20 36 52 68 84 100 116 5 21 37 53 69 85 101 117 6 22 38 54 70 86 102 118 7 23 39 55 71 87 103 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m08 -----
+CPU cores used: 0 16 32 48 64 80 96 112 1 17 33 49 65 81 97 113 2 18 34 50 66 82 98 114 3 19 35 51 67 83 99 115 4 20 36 52 68 84 100 116 5 21 37 53 69 85 101 117 6 22 38 54 70 86 102 118 7 23 39 55 71 87 103 119 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    73.12
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 49820.02
+ Mop/s/process   =                   389.22
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    73.34
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 49668.58
+ Mop/s/process   =                   388.04
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    73.41
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 49620.67
+ Mop/s/process   =                   387.66
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+### RUN: --map-by L3cache -N 64 --bind-to core cg.D.x
+Rank 0: Node m07, CPU core 0, NUMA node 0
+Rank 1: Node m07, CPU core 8, NUMA node 0
+Rank 2: Node m07, CPU core 16, NUMA node 1
+Rank 3: Node m07, CPU core 24, NUMA node 1
+Rank 4: Node m07, CPU core 32, NUMA node 2
+Rank 5: Node m07, CPU core 40, NUMA node 2
+Rank 6: Node m07, CPU core 48, NUMA node 3
+Rank 7: Node m07, CPU core 56, NUMA node 3
+Rank 8: Node m07, CPU core 64, NUMA node 4
+Rank 9: Node m07, CPU core 72, NUMA node 4
+Rank 10: Node m07, CPU core 80, NUMA node 5
+Rank 11: Node m07, CPU core 88, NUMA node 5
+Rank 12: Node m07, CPU core 96, NUMA node 6
+Rank 13: Node m07, CPU core 104, NUMA node 6
+Rank 14: Node m07, CPU core 112, NUMA node 7
+Rank 15: Node m07, CPU core 120, NUMA node 7
+Rank 16: Node m07, CPU core 1, NUMA node 0
+Rank 17: Node m07, CPU core 9, NUMA node 0
+Rank 18: Node m07, CPU core 17, NUMA node 1
+Rank 19: Node m07, CPU core 25, NUMA node 1
+Rank 20: Node m07, CPU core 33, NUMA node 2
+Rank 21: Node m07, CPU core 41, NUMA node 2
+Rank 22: Node m07, CPU core 49, NUMA node 3
+Rank 23: Node m07, CPU core 57, NUMA node 3
+Rank 24: Node m07, CPU core 65, NUMA node 4
+Rank 25: Node m07, CPU core 73, NUMA node 4
+Rank 26: Node m07, CPU core 81, NUMA node 5
+Rank 27: Node m07, CPU core 89, NUMA node 5
+Rank 28: Node m07, CPU core 97, NUMA node 6
+Rank 29: Node m07, CPU core 105, NUMA node 6
+Rank 30: Node m07, CPU core 113, NUMA node 7
+Rank 31: Node m07, CPU core 121, NUMA node 7
+Rank 32: Node m07, CPU core 2, NUMA node 0
+Rank 33: Node m07, CPU core 10, NUMA node 0
+Rank 34: Node m07, CPU core 18, NUMA node 1
+Rank 35: Node m07, CPU core 26, NUMA node 1
+Rank 36: Node m07, CPU core 34, NUMA node 2
+Rank 37: Node m07, CPU core 42, NUMA node 2
+Rank 38: Node m07, CPU core 50, NUMA node 3
+Rank 39: Node m07, CPU core 58, NUMA node 3
+Rank 40: Node m07, CPU core 66, NUMA node 4
+Rank 41: Node m07, CPU core 74, NUMA node 4
+Rank 42: Node m07, CPU core 82, NUMA node 5
+Rank 43: Node m07, CPU core 90, NUMA node 5
+Rank 44: Node m07, CPU core 98, NUMA node 6
+Rank 45: Node m07, CPU core 106, NUMA node 6
+Rank 46: Node m07, CPU core 114, NUMA node 7
+Rank 47: Node m07, CPU core 122, NUMA node 7
+Rank 48: Node m07, CPU core 3, NUMA node 0
+Rank 49: Node m07, CPU core 11, NUMA node 0
+Rank 50: Node m07, CPU core 19, NUMA node 1
+Rank 51: Node m07, CPU core 27, NUMA node 1
+Rank 52: Node m07, CPU core 35, NUMA node 2
+Rank 53: Node m07, CPU core 43, NUMA node 2
+Rank 54: Node m07, CPU core 51, NUMA node 3
+Rank 55: Node m07, CPU core 59, NUMA node 3
+Rank 56: Node m07, CPU core 67, NUMA node 4
+Rank 57: Node m07, CPU core 75, NUMA node 4
+Rank 58: Node m07, CPU core 83, NUMA node 5
+Rank 59: Node m07, CPU core 91, NUMA node 5
+Rank 60: Node m07, CPU core 99, NUMA node 6
+Rank 61: Node m07, CPU core 107, NUMA node 6
+Rank 62: Node m07, CPU core 115, NUMA node 7
+Rank 63: Node m07, CPU core 123, NUMA node 7
+Rank 64: Node m08, CPU core 0, NUMA node 0
+Rank 65: Node m08, CPU core 8, NUMA node 0
+Rank 66: Node m08, CPU core 16, NUMA node 1
+Rank 67: Node m08, CPU core 24, NUMA node 1
+Rank 68: Node m08, CPU core 32, NUMA node 2
+Rank 69: Node m08, CPU core 40, NUMA node 2
+Rank 70: Node m08, CPU core 48, NUMA node 3
+Rank 71: Node m08, CPU core 56, NUMA node 3
+Rank 72: Node m08, CPU core 64, NUMA node 4
+Rank 73: Node m08, CPU core 72, NUMA node 4
+Rank 74: Node m08, CPU core 80, NUMA node 5
+Rank 75: Node m08, CPU core 88, NUMA node 5
+Rank 76: Node m08, CPU core 96, NUMA node 6
+Rank 77: Node m08, CPU core 104, NUMA node 6
+Rank 78: Node m08, CPU core 112, NUMA node 7
+Rank 79: Node m08, CPU core 120, NUMA node 7
+Rank 80: Node m08, CPU core 1, NUMA node 0
+Rank 81: Node m08, CPU core 9, NUMA node 0
+Rank 82: Node m08, CPU core 17, NUMA node 1
+Rank 83: Node m08, CPU core 25, NUMA node 1
+Rank 84: Node m08, CPU core 33, NUMA node 2
+Rank 85: Node m08, CPU core 41, NUMA node 2
+Rank 86: Node m08, CPU core 49, NUMA node 3
+Rank 87: Node m08, CPU core 57, NUMA node 3
+Rank 88: Node m08, CPU core 65, NUMA node 4
+Rank 89: Node m08, CPU core 73, NUMA node 4
+Rank 90: Node m08, CPU core 81, NUMA node 5
+Rank 91: Node m08, CPU core 89, NUMA node 5
+Rank 92: Node m08, CPU core 97, NUMA node 6
+Rank 93: Node m08, CPU core 105, NUMA node 6
+Rank 94: Node m08, CPU core 113, NUMA node 7
+Rank 95: Node m08, CPU core 121, NUMA node 7
+Rank 96: Node m08, CPU core 2, NUMA node 0
+Rank 97: Node m08, CPU core 10, NUMA node 0
+Rank 98: Node m08, CPU core 18, NUMA node 1
+Rank 99: Node m08, CPU core 26, NUMA node 1
+Rank 100: Node m08, CPU core 34, NUMA node 2
+Rank 101: Node m08, CPU core 42, NUMA node 2
+Rank 102: Node m08, CPU core 50, NUMA node 3
+Rank 103: Node m08, CPU core 58, NUMA node 3
+Rank 104: Node m08, CPU core 66, NUMA node 4
+Rank 105: Node m08, CPU core 74, NUMA node 4
+Rank 106: Node m08, CPU core 82, NUMA node 5
+Rank 107: Node m08, CPU core 90, NUMA node 5
+Rank 108: Node m08, CPU core 98, NUMA node 6
+Rank 109: Node m08, CPU core 106, NUMA node 6
+Rank 110: Node m08, CPU core 114, NUMA node 7
+Rank 111: Node m08, CPU core 122, NUMA node 7
+Rank 112: Node m08, CPU core 3, NUMA node 0
+Rank 113: Node m08, CPU core 11, NUMA node 0
+Rank 114: Node m08, CPU core 19, NUMA node 1
+Rank 115: Node m08, CPU core 27, NUMA node 1
+Rank 116: Node m08, CPU core 35, NUMA node 2
+Rank 117: Node m08, CPU core 43, NUMA node 2
+Rank 118: Node m08, CPU core 51, NUMA node 3
+Rank 119: Node m08, CPU core 59, NUMA node 3
+Rank 120: Node m08, CPU core 67, NUMA node 4
+Rank 121: Node m08, CPU core 75, NUMA node 4
+Rank 122: Node m08, CPU core 83, NUMA node 5
+Rank 123: Node m08, CPU core 91, NUMA node 5
+Rank 124: Node m08, CPU core 99, NUMA node 6
+Rank 125: Node m08, CPU core 107, NUMA node 6
+Rank 126: Node m08, CPU core 115, NUMA node 7
+Rank 127: Node m08, CPU core 123, NUMA node 7
+
+===== SUMMARY =====
+
+----- NODE: m07 -----
+CPU cores used: 0 8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 1 9 17 25 33 41 49 57 65 73 81 89 97 105 113 121 2 10 18 26 34 42 50 58 66 74 82 90 98 106 114 122 3 11 19 27 35 43 51 59 67 75 83 91 99 107 115 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+----- NODE: m08 -----
+CPU cores used: 0 8 16 24 32 40 48 56 64 72 80 88 96 104 112 120 1 9 17 25 33 41 49 57 65 73 81 89 97 105 113 121 2 10 18 26 34 42 50 58 66 74 82 90 98 106 114 122 3 11 19 27 35 43 51 59 67 75 83 91 99 107 115 123 
+NUMA nodes used: 0 1 2 3 4 5 6 7 
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    70.72
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 51511.56
+ Mop/s/process   =                   402.43
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    68.86
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 52905.04
+ Mop/s/process   =                   413.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
+
+
+ NAS Parallel Benchmarks 3.4 -- CG Benchmark
+
+ Size:    1500000  (class D)
+ Iterations:   100
+ Number of nonzeroes per row:       21
+ Eigenvalue shift:   500.000
+ Total number of processes:    128
+
+   iteration           ||r||                 zeta
+        1       0.56577972936108E-12   499.9996989885352
+        5       0.41981255944807E-15    50.6504113318692
+       10       0.45402512633704E-15    51.8233647190057
+       15       0.46503542609907E-15    52.2602520412788
+       20       0.46860273753984E-15    52.4207216938456
+       25       0.46913008870019E-15    52.4796792873344
+       30       0.47030775514563E-15    52.5014686735240
+       35       0.47094580595273E-15    52.5095881341471
+       40       0.47042310585294E-15    52.5126420639633
+       45       0.47106145407693E-15    52.5138021256278
+       50       0.47024470985951E-15    52.5142472814327
+       55       0.47053574633133E-15    52.5144198604485
+       60       0.47009312713040E-15    52.5144874496510
+       65       0.46855919445764E-15    52.5145141852309
+       70       0.46825578337767E-15    52.5145248630675
+       75       0.46840399563412E-15    52.5145291670951
+       80       0.46789236385400E-15    52.5145309171458
+       85       0.46811876352515E-15    52.5145316345648
+       90       0.46793001864714E-15    52.5145319309100
+       95       0.46785025281255E-15    52.5145320541819
+      100       0.46817512070764E-15    52.5145321057930
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.5251453210579E+02
+ Error is    0.1853665088418E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        D
+ Size            =                  1500000
+ Iterations      =                      100
+ Time in seconds =                    69.60
+ Total processes =                      128
+ Active processes=                      128
+ Mop/s total     =                 52343.55
+ Mop/s/process   =                   408.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.4
+ Compile date    =              06 Apr 2026
+
+ Compile options:
+    MPIFC        = mpif90
+    FLINK        = $(MPIFC)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -O3
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+
