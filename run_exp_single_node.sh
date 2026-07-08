@@ -7,7 +7,7 @@
 #                                  #
 ####################################
 
-#SBATCH --job-name=script # Job name
+#SBATCH --job-name=spatman # Job name
 #SBATCH --output=%j.out # Stdout (%j expands to jobId)
 #SBATCH --error=%j.err # Stderr (%j expands to jobId)
 ######SBATCH --ntasks=128     # Number of tasks(processes)

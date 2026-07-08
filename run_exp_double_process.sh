@@ -7,7 +7,7 @@
 #                                  #
 ####################################
 
-#SBATCH --job-name=script # Job name
+#SBATCH --job-name=spatman # Job name
 #SBATCH --output=%j.out # Stdout (%j expands to jobId)
 #SBATCH --error=%j.err # Stderr (%j expands to jobId)
 ######SBATCH --ntasks=128     # Number of tasks(processes)
@@ -37,6 +37,7 @@ module load openmpi/4.1.8/gnu
 bench1="$1.$2.x"
 bench2="$3.$4.x"
 repetitions="${5:-3}"
+config_list="$6"
 
 # ---- GENERATE RANKFILES ----
 
@@ -131,7 +132,7 @@ RF1[half_ccd_RR]=$rf1; RF2[half_ccd_RR]=$rf2
 
 # ---- CONFIGURATIONS ----
 
-configs=(
+all_configs=(
   "half_node_IO"
   "half_socket_IO"
   "half_numa_IO"
@@ -141,6 +142,21 @@ configs=(
   "half_numa_RR"
   "half_ccd_RR"
 )
+
+# $6: optional comma-separated subset of the configs above (e.g. "half_node_IO,half_ccd_RR").
+# If omitted, all configs are run.
+if [ -n "$config_list" ]; then
+  IFS=',' read -ra configs <<< "$config_list"
+  for config in "${configs[@]}"; do
+    if [[ ! " ${all_configs[*]} " =~ " ${config} " ]]; then
+      echo "Unknown config: $config" >&2
+      echo "Valid configs: ${all_configs[*]}" >&2
+      exit 1
+    fi
+  done
+else
+  configs=("${all_configs[@]}")
+fi
 
 # ---- HELPERS ----
 
@@ -194,7 +210,7 @@ for config in "${configs[@]}"; do
   rm -f $cnt1 $cnt2 $out1 $err1 $out2 $err2
 done
 
-for config in "${configs[@]}"; do
+for config in "${all_configs[@]}"; do
   rm -f ${RF1[$config]} ${RF2[$config]}
 done
 

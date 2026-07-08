@@ -7,9 +7,9 @@
 #                                  #
 ####################################
 
-#SBATCH --job-name=lscpu    # Job name
-#SBATCH --output=lscpu.%j.out # Stdout (%j expands to jobId)
-#SBATCH --error=lscpu.%j.err # Stderr (%j expands to jobId)
+#SBATCH --job-name=spatman    # Job name
+#SBATCH --output=%j.out # Stdout (%j expands to jobId)
+#SBATCH --error=%j.err # Stderr (%j expands to jobId)
 #SBATCH --ntasks=1     # Number of tasks(processes)
 #SBATCH --nodes=1     # Number of nodes requested
 #SBATCH --ntasks-per-node=1     # Tasks per node
