@@ -27,7 +27,7 @@ fi
 
 
 ## LOAD MODULES ##
-module purge		# clean up loaded modules 
+module purge		# clean up loaded modules
 
 # load necessary modules
 module load gnu/13.3.0
@@ -50,7 +50,7 @@ map_modes=(
 )
 
 for mode in "${map_modes[@]}"; do
-  echo "### RUN: $mode $bench"
+  echo "# RUN: $mode $bench"
   mpirun $mode -np 128 ./numareport
   sleep 1
   mpirun $mode -np 128 ./NPB3.4-MPI/bin/$bench

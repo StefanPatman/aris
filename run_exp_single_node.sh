@@ -46,7 +46,7 @@ map_modes=(
 )
 
 for mode in "${map_modes[@]}"; do
-  echo "### RUN: $mode $bench"
+  echo "# RUN: $mode $bench"
   mpirun $mode -np 64 ./numareport
   sleep 1
   mpirun $mode -np 64 ./NPB3.4-MPI/bin/$bench
