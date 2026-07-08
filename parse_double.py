@@ -3,11 +3,25 @@
 import argparse
 import re
 import statistics
+from collections import defaultdict
 from dataclasses import dataclass, field
 
 import matplotlib.pyplot as plt
 
+from bench_common import (
+    add_plot_mode_args,
+    draw_grouped_bars,
+    enable_click_cursor,
+    layout_bars,
+    median_indices,
+    plot_mode_from_args,
+    save_or_show,
+)
+
 TIME_RE = re.compile(r'Time in seconds\s*=\s*([0-9.]+)')
+
+BASE_ORDER = ['node', 'socket', 'numa', 'ccd']
+
 
 @dataclass
 class ProcData:
@@ -17,16 +31,19 @@ class ProcData:
     times: list = field(default_factory=list)
     discard_last: bool = False
 
+
 def effective_times(proc):
     if proc.discard_last and proc.times:
         return proc.times[:-1]
     return proc.times
+
 
 @dataclass
 class ConfigData:
     config: str = ""
     proc1: ProcData = field(default_factory=ProcData)
     proc2: ProcData = field(default_factory=ProcData)
+
 
 # ---- PARSE ----
 
@@ -86,6 +103,7 @@ def parse_out(filename):
         segments.append(cd)
     return segments
 
+
 # ---- CONSOLE OUTPUT ----
 
 def print_segments(segments):
@@ -93,17 +111,11 @@ def print_segments(segments):
         print(f"# RUN: {cd.config} | {cd.proc1.bench} vs {cd.proc2.bench}")
         for label, proc in [('BENCH_1', cd.proc1), ('BENCH_2', cd.proc2)]:
             n = len(proc.times)
-            times = effective_times(proc)
-            en = len(times)
-            median_indices = set()
-            if en:
-                order = sorted(range(en), key=lambda i: times[i])
-                mid = en // 2
-                median_indices = {order[mid]} if en % 2 else {order[mid - 1], order[mid]}
+            medians = median_indices(effective_times(proc))
             discard_idx = n - 1 if proc.discard_last and n else None
             times_str = ' '.join(
                 f'{t:.2f}-' if i == discard_idx else
-                f'{t:.2f}*' if i in median_indices else f'{t:.2f}'
+                f'{t:.2f}*' if i in medians else f'{t:.2f}'
                 for i, t in enumerate(proc.times)
             )
             print(f"  {label} {proc.bench} ({n} runs)")
@@ -111,11 +123,8 @@ def print_segments(segments):
             print(f"    TIMES: {times_str}")
         print()
 
-# ---- PLOT HELPERS ----
 
-BASE_ORDER = ['node', 'socket', 'numa', 'ccd']
-BAR_WIDTH = 0.35
-GROUP_GAP = BAR_WIDTH * 0.8
+# ---- GROUPING / PLOT DATA ----
 
 def config_parts(config):
     parts = config.split('_')
@@ -123,57 +132,26 @@ def config_parts(config):
     variant = parts[2] if len(parts) > 2 else ''
     return base, variant
 
+
 def build_plot_data(segments, proc_attr):
-    groups = {}
+    groups = defaultdict(list)
     for cd in segments:
         base, variant = config_parts(cd.config)
         proc = getattr(cd, proc_attr)
         if not proc.times:
             continue
         label = f"half\n{base}\n{variant}"
-        stat = statistics.median(effective_times(proc))
-        groups.setdefault(base, []).append((variant, label, stat, proc.times))
+        times = effective_times(proc)
+        stat = statistics.median(times)
+        groups[base].append((variant, label, stat, times))
 
-    x_positions, labels, stats, colors, scatter_points = [], [], [], [], []
-    current_x = 0
+    return layout_bars(BASE_ORDER, groups)
 
-    for base in BASE_ORDER:
-        if base not in groups:
-            continue
-        group = sorted(groups[base], key=lambda item: 0 if item[0] == 'RR' else 1)
-        n = len(group)
-        for i, (variant, label, stat, times) in enumerate(group):
-            x = current_x + (i - (n - 1) / 2) * BAR_WIDTH
-            x_positions.append(x)
-            labels.append(label)
-            stats.append(stat)
-            scatter_points.append((x, times))
-            colors.append('#c22f7d' if variant == 'IO' else '#007c98')
-        current_x += n * BAR_WIDTH + (GROUP_GAP if n > 1 else GROUP_GAP * 2)
 
-    return x_positions, labels, stats, colors, scatter_points
-
-def draw_subplot(ax, x_positions, labels, stats, colors, scatter_points, title, mode):
-    bars = ax.bar(x_positions, stats, width=BAR_WIDTH, color=colors)
-    if mode == 'dots':
-        for x, times in scatter_points:
-            ax.scatter([x] * len(times), times, color='black', s=14, zorder=3)
-    elif mode == 'boxplot':
-        cap_width = BAR_WIDTH * 0.4
-        for x, times in scatter_points:
-            lo, hi = min(times), max(times)
-            ax.plot([x, x], [lo, hi], color='black', linewidth=1.5, zorder=3)
-            ax.plot([x - cap_width / 2, x + cap_width / 2], [hi, hi], color='black', linewidth=1.5, zorder=3)
-            ax.plot([x - cap_width / 2, x + cap_width / 2], [lo, lo], color='black', linewidth=1.5, zorder=3)
-    for bar in bars:
-        h = bar.get_height()
-        ax.text(bar.get_x() + bar.get_width() / 2, h, f'{h:.2f}',
-                ha='center', va='bottom', fontsize=8)
-    ax.set_xticks(x_positions)
-    ax.set_xticklabels(labels)
+def draw_subplot(ax, x_positions, items, title, mode):
+    draw_grouped_bars(ax, x_positions, items, mode, fontsize=8)
     ax.set_title(title)
-    ax.spines['top'].set_visible(False)
-    ax.spines['right'].set_visible(False)
+
 
 # ---- MAIN ----
 
@@ -181,13 +159,9 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('jobid')
     parser.add_argument('output_file', nargs='?', default=None)
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument('-b', '--bars-only', action='store_true',
-                        help='plain median bars only, no dots or box plot')
-    group.add_argument('-d', '--dots', action='store_true',
-                        help='show a dot per individual measurement on top of '
-                             'the median bars, instead of a box plot')
+    add_plot_mode_args(parser)
     return parser.parse_args()
+
 
 def main():
     args = parse_args()
@@ -196,21 +170,27 @@ def main():
 
     print_segments(segments)
 
-    mode = 'bars' if args.bars_only else ('dots' if args.dots else 'boxplot')
+    mode = plot_mode_from_args(args)
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
+    bench1_name = segments[0].proc1.bench if segments else ''
+    bench2_name = segments[0].proc2.bench if segments else ''
+    same_bench = bench1_name == bench2_name
 
-    for ax, proc_attr, bench_label in [(ax1, 'proc1', 'BENCH 1'), (ax2, 'proc2', 'BENCH 2')]:
-        xp, lbl, stats, col, pts = build_plot_data(segments, proc_attr)
-        bench_name = getattr(segments[0], proc_attr).bench if segments else ''
-        draw_subplot(ax, xp, lbl, stats, col, pts, f'{bench_label}: {bench_name}', mode)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4), sharey=same_bench)
+
+    for ax, proc_attr, bench_label, bench_name in [
+        (ax1, 'proc1', 'BENCH 1', bench1_name),
+        (ax2, 'proc2', 'BENCH 2', bench2_name),
+    ]:
+        xp, items = build_plot_data(segments, proc_attr)
+        draw_subplot(ax, xp, items, f'{bench_label}: {bench_name}', mode)
+
+    enable_click_cursor(fig, (ax1, ax2))
 
     plt.tight_layout()
 
-    if args.output_file:
-        plt.savefig(args.output_file, bbox_inches='tight', transparent=True)
-    else:
-        plt.show()
+    save_or_show(args.output_file)
+
 
 if __name__ == '__main__':
     main()
