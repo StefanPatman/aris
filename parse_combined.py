@@ -16,6 +16,7 @@ from bench_common import (
     layout_bars,
     plot_mode_from_args,
     save_or_show,
+    split_label,
 )
 
 SINGLE_NODE_DIR = "logs/single_node"
@@ -104,9 +105,61 @@ def build_double_plot_data(path):
     )
 
 
+# ---- SPEEDUP FILE ----
+
+def _item_key(label):
+    """Normalized (base, variant) key for a bar item's label, e.g.
+    "half\nCCD\nRR" -> ("ccd", "RR"), "half\nnode" -> ("node", "")."""
+    base, variant = split_label(label)
+    return base.lower(), variant or ""
+
+
+def speedup_rows(single_items, colo_items):
+    """Compute (configuration, speedup) per colocation configuration, where
+    speedup is single_node_time / colocated_time (using the per-config
+    medians). The variant-less single-node "half node" run is an IO
+    mapping, so it only pairs with half_node_IO; half_node_RR is skipped.
+    """
+    single = {_item_key(label): value for _, label, value, _ in single_items}
+
+    rows = []
+    for _, label, colo_time, _ in colo_items:
+        base, variant = _item_key(label)
+        if base == "node" and variant != "IO":
+            continue
+        single_time = single.get((base, variant), single.get((base, "")))
+        config = f"half_{base}_{variant}" if variant else f"half_{base}"
+        if single_time is None:
+            print(f"warning: no single-node time for {config}, skipping speedup row")
+            continue
+        rows.append((config, single_time / colo_time))
+    return rows
+
+
+def average_rows(rows1, rows2):
+    """Average two (configuration, speedup) row lists config-by-config."""
+    other = dict(rows2)
+    return [
+        (config, (speedup + other[config]) / 2 if config in other else speedup)
+        for config, speedup in rows1
+    ]
+
+
+def append_speedups(speedup_file, main_bench, secondary_bench, rows):
+    """Append the (configuration, speedup) rows to the tab-separated
+    speedup table: main process, secondary process, configuration, speedup.
+    """
+    write_header = not os.path.exists(speedup_file) or os.path.getsize(speedup_file) == 0
+    with open(speedup_file, "a") as f:
+        if write_header:
+            f.write("main process\tsecondary process\tconfiguration\tspeedup\n")
+        for config, speedup in rows:
+            f.write(f"{main_bench}\t{secondary_bench}\t{config}\t{speedup:.4f}\n")
+
+
 # ---- PLOTTING ----
 
-def plot_single_bench(bench, output_file, mode):
+def plot_single_bench(bench, output_file, mode, speedup_file=None):
     single_path, double_path = find_runs(bench)
 
     print(f"# SINGLE NODE: {single_path}")
@@ -114,6 +167,11 @@ def plot_single_bench(bench, output_file, mode):
 
     print(f"\n# COLOCATION: {double_path}")
     (xp_d1, items_d1), (xp_d2, items_d2) = build_double_plot_data(double_path)
+
+    if speedup_file:
+        rows = average_rows(speedup_rows(items_single, items_d1),
+                            speedup_rows(items_single, items_d2))
+        append_speedups(speedup_file, bench, bench, rows)
 
     fig, (ax_single, ax_d1, ax_d2) = plt.subplots(1, 3, figsize=(18, 4), sharey=True)
 
@@ -130,7 +188,7 @@ def plot_single_bench(bench, output_file, mode):
     save_or_show(output_file)
 
 
-def plot_two_benches(bench1, bench2, output_file, mode):
+def plot_two_benches(bench1, bench2, output_file, mode, speedup_file=None):
     double_path, single_path1, single_path2, swapped = find_cross_run(bench1, bench2)
     bench1_attr, bench2_attr = ("proc2", "proc1") if swapped else ("proc1", "proc2")
 
@@ -145,6 +203,10 @@ def plot_two_benches(bench1, bench2, output_file, mode):
     parse_double.print_segments(segments)
     xp_d1, items_d1 = parse_double.build_plot_data(segments, bench1_attr)
     xp_d2, items_d2 = parse_double.build_plot_data(segments, bench2_attr)
+
+    if speedup_file:
+        append_speedups(speedup_file, bench1, bench2, speedup_rows(items_single1, items_d1))
+        append_speedups(speedup_file, bench2, bench1, speedup_rows(items_single2, items_d2))
 
     fig, ((ax_single1, ax_d1), (ax_single2, ax_d2)) = plt.subplots(2, 2, figsize=(12, 8))
     ax_d1.sharey(ax_single1)
@@ -172,6 +234,8 @@ def parse_args():
     parser.add_argument("bench", nargs="+", help='one benchmark, e.g. "ep", or two, e.g. "ep cg"')
     parser.add_argument("-o", "--output", dest="output_file", default=None,
                          help="save the figure to this file instead of showing it")
+    parser.add_argument("-s", "--speedup-file", dest="speedup_file", default=None,
+                         help="append per-configuration speedup rows (single_node_time / colocated_time) to this TSV file")
     add_plot_mode_args(parser)
     return parser.parse_args()
 
@@ -182,9 +246,9 @@ def main():
     mode = plot_mode_from_args(args)
 
     if len(benches) == 1:
-        plot_single_bench(benches[0], args.output_file, mode)
+        plot_single_bench(benches[0], args.output_file, mode, args.speedup_file)
     elif len(benches) == 2:
-        plot_two_benches(benches[0], benches[1], args.output_file, mode)
+        plot_two_benches(benches[0], benches[1], args.output_file, mode, args.speedup_file)
     else:
         raise SystemExit('Provide one benchmark, e.g. "ep", or two, e.g. ep cg')
 
