@@ -1,4 +1,4 @@
-main process	secondary process	configuration	speedup
+main process	colocated process	configuration	speedup
 ep	ep	half_node_IO	0.9509
 ep	ep	half_socket_RR	0.9706
 ep	ep	half_socket_IO	1.0243
